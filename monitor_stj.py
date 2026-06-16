@@ -3,7 +3,6 @@ import json
 import requests
 from datetime import datetime
 
-# Configurações de API (Substitua pelos seus dados ou garanta que as Secrets estão configuradas)
 TOKEN_BOT = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 API_KEY = os.environ.get("DATAJUD_API_KEY") 
@@ -16,7 +15,6 @@ def buscar_dados_datajud():
         "Content-Type": "application/json"
     }
     
-    # Query para trazer os processos mais recentes do STJ
     payload = {
         "query": {
             "match_all": {}
@@ -47,11 +45,8 @@ def extrair_resumo(resultado):
     
     for hit in hits:
         fonte = hit.get("_source", {})
-        
-        # Extrai número do processo
         num_processo = fonte.get("numeroProcesso", "Sem número")
         
-        # Extrai e formata a data de modificação
         data_mod = fonte.get("dataHoraModificacao", "")
         data_formatada = "Data indisponível"
         if data_mod:
@@ -61,11 +56,9 @@ def extrair_resumo(resultado):
             except:
                 data_formatada = data_mod
         
-        # Extrai a última movimentação (último movimento no histórico)
         movimentos = fonte.get("movimentos", [])
         ultima_mov = "Sem movimentação detalhada"
         if movimentos:
-            # Pega o movimento mais recente da lista
             ultimo_movimento = movimentos[-1]
             ultima_mov = ultimo_movimento.get("nome", "Movimentação desconhecida")
         
@@ -78,11 +71,11 @@ def extrair_resumo(resultado):
     return lista_processos
 
 def enviar_telegram(processos):
-    if not TOKEN_BOT or !CHAT_ID or not processos:
+    if not TOKEN_BOT or not CHAT_ID or not processos:
+        print("Configurações do Telegram ausentes ou lista de processos vazia.")
         return
     
     texto = "<b>📌 Monitor STJ - Processos Recentes</b>\n\n"
-    # Envia apenas os 5 primeiros no Telegram para não estourar o limite de caracteres
     for p in processos[:5]:
         texto += f"🔹 <b>Proc:</b> {p['processo']}\n"
         texto += f"📅 <b>Modificado em:</b> {p['data']}\n"
@@ -96,10 +89,13 @@ def enviar_telegram(processos):
     }
     
     try:
-        requests.post(url, json=payload, timeout=10)
-        print("Notificação enviada ao Telegram.")
+        res = requests.post(url, json=payload, timeout=10)
+        if res.status_code == 200:
+            print("Notificação enviada ao Telegram com sucesso!")
+        else:
+            print(f"Erro ao enviar Telegram: Status {res.status_code} - {res.text}")
     except Exception as e:
-        print(f"Erro ao enviar Telegram: {e}")
+        print(f"Erro na requisição do Telegram: {e}")
 
 if __name__ == "__main__":
     print("Iniciando captura do DataJud...")
@@ -110,11 +106,9 @@ if __name__ == "__main__":
         
         if processos:
             print(f"Sucesso! {len(processos)} processos encontrados.")
-            # Salva no arquivo pautas.json para o workflow injetar no HTML
             with open("pautas.json", "w", encoding="utf-8") as f:
                 json.dump(processos, f, ensure_ascii=False, indent=4)
             
-            # Envia o alerta para o Bot
             enviar_telegram(processos)
         else:
             print("Nenhum processo formatado.")
