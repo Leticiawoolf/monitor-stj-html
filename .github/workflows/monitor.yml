@@ -22,21 +22,12 @@ jobs:
           DATAJUD_API_KEY: ${{ secrets.DATAJUD_API_KEY }}
         run: python monitor_stj.py
 
-      - name: Enviar para Telegram
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python enviar_telegram.py
-
-      - name: Salvar estado
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add estado_stj.json pautas.json
-          git diff --staged --quiet || git commit -m "Atualiza estado [skip ci]"
-          git push
-- name: Teste Telegram
+      - name: Teste Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python teste_telegram.py
+
+      - name: Enviar para Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{
