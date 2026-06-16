@@ -83,29 +83,36 @@ if __name__ == "__main__":
     resultado = buscar_ultimas_atualizacoes(tamanho=50)
 
     if resultado is None:
-        # API fora do ar — tenta usar o último pautas.json salvo
-        if os.path.exists("pautas.json"):
-            print("API inacessível. Usando último pautas.json salvo.")
-        else:
-            with open("pautas.json", "w", encoding="utf-8") as f:
-                json.dump([], f)
+        print("API inacessível. Mantendo pautas.json vazio para indicar indisponibilidade.")
+        with open("pautas.json", "w", encoding="utf-8") as f:
+            json.dump([], f)
         exit(0)
 
+    if not resultado["hits"]["hits"]:
+        print("Nenhum resultado retornado pela API.")
+        with open("pautas.json", "w", encoding="utf-8") as f:
+            json.dump([], f)
+        exit(0)
+
+    novo_timestamp = resultado["hits"]["hits"][0]["_source"].get("dataHoraUltimaAtualizacao")
+
+    # Compara com o último timestamp salvo: se for igual, não há novidade real no índice
+    if novo_timestamp == ultimo:
+        print(f"Mesmo snapshot de antes ({novo_timestamp}). Sem novidades.")
+        with open("pautas.json", "w", encoding="utf-8") as f:
+            json.dump([], f)
+        exit(0)
+
+    # Timestamp novo: processa e salva
     processos = extrair_resumo(resultado, dias=60)
-    novo_timestamp = resultado["hits"]["hits"][0]["_source"].get("dataHoraUltimaAtualizacao") if resultado["hits"]["hits"] else None
 
     if processos:
-        print(f"Processos encontrados: {len(processos)}")
+        print(f"Novo snapshot: {novo_timestamp} ({len(processos)} processos com movimentação recente)")
         with open("pautas.json", "w", encoding="utf-8") as f:
             json.dump(processos, f, ensure_ascii=False, indent=2)
-        if novo_timestamp and novo_timestamp != ultimo:
-            salvar_ultimo_timestamp(novo_timestamp)
-            print(f"Novo snapshot salvo: {novo_timestamp}")
-        else:
-            print("Mesmo snapshot, mas processos encontrados — pautas.json atualizado.")
     else:
-        print("Nenhum processo com movimentação recente encontrado.")
-        # Mantém o pautas.json anterior se existir, para não esvaziar o dashboard
-        if not os.path.exists("pautas.json"):
-            with open("pautas.json", "w", encoding="utf-8") as f:
-                json.dump([], f)
+        print(f"Novo snapshot ({novo_timestamp}), mas nenhum processo dentro da janela de dias definida.")
+        with open("pautas.json", "w", encoding="utf-8") as f:
+            json.dump([], f)
+
+    salvar_ultimo_timestamp(novo_timestamp)
