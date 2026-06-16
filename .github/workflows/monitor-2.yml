@@ -1,0 +1,63 @@
+name: Monitor STJ
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: Capturar processos
+        env:
+          DATAJUD_API_KEY: ${{ secrets.DATAJUD_API_KEY }}
+        run: python monitor_stj.py
+
+      - name: Injetar dados no index.html
+        run: |
+          python - << 'PYEOF'
+          import json, re
+
+          with open("pautas.json", "r", encoding="utf-8") as f:
+              dados = json.load(f)
+
+          with open("index.html", "r", encoding="utf-8") as f:
+              html = f.read()
+
+          novo = f"const PROCESSOS_DATA = {json.dumps(dados, ensure_ascii=False)};"
+          html = re.sub(r"const PROCESSOS_DATA = .*?;", novo, html, flags=re.DOTALL)
+
+          with open("index.html", "w", encoding="utf-8") as f:
+              f.write(html)
+
+          print(f"index.html atualizado com {len(dados)} processos")
+          PYEOF
+
+      - name: Teste Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python teste_telegram.py
+
+      - name: Enviar para Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python enviar_telegram.py
+
+      - name: Salvar estado
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add estado_stj.json pautas.json index.html
+          git diff --staged --quiet || git commit -m "Atualiza dados [skip ci]"
+          git push
