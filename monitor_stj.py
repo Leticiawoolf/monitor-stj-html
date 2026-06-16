@@ -92,7 +92,7 @@ if __name__ == "__main__":
     if resultado is None:
         exit(0)
 
-    processos = extrair_resumo(resultado)
+   processos = extrair_resumo(resultado, dias=60)
 
     if processos:
         novo_timestamp = processos[0]["ultimaAtualizacao"]
