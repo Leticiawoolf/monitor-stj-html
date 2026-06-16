@@ -61,7 +61,7 @@ def extrair_resumo(resultado_json):
 
 if __name__ == "__main__":
     ultimo = carregar_ultimo_timestamp()
-    resultado = buscar_ultimas_atualizacoes(tamanho=50, ultimo_timestamp_processado=ultimo)
+    resultado = buscar_ultimas_atualizacoes(tamanho=10, ultimo_timestamp_processado=ultimo)
 
     if resultado is None:
         exit(0)
