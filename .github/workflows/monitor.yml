@@ -35,3 +35,8 @@ jobs:
           git add estado_stj.json pautas.json
           git diff --staged --quiet || git commit -m "Atualiza estado [skip ci]"
           git push
+- name: Teste Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python teste_telegram.py
