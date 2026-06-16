@@ -47,7 +47,7 @@ def buscar_ultimas_atualizacoes(tamanho=50, ultimo_timestamp_processado=None):
                 return None
 
 
-def extrair_resumo(resultado_json, dias=30):
+def extrair_resumo(resultado_json, dias=60):
     processos = []
     limite = datetime.now(timezone.utc) - timedelta(days=dias)
 
@@ -58,14 +58,12 @@ def extrair_resumo(resultado_json, dias=30):
         if not movs:
             continue
 
-        # Data do último movimento real
         data_ultimo_mov = movs[-1].get("dataHora", "")
         try:
             dt = datetime.fromisoformat(data_ultimo_mov.replace("Z", "+00:00"))
         except (ValueError, AttributeError):
             continue
 
-        # Só inclui se o último movimento for dos últimos 30 dias
         if dt < limite:
             continue
 
@@ -80,7 +78,6 @@ def extrair_resumo(resultado_json, dias=30):
             "titulo": f"{f.get('classe', {}).get('nome', '')} — {', '.join([a.get('nome','') for a in f.get('assuntos', [])][:2])}",
         })
 
-    # Ordena pelos mais recentes primeiro e limita a 10
     processos.sort(key=lambda x: x["dataUltimoMovimento"], reverse=True)
     return processos[:10]
 
@@ -92,7 +89,7 @@ if __name__ == "__main__":
     if resultado is None:
         exit(0)
 
-   processos = extrair_resumo(resultado, dias=60)
+    processos = extrair_resumo(resultado, dias=60)
 
     if processos:
         novo_timestamp = processos[0]["ultimaAtualizacao"]
