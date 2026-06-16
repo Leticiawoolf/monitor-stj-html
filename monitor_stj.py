@@ -5,7 +5,9 @@ from datetime import datetime
 
 TOKEN_BOT = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-API_KEY = os.environ.get("DATAJUD_API_KEY") 
+
+# Tenta pegar a sua chave das Secrets. Se não existir, usa a chave pública padrão do DataJud CNJ
+API_KEY = os.environ.get("DATAJUD_API_KEY") or "c3eae287-ba04-4990-8444-69777d72c36d" 
 
 URL_DATAJUD = "https://api-publica.datajud.cnj.jus.br/api_v1_stj/_search"
 
@@ -71,12 +73,12 @@ def extrair_resumo(resultado):
     return lista_processos
 
 def enviar_telegram(processos):
-    if not TOKEN_BOT or not CHAT_ID or not processos:
+    if not TOKEN_BOT or not CHAT_ID or not procesos:
         print("Configurações do Telegram ausentes ou lista de processos vazia.")
         return
     
     texto = "<b>📌 Monitor STJ - Processos Recentes</b>\n\n"
-    for p in processos[:5]:
+    for p in procesos[:5]:
         texto += f"🔹 <b>Proc:</b> {p['processo']}\n"
         texto += f"📅 <b>Modificado em:</b> {p['data']}\n"
         texto += f"📝 <b>Movimento:</b> {p['movimentacao']}\n\n"
