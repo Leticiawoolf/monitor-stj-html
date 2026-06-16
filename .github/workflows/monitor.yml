@@ -42,12 +42,6 @@ jobs:
           print(f"index.html atualizado com {len(dados)} processos")
           PYEOF
 
-      - name: Teste Telegram
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python teste_telegram.py
-
       - name: Enviar para Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
