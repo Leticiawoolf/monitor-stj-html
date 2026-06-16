@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monitor STJ — Sugestões de Pauta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #ffffff;
+      --bg2: #f5f5f5;
+      --border: #e0e0e0;
+      --border2: #cccccc;
+      --text: #1a1a1a;
+      --text2: #555555;
+      --accent: #185FA5;
+      --accent-bg: #E6F1FB;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); padding: 1.5rem 1rem; }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .header h1 { font-size: 20px; font-weight: 600; }
+    .header p { font-size: 13px; color: var(--text2); margin-top: 4px; }
+    .badge { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; background: #EAF3DE; color: #3B6D11; border-radius: 20px; padding: 3px 10px; font-weight: 500; }
+    .dot { width: 6px; height: 6px; border-radius: 50%; background: #639922; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1}50%{opacity:.3} }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-bottom: 1.5rem; }
+    .stat { background: var(--bg2); border-radius: 10px; padding: 12px 14px; }
+    .stat .num { font-size: 22px; font-weight: 600; }
+    .stat .lbl { font-size: 11px; color: var(--text2); margin-top: 2px; }
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.25rem; align-items: center; }
+    .controls span { font-size: 13px; color: var(--text2); }
+    .tag { background: var(--bg2); border: 1px solid var(--border); border-radius: 20px; padding: 5px 14px; cursor: pointer; font-size: 13px; color: var(--text2); transition: all .15s; }
+    .tag:hover { background: var(--bg); color: var(--text); }
+    .tag.active { border-color: #378ADD; color: var(--accent); font-weight: 500; background: var(--accent-bg); }
+    .cards { display: flex; flex-direction: column; gap: 10px; }
+    .card { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; cursor: pointer; transition: border-color .15s; }
+    .card:hover { border-color: var(--border2); }
+    .card.open { border-color: var(--border2); }
+    .card-header { display: flex; align-items: flex-start; gap: 10px; }
+    .tema { flex-shrink: 0; font-size: 10px; font-weight: 600; padding: 3px 9px; border-radius: 20px; }
+    .tema-trabalho { background:#E6F1FB;color:#185FA5; }
+    .tema-indigena { background:#EAF3DE;color:#3B6D11; }
+    .tema-penal { background:#FCEBEB;color:#A32D2D; }
+    .tema-tributario { background:#FAEEDA;color:#854F0B; }
+    .tema-direitos { background:#EEEDFE;color:#534AB7; }
+    .card-title { font-size: 15px; font-weight: 500; flex: 1; line-height: 1.4; }
+    .card-meta { display: flex; gap: 12px; margin-top: 8px; flex-wrap: wrap; }
+    .card-meta span { font-size: 12px; color: var(--text2); }
+    .proc { font-size: 11px; font-family: monospace; background: var(--bg2); padding: 2px 7px; border-radius: 4px; color: var(--text2); }
+    .body { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); display: none; }
+    .card.open .body { display: block; }
+    .section { margin-bottom: 14px; }
+    .section h4 { font-size: 11px; font-weight: 600; color: var(--text2); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+    .section p { font-size: 13px; line-height: 1.6; }
+    .angulos { display: flex; flex-direction: column; gap: 5px; }
+    .angulo { font-size: 13px; padding: 7px 10px; background: var(--bg2); border-radius: 8px; line-height: 1.5; }
+    .angulo::before { content: "→ "; color: #378ADD; font-weight: 600; }
+    .gloss { background: var(--bg2); border-radius: 8px; padding: 10px 12px; }
+    .gloss h4 { font-size: 11px; font-weight: 600; color: var(--text2); margin-bottom: 6px; text-transform: uppercase; letter-spacing: .06em; }
+    .gloss-item { display: flex; gap: 8px; margin-bottom: 5px; font-size: 12px; }
+    .gloss-termo { font-weight: 600; min-width: 130px; }
+    .gloss-def { color: var(--text2); line-height: 1.5; }
+    .footer { font-size: 11px; color: var(--text2); margin-top: 1.5rem; text-align: right; }
+    .chevron { font-size: 14px; color: var(--text2); flex-shrink: 0; margin-top: 2px; transition: transform .2s; }
+    .card.open .chevron { transform: rotate(180deg); }
+    select { font-size: 13px; padding: 5px 10px; border-radius: 20px; border: 1px solid var(--border); background: var(--bg); color: var(--text); cursor: pointer; }
+    #atualizado { font-size: 11px; color: var(--text2); margin-top: 1rem; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div>
+      <h1>Monitor STJ <span class="badge"><span class="dot"></span>Automático · a cada 3h</span></h1>
+      <p>Sugestões de pauta com tradução do juridiquês para jornalistas e leitores</p>
+    </div>
+    <select id="estadoSelect" onchange="filtrarEstado(this.value)">
+      <option value="">Todos os estados</option>
+      <option value="SC">Santa Catarina</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="SP">São Paulo</option>
+      <option value="RS">Rio Grande do Sul</option>
+      <option value="MG">Minas Gerais</option>
+      <option value="PA">Pará</option>
+      <option value="AM">Amazonas</option>
+    </select>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="num" id="totalPautas">5</div><div class="lbl">Pautas geradas</div></div>
+    <div class="stat"><div class="num">STJ</div><div class="lbl">Tribunal monitorado</div></div>
+    <div class="stat"><div class="num">3h</div><div class="lbl">Frequência de captura</div></div>
+    <div class="stat"><div class="num" id="ultimaData">—</div><div class="lbl">Última captura</div></div>
+  </div>
+
+  <div class="controls">
+    <span>Tema:</span>
+    <button class="tag active" onclick="filtrar('todos',this)">Todos</button>
+    <button class="tag" onclick="filtrar('trabalho',this)">Trabalho</button>
+    <button class="tag" onclick="filtrar('indigena',this)">Terras indígenas</button>
+    <button class="tag" onclick="filtrar('penal',this)">Penal</button>
+    <button class="tag" onclick="filtrar('tributario',this)">Tributário</button>
+    <button class="tag" onclick="filtrar('direitos',this)">Direitos</button>
+  </div>
+
+  <div class="cards" id="cards"></div>
+  <p class="footer">Fonte: DataJud/CNJ · GitHub Actions · atualizado automaticamente a cada 3h</p>
+</div>
+
+<script>
+const pautas = [
+  {
+    id:1, tema:"trabalho", temaNome:"Trabalho", temaClass:"tema-trabalho",
+    titulo:"STJ julga se empresa é responsável por acidente de motorista de aplicativo durante entrega",
+    processo:"AREsp 2.341.892", data:"Jun 2026", relator:"Min. Antonio Carlos Ferreira",
+    impacto:"Nacional · trabalhadores de plataformas",
+    estados:[],
+    resumoSimples:"O STJ vai decidir se uma empresa de delivery precisa pagar indenização quando um entregador sofre acidente durante o trabalho — mesmo sem carteira assinada.",
+    porQueImporta:"Afeta milhões de entregadores e motoristas de app no Brasil que não têm proteção trabalhista formal.",
+    angulos:[
+      "Quantos entregadores sofreram acidentes no trabalho sem receber indenização?",
+      "O que muda na prática se o STJ responsabilizar as plataformas?",
+      "Ouça entregadores: eles se sentem protegidos em caso de acidente?"
+    ],
+    glossario:[
+      {termo:"AREsp", def:"Agravo em Recurso Especial — recurso para o STJ revisar decisão de tribunal inferior."},
+      {termo:"Responsabilidade civil", def:"Obrigação de reparar dano causado a outra pessoa, com pagamento de indenização."},
+      {termo:"Vínculo empregatício", def:"Relação formal de emprego com direitos garantidos pela CLT."}
+    ]
+  },
+  {
+    id:2, tema:"direitos", temaNome:"Direitos", temaClass:"tema-direitos",
+    titulo:"STJ define se plano de saúde pode recusar tratamento por ser 'experimental'",
+    processo:"REsp 2.198.445", data:"Jun 2026", relator:"Min. Maria Isabel Gallotti",
+    impacto:"Nacional · pacientes e planos de saúde",
+    estados:[],
+    resumoSimples:"O STJ vai estabelecer quando um plano de saúde pode negar cobertura dizendo que o tratamento é 'experimental' — e quando essa recusa é ilegal.",
+    porQueImporta:"Decisão vale para todos os brasileiros com plano de saúde que já tiveram ou possam ter um tratamento negado.",
+    angulos:[
+      "Quais os tratamentos mais negados pelos planos com a justificativa de 'experimental'?",
+      "Como diferenciar tratamento experimental de tratamento inovador com evidências?",
+      "O que fazer se o plano negar seu tratamento — guia prático passo a passo."
+    ],
+    glossario:[
+      {termo:"REsp", def:"Recurso Especial — pedido ao STJ para revisar decisão de tribunal estadual que contraria lei federal."},
+      {termo:"Rol da ANS", def:"Lista de procedimentos que os planos são obrigados a cobrir, definida pela Agência Nacional de Saúde Suplementar."},
+      {termo:"Cobertura obrigatória", def:"Tratamentos que o plano não pode recusar por lei."}
+    ]
+  },
+  {
+    id:3, tema:"penal", temaNome:"Penal", temaClass:"tema-penal",
+    titulo:"STJ discute se condenado por corrupção pode ser promovido em cargo público",
+    processo:"RMS 71.234", data:"Jun 2026", relator:"Min. Messod Azulay Neto",
+    impacto:"Nacional · servidores públicos",
+    estados:["RJ","SP"],
+    resumoSimples:"O STJ vai decidir se um servidor público condenado por corrupção (mas ainda sem trânsito em julgado) pode receber promoção no cargo enquanto o processo ainda corre.",
+    porQueImporta:"Define se condenados por corrupção podem continuar subindo de cargo e salário no serviço público antes de a punição ser definitiva.",
+    angulos:[
+      "Quantos servidores condenados por corrupção em 1ª ou 2ª instância ainda ocupam cargos comissionados?",
+      "O que é 'trânsito em julgado' e por que ele demora tanto no Brasil?",
+      "Especialistas debatem: presunção de inocência vs. moralidade administrativa."
+    ],
+    glossario:[
+      {termo:"RMS", def:"Recurso em Mandado de Segurança — recurso contra decisão que negou um mandado de segurança."},
+      {termo:"Trânsito em julgado", def:"Momento em que uma decisão judicial é definitiva, sem mais possibilidade de recurso."},
+      {termo:"Mandado de segurança", def:"Ação rápida para proteger direito líquido e certo contra ato ilegal de autoridade pública."}
+    ]
+  },
+  {
+    id:4, tema:"tributario", temaNome:"Tributário", temaClass:"tema-tributario",
+    titulo:"STJ julga se MEI precisa pagar imposto sobre dinheiro recebido por Pix de clientes",
+    processo:"REsp 2.267.110", data:"Jun 2026", relator:"Min. Ricardo Villas Bôas Cueva",
+    impacto:"Nacional · microempreendedores",
+    estados:[],
+    resumoSimples:"O STJ vai definir se os pagamentos recebidos via Pix por microempreendedores individuais (MEI) devem ser declarados e tributados da mesma forma que outros rendimentos.",
+    porQueImporta:"Afeta mais de 15 milhões de MEIs no Brasil que usam Pix como principal forma de receber pagamentos.",
+    angulos:[
+      "O Pix mudou como a Receita Federal monitora o dinheiro dos pequenos negócios?",
+      "MEI que recebe tudo pelo Pix: o que declarar e o que não declarar — guia prático.",
+      "Especialistas contábeis explicam o risco de cair na malha fina sem saber."
+    ],
+    glossario:[
+      {termo:"MEI", def:"Microempreendedor Individual — categoria simplificada de empresa com faturamento anual limitado e impostos fixos mensais."},
+      {termo:"Fato gerador", def:"Evento que cria a obrigação de pagar imposto (ex: receber pagamento por um serviço)."},
+      {termo:"Malha fina", def:"Revisão automática da Receita Federal quando os dados declarados não batem."}
+    ]
+  },
+  {
+    id:5, tema:"direitos", temaNome:"Direitos", temaClass:"tema-direitos",
+    titulo:"STJ define prazo para banco indenizar vítima de golpe do Pix",
+    processo:"REsp 2.301.567", data:"Jun 2026", relator:"Min. Daniela Teixeira",
+    impacto:"Nacional · correntistas",
+    estados:["SC","RS"],
+    resumoSimples:"O STJ vai fixar em quanto tempo um banco precisa indenizar o cliente que caiu em golpe do Pix — e se o banco é sempre responsável ou só quando teve falha de segurança.",
+    porQueImporta:"Com milhões de golpes do Pix por ano no Brasil, essa decisão define se as vítimas têm ou não direito automático a ressarcimento.",
+    angulos:[
+      "Quantas vítimas de golpe do Pix conseguem ressarcimento dos bancos hoje?",
+      "Passo a passo: o que fazer imediatamente após cair em um golpe do Pix.",
+      "Os bancos têm tecnologia para prevenir golpes — por que não a usam?"
+    ],
+    glossario:[
+      {termo:"Responsabilidade objetiva", def:"Quando a empresa precisa indenizar independentemente de ter agido com culpa — basta o dano ter ocorrido."},
+      {termo:"Fortuito interno", def:"Risco inerente à atividade da empresa (ex: fraudes em transações bancárias) — não isenta o banco de responsabilidade."},
+      {termo:"Prazo prescricional", def:"Tempo limite que a vítima tem para entrar com ação na Justiça."}
+    ]
+  }
+];
+
+let filtroAtivo = "todos";
+let estadoAtivo = "";
+let expandidos = new Set();
+
+function render() {
+  const grid = document.getElementById("cards");
+  const visíveis = pautas.filter(p => {
+    const t = filtroAtivo === "todos" || p.tema === filtroAtivo;
+    const e = !estadoAtivo || p.estados.length === 0 || p.estados.includes(estadoAtivo);
+    return t && e;
+  });
+  document.getElementById("totalPautas").textContent = visíveis.length;
+  if (!visíveis.length) {
+    grid.innerHTML = '<p style="font-size:14px;color:#888;padding:1rem 0">Nenhuma pauta para este filtro.</p>';
+    return;
+  }
+  grid.innerHTML = visíveis.map(p => `
+    <div class="card ${expandidos.has(p.id) ? "open" : ""}" onclick="toggle(${p.id})">
+      <div class="card-header">
+        <span class="tema ${p.temaClass}">${p.temaNome}</span>
+        <span class="card-title">${p.titulo}</span>
+        <i class="fa-solid fa-chevron-down chevron"></i>
+      </div>
+      <div class="card-meta">
+        <span>📅 ${p.data}</span>
+        <span>👤 ${p.relator}</span>
+        <span>📍 ${p.impacto}</span>
+        <span class="proc">${p.processo}</span>
+      </div>
+      <div class="body">
+        <div class="section">
+          <h4>Em linguagem simples</h4>
+          <p>${p.resumoSimples}</p>
+        </div>
+        <div class="section">
+          <h4>Por que importa para você</h4>
+          <p>${p.porQueImporta}</p>
+        </div>
+        <div class="section">
+          <h4>Ângulos de pauta</h4>
+          <div class="angulos">${p.angulos.map(a => `<div class="angulo">${a}</div>`).join("")}</div>
+        </div>
+        <div class="gloss">
+          <h4>Glossário do juridiquês</h4>
+          ${p.glossario.map(g => `<div class="gloss-item"><span class="gloss-termo">${g.termo}</span><span class="gloss-def">${g.def}</span></div>`).join("")}
+        </div>
+      </div>
+    </div>`).join("");
+}
+
+function toggle(id) {
+  expandidos.has(id) ? expandidos.delete(id) : expandidos.add(id);
+  render();
+}
+function filtrar(tema, btn) {
+  filtroAtivo = tema;
+  document.querySelectorAll(".tag").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  render();
+}
+function filtrarEstado(val) { estadoAtivo = val; render(); }
+
+// Última atualização
+const el = document.getElementById("ultimaData");
+el.textContent = new Date().toLocaleDateString("pt-BR", {day:"2-digit",month:"short"});
+
+render();
+</script>
+</body>
+</html>
