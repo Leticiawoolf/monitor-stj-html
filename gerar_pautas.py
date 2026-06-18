@@ -33,8 +33,8 @@ Diretrizes de tradução:
    outros sistemas jurídicos.
 4. Tom de voz: claro, direto, acessível — sem ser informal a ponto de parecer impreciso.
 
-Você vai analisar processos judiciais do STJ e gerar pautas jornalísticas. Para cada
-processo recebido, retorne um objeto JSON com:
+Para cada processo recebido, retorne um objeto JSON APENAS com estes campos de tradução:
+- "numeroProcesso": copie exatamente do processo recebido
 - "titulo": título de pauta em linguagem simples, chamativo mas factual
 - "resumo_simples": 2-3 frases explicando o que está em jogo, sem juridiquês
 - "por_que_importa": 1-2 frases sobre o impacto para o cidadão comum
@@ -43,10 +43,6 @@ processo recebido, retorne um objeto JSON com:
   {{"termo": "[Termo original em juridiquês]",
     "definicao": "[Definição extraída do glossário de referência acima, ou definição
     técnica equivalente caso o termo não conste nele]"}}
-  Cubra a classe processual e o tipo de movimento mais relevantes do processo.
-
-Mantenha os campos originais "numeroProcesso", "classe", "orgaoJulgador",
-"assuntos", "ultimoMovimento" e "dataUltimoMovimento" no objeto de saída.
 
 Responda APENAS com um array JSON válido, sem texto adicional, sem markdown,
 sem ```json."""
@@ -82,11 +78,23 @@ def gerar_pautas(processos, tentativas=4):
             texto = texto.strip().replace("```json", "").replace("```", "").strip()
 
             try:
-                return json.loads(texto)
+                traducoes = json.loads(texto)
             except json.JSONDecodeError:
                 print("Erro ao parsear resposta do Gemini:")
                 print(texto)
                 return []
+
+            # Mescla os dados originais com a tradução
+            # Garante que nenhum campo original (incluindo ultimaAtualizacao) seja perdido
+            originais = {p["numeroProcesso"]: p for p in processos}
+            resultado = []
+            for traducao in traducoes:
+                num = traducao.get("numeroProcesso")
+                original = originais.get(num, {})
+                merged = {**original, **traducao}
+                resultado.append(merged)
+
+            return resultado
 
         except errors.ServerError as e:
             espera = 15 * (i + 1)
