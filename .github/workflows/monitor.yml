@@ -22,12 +22,17 @@ jobs:
           DATAJUD_API_KEY: ${{ secrets.DATAJUD_API_KEY }}
         run: python monitor_stj.py
 
+      - name: Traduzir com Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python gerar_pautas.py
+
       - name: Injetar dados no index.html
         run: |
           python - << 'PYEOF'
           import json, re
 
-          with open("pautas.json", "r", encoding="utf-8") as f:
+          with open("pautas_traduzidas.json", "r", encoding="utf-8") as f:
               dados = json.load(f)
 
           with open("index.html", "r", encoding="utf-8") as f:
@@ -52,6 +57,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add estado_stj.json pautas.json index.html
+          git add estado_stj.json pautas.json pautas_traduzidas.json index.html
           git diff --staged --quiet || git commit -m "Atualiza dados [skip ci]"
           git push
