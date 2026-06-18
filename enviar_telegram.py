@@ -25,7 +25,7 @@ if __name__ == "__main__":
         pautas = []
 
     if not pautas:
-        enviar("🔎 <b>Monitor STJ</b>\n\nNenhum processo novo encontrado desde a última atualização.")
+        enviar("🔎 <b>Monitor TJ-RJ</b>\n\nNenhum processo novo encontrado desde a última atualização.")
         print("Mensagem de 'sem novidades' enviada.")
         exit(0)
 
