@@ -82,37 +82,20 @@ if __name__ == "__main__":
     ultimo = carregar_ultimo_timestamp()
     resultado = buscar_ultimas_atualizacoes(tamanho=50)
 
-    if resultado is None:
-        print("API inacessível. Mantendo pautas.json vazio para indicar indisponibilidade.")
-        with open("pautas.json", "w", encoding="utf-8") as f:
-            json.dump([], f)
-        exit(0)
-
-    if not resultado["hits"]["hits"]:
-        print("Nenhum resultado retornado pela API.")
+    if resultado is None or not resultado["hits"]["hits"]:
+        print("API inacessível ou sem resultados.")
         with open("pautas.json", "w", encoding="utf-8") as f:
             json.dump([], f)
         exit(0)
 
     novo_timestamp = resultado["hits"]["hits"][0]["_source"].get("dataHoraUltimaAtualizacao")
-
-    # Compara com o último timestamp salvo: se for igual, não há novidade real no índice
-    if novo_timestamp == ultimo:
-        print(f"Mesmo snapshot de antes ({novo_timestamp}). Sem novidades.")
-        with open("pautas.json", "w", encoding="utf-8") as f:
-            json.dump([], f)
-        exit(0)
-
-    # Timestamp novo: processa e salva
     processos = extrair_resumo(resultado, dias=60)
 
-    if processos:
-        print(f"Novo snapshot: {novo_timestamp} ({len(processos)} processos com movimentação recente)")
-        with open("pautas.json", "w", encoding="utf-8") as f:
-            json.dump(processos, f, ensure_ascii=False, indent=2)
-    else:
-        print(f"Novo snapshot ({novo_timestamp}), mas nenhum processo dentro da janela de dias definida.")
-        with open("pautas.json", "w", encoding="utf-8") as f:
-            json.dump([], f)
+    print(f"Snapshot: {novo_timestamp} ({len(processos)} processos)")
+    with open("pautas.json", "w", encoding="utf-8") as f:
+        json.dump(processos, f, ensure_ascii=False, indent=2)
+
+    if novo_timestamp:
+        salvar_ultimo_timestamp(novo_timestamp)
 
     salvar_ultimo_timestamp(novo_timestamp)
