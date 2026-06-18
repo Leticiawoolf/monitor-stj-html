@@ -39,7 +39,7 @@ def buscar_ultimas_atualizacoes(tamanho=50):
             if i < 2:
                 time.sleep(10)
             else:
-                print("API inacessível após 3 tentativas.")
+                print("API inacessivel apos 3 tentativas.")
                 return None
 
 
@@ -79,11 +79,10 @@ def extrair_resumo(resultado_json, dias=60):
 
 
 if __name__ == "__main__":
-    ultimo = carregar_ultimo_timestamp()
     resultado = buscar_ultimas_atualizacoes(tamanho=50)
 
     if resultado is None or not resultado["hits"]["hits"]:
-        print("API inacessível ou sem resultados.")
+        print("API inacessivel ou sem resultados.")
         with open("pautas.json", "w", encoding="utf-8") as f:
             json.dump([], f)
         exit(0)
@@ -97,5 +96,3 @@ if __name__ == "__main__":
 
     if novo_timestamp:
         salvar_ultimo_timestamp(novo_timestamp)
-
-    salvar_ultimo_timestamp(novo_timestamp)
