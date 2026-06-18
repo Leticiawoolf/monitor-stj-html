@@ -6,10 +6,26 @@
     "assuntos": [
       "Superendividamento"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.746000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-28T00:05:00.000Z",
-    "titulo": "Caso de Superendividamento Chega ao Tribunal: Devedor Busca Reverter Decisão"
+    "titulo": "Contestação de Decisão em Caso de Superendividamento Vai a Julgamento",
+    "resumo_simples": "Um recurso judicial foi apresentado para que uma decisão provisória de um juiz, relacionada a um caso de endividamento excessivo, seja revista por um desembargador. O objetivo é reavaliar os termos dessa decisão que afeta a situação financeira de alguém.",
+    "por_que_importa": "Esse caso pode influenciar a forma como os tribunais tratam pessoas com muitas dívidas, definindo limites e possibilidades de renegociação e alívio financeiro para milhões de brasileiros.",
+    "angulos": [
+      "Como a lei do superendividamento pode proteger o consumidor endividado.",
+      "O papel dos recursos judiciais em processos que buscam reorganização financeira.",
+      "Desafios e soluções para pessoas em situação de superendividamento no Brasil."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo de Instrumento",
+        "definicao": "Recurso apresentado ao Desembargador contra uma decisão interlocutória dada por um Juiz em um processo em andamento na 1ª instância."
+      },
+      {
+        "termo": "Publicação",
+        "definicao": "Ato de tornar público um despacho, decisão, sentença ou acórdão, informando as partes e advogados sobre o andamento ou resultado do processo."
+      }
+    ]
   },
   {
     "numeroProcesso": "08210275220248190004",
@@ -19,10 +35,26 @@
       "Acidente de Trânsito",
       "Repetição do Indébito"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.639000Z",
     "ultimoMovimento": "Baixa Definitiva",
     "dataUltimoMovimento": "2026-05-22T12:54:00.000Z",
-    "titulo": "Tribunal Encerra Caso de Acidente de Trânsito com Pedido de Devolução de Valores Pagos Indevidamente"
+    "titulo": "Processo de Acidente de Trânsito e Devolução de Dinheiro é Encerrado na Instância",
+    "resumo_simples": "Um processo que tratava de um acidente de trânsito e o pedido de devolução de valores cobrados indevidamente chegou ao seu fim na instância atual. O recurso que buscava mudar o resultado inicial do julgamento foi processado, e o caso agora segue para o arquivo ou para a unidade de origem.",
+    "por_que_importa": "A decisão neste tipo de caso pode estabelecer padrões importantes sobre responsabilidades em acidentes e direitos do consumidor à devolução de pagamentos errados, impactando motoristas e compradores.",
+    "angulos": [
+      "Como funciona a reparação de danos em acidentes de trânsito e quem paga a conta.",
+      "Quando o consumidor tem direito à devolução de valores pagos indevidamente (repetição do indébito).",
+      "A importância de recorrer de decisões judiciais desfavoráveis para garantir seus direitos."
+    ],
+    "glossario": [
+      {
+        "termo": "Apelação Cível",
+        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
+      },
+      {
+        "termo": "Baixa Definitiva",
+        "definicao": "Encerramento do processo na instância atual e seu envio final para o arquivo ou para a unidade de origem, após todas as decisões terem sido tomadas e recursos esgotados."
+      }
+    ]
   },
   {
     "numeroProcesso": "00467258420178190054",
@@ -31,10 +63,26 @@
     "assuntos": [
       "Dívida Ativa (Execução Fiscal)"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.616000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-14T00:05:00.000Z",
-    "titulo": "Tribunal Analisa Recurso em Caso de Dívida com o Governo"
+    "titulo": "Decisão Publicada em Recurso sobre Cobrança de Dívida Ativa",
+    "resumo_simples": "Foi tornada pública uma atualização em um processo de recurso civil sobre Dívida Ativa, que é um valor devido ao governo e cobrado judicialmente. Isso significa que as partes e seus advogados foram informados sobre algum andamento ou decisão no caso.",
+    "por_que_importa": "Decisões em casos de Dívida Ativa podem afetar diretamente cidadãos e empresas, definindo a validade de cobranças fiscais e os limites para a execução dessas dívidas por parte do Estado.",
+    "angulos": [
+      "Como contestar uma dívida ativa: direitos e deveres do contribuinte.",
+      "Os impactos da Dívida Ativa na vida financeira de pessoas e empresas.",
+      "O processo de execução fiscal e as possibilidades de defesa legal."
+    ],
+    "glossario": [
+      {
+        "termo": "Apelação Cível",
+        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
+      },
+      {
+        "termo": "Publicação",
+        "definicao": "Ato de tornar público um despacho, decisão, sentença ou acórdão, informando as partes e advogados sobre o andamento ou resultado do processo."
+      }
+    ]
   },
   {
     "numeroProcesso": "00574598820198190001",
@@ -43,10 +91,26 @@
     "assuntos": [
       "Repetição do Indébito"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.555000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-20T00:05:00.000Z",
-    "titulo": "Caso de Devolução de Pagamento Indevido é Publicado no Tribunal"
+    "titulo": "Atualização em Recurso sobre Devolução de Valores Pagos Indevidamente",
+    "resumo_simples": "Uma nova atualização foi tornada pública em um processo de recurso que trata da devolução de valores pagos a mais ou de forma indevida. Isso significa que os envolvidos no caso foram oficialmente notificados sobre o último passo ou decisão judicial.",
+    "por_que_importa": "Este tipo de processo é crucial para garantir os direitos dos consumidores e cidadãos que pagaram quantias indevidas, protegendo-os de cobranças injustas e incentivando a correção por parte de empresas e órgãos.",
+    "angulos": [
+      "Seus direitos ao exigir a devolução de valores pagos indevidamente.",
+      "Como identificar cobranças abusivas e o que fazer para reaver seu dinheiro.",
+      "O impacto das decisões judiciais nos casos de repetição do indébito para o consumidor."
+    ],
+    "glossario": [
+      {
+        "termo": "Apelação Cível",
+        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
+      },
+      {
+        "termo": "Publicação",
+        "definicao": "Ato de tornar público um despacho, decisão, sentença ou acórdão, informando as partes e advogados sobre o andamento ou resultado do processo."
+      }
+    ]
   },
   {
     "numeroProcesso": "08242984620228190002",
@@ -57,10 +121,26 @@
       "Rescisão do contrato e devolução do dinheiro",
       "Inclusão Indevida em Cadastro de Inadimplentes"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.546000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-20T00:05:00.000Z",
-    "titulo": "Atraso na Entrega de Imóvel e Inclusão em Cadastro de Devedores: Recurso em Julgamento"
+    "titulo": "Recurso Julga Atraso de Imóvel, Rescisão de Contrato e Nome Negativado",
+    "resumo_simples": "Foi divulgada uma nova atualização sobre um recurso civil que discute o atraso na entrega de um imóvel, a rescisão do contrato e a devolução do dinheiro. O processo também aborda a inclusão indevida do comprador em listas de devedores, como SPC e Serasa.",
+    "por_que_importa": "Este caso tem grande relevância para compradores de imóveis, pois pode influenciar a jurisprudência sobre direitos do consumidor em face de atrasos na entrega e práticas abusivas de empresas construtoras.",
+    "angulos": [
+      "Os direitos do consumidor em caso de atraso na entrega de imóveis na planta.",
+      "Como buscar a rescisão de contrato e a devolução de valores em situações de não cumprimento.",
+      "A legalidade da inclusão indevida em cadastros de inadimplentes e como reverter a situação."
+    ],
+    "glossario": [
+      {
+        "termo": "Apelação Cível",
+        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
+      },
+      {
+        "termo": "Publicação",
+        "definicao": "Ato de tornar público um despacho, decisão, sentença ou acórdão, informando as partes e advogados sobre o andamento ou resultado do processo."
+      }
+    ]
   },
   {
     "numeroProcesso": "01087181820258190000",
@@ -69,10 +149,26 @@
     "assuntos": [
       "Esbulho / Turbação / Ameaça"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.543000Z",
     "ultimoMovimento": "Definitivo",
     "dataUltimoMovimento": "2026-05-19T17:54:00.000Z",
-    "titulo": "Tribunal Encerra Recurso em Caso de Disputa por Propriedade"
+    "titulo": "Disputa por Posse de Terra: Recurso Chega à Fase Final na Instância",
+    "resumo_simples": "Um recurso judicial que discutia atos de tomada de posse ou perturbação de propriedade (esbulho/turbação) foi considerado definitivo, indicando que a tramitação principal na instância atual foi concluída. Isso significa que as etapas de avaliação do recurso foram finalizadas.",
+    "por_que_importa": "Casos envolvendo disputas de terra e posse são essenciais para garantir o direito à propriedade e à segurança jurídica de proprietários e possuidores, impactando diretamente questões fundiárias e imobiliárias no país.",
+    "angulos": [
+      "Os direitos de posse e propriedade no Brasil e como defendê-los.",
+      "Como se proteger de invasões e perturbações de terras (esbulho e turbação).",
+      "O papel do Agravo de Instrumento em disputas fundiárias e sua eficácia."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo de Instrumento",
+        "definicao": "Recurso apresentado ao Desembargador contra uma decisão interlocutória dada por um Juiz em um processo em andamento na 1ª instância."
+      },
+      {
+        "termo": "Definitivo",
+        "definicao": "Indica o encerramento da tramitação do processo na instância ou fase atual, significando que as etapas principais foram concluídas."
+      }
+    ]
   },
   {
     "numeroProcesso": "08106438720238190061",
@@ -84,10 +180,26 @@
       "Obrigação de Fazer / Não Fazer",
       "Inclusão Indevida em Cadastro de Inadimplentes"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.371000Z",
     "ultimoMovimento": "Conclusão",
     "dataUltimoMovimento": "2026-06-08T09:26:00.000Z",
-    "titulo": "Processo sobre Acidente de Trânsito, Insumos e Dívidas Chega à Mesa da Desembargadora"
+    "titulo": "Processo Complexo de Acidente, Insumos e Nome Sujo Vai para Decisão Final",
+    "resumo_simples": "Um recurso civil que envolve um acidente de trânsito, o fornecimento de materiais e uma obrigação de fazer (ou não fazer), além de uma possível inclusão indevida em cadastro de devedores, foi encaminhado ao magistrado. Ele agora avaliará a questão e tomará a decisão que considerar adequada.",
+    "por_que_importa": "Este caso abrange múltiplas questões relevantes para o cidadão, desde a reparação de danos em acidentes até a proteção contra cobranças indevidas e nome sujo, podendo gerar impactos importantes sobre responsabilidades civis e direitos do consumidor.",
+    "angulos": [
+      "A complexidade de casos que envolvem múltiplos danos e obrigações, como acidentes e fornecimento de insumos.",
+      "Como a Justiça decide sobre inclusão indevida em cadastros de devedores e seus direitos.",
+      "O processo de Apelação Cível em casos de grande abrangência e seu impacto na vida das pessoas."
+    ],
+    "glossario": [
+      {
+        "termo": "Apelação Cível",
+        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
+      },
+      {
+        "termo": "Conclusão",
+        "definicao": "Ato de enviar o processo ao Magistrado para que ele avalie a questão e tome a decisão cabível."
+      }
+    ]
   },
   {
     "numeroProcesso": "08039351420228190204",
@@ -97,10 +209,26 @@
       "Tratamento médico-hospitalar",
       "Acidente de Trânsito"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.361000Z",
     "ultimoMovimento": "Baixa Definitiva",
     "dataUltimoMovimento": "2026-05-28T15:03:00.000Z",
-    "titulo": "Caso de Acidente de Trânsito e Despesas Médicas Recebe Baixa Definitiva no Tribunal"
+    "titulo": "Processo de Acidente de Trânsito e Tratamento Médico Encerra Tramitação",
+    "resumo_simples": "Um processo de recurso civil que envolvia questões sobre tratamento médico-hospitalar e um acidente de trânsito teve sua tramitação encerrada na instância atual, sendo enviado para o arquivo ou para a unidade de origem. Isso indica que as decisões finais sobre o recurso foram tomadas.",
+    "por_que_importa": "Este tipo de caso é crucial para definir responsabilidades em acidentes e garantir o direito a tratamento médico adequado, impactando a vida de vítimas e a atuação de hospitais e planos de saúde.",
+    "angulos": [
+      "Os direitos das vítimas de acidentes de trânsito a tratamento médico-hospitalar e reabilitação.",
+      "As responsabilidades das seguradoras e hospitais em casos de emergência e atendimento.",
+      "Como as decisões judiciais podem influenciar políticas de saúde e trânsito para a população."
+    ],
+    "glossario": [
+      {
+        "termo": "Apelação Cível",
+        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
+      },
+      {
+        "termo": "Baixa Definitiva",
+        "definicao": "Encerramento do processo na instância atual e seu envio final para o arquivo ou para a unidade de origem, após todas as decisões terem sido tomadas e recursos esgotados."
+      }
+    ]
   },
   {
     "numeroProcesso": "00733617620228190001",
@@ -109,10 +237,26 @@
     "assuntos": [
       "Nao Cumulatividade"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:55.110000Z",
     "ultimoMovimento": "Conclusão",
     "dataUltimoMovimento": "2026-06-08T14:04:00.000Z",
-    "titulo": "Princípio da Não Cumulatividade em Recurso de Apelação: Processo Aguarda Decisão"
+    "titulo": "Recurso Tributário sobre 'Não Cumulatividade' é Enviado para Decisão Judicial",
+    "resumo_simples": "Um processo de recurso civil que trata do princípio da 'Não Cumulatividade', geralmente aplicado a impostos para evitar a cobrança em cascata, foi encaminhado ao magistrado. Ele agora analisará o caso e tomará a decisão cabível, que pode ter implicações fiscais importantes.",
+    "por_que_importa": "Decisões sobre a não cumulatividade de impostos afetam diretamente a carga tributária de empresas e, consequentemente, o preço de produtos e serviços para o consumidor final, tendo impacto econômico amplo.",
+    "angulos": [
+      "Entenda o que é 'não cumulatividade' e sua importância para a economia e para o seu bolso.",
+      "Como as empresas podem se beneficiar da não cumulatividade de impostos e evitar custos extras.",
+      "O papel do Poder Judiciário na interpretação das leis tributárias e seus efeitos práticos."
+    ],
+    "glossario": [
+      {
+        "termo": "Apelação Cível",
+        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
+      },
+      {
+        "termo": "Conclusão",
+        "definicao": "Ato de enviar o processo ao Magistrado para que ele avalie a questão e tome a decisão cabível."
+      }
+    ]
   },
   {
     "numeroProcesso": "50061490320258190500",
@@ -121,9 +265,25 @@
     "assuntos": [
       "Progressão de Regime"
     ],
-    "ultimaAtualizacao": "2026-06-14T14:13:54.918000Z",
     "ultimoMovimento": "Definitivo",
     "dataUltimoMovimento": "2026-06-08T14:18:00.000Z",
-    "titulo": "Tribunal Finaliza Recurso em Caso de Progressão de Regime de Presos"
+    "titulo": "Recurso sobre Progressão de Regime de Presos Chega à Conclusão",
+    "resumo_simples": "Um recurso judicial, usado para contestar decisões em casos de execução de pena, que trata da progressão de regime (mudança para um regime prisional menos rigoroso), teve sua tramitação na instância atual concluída. Isso significa que a fase de avaliação do recurso terminou.",
+    "por_que_importa": "Decisões sobre progressão de regime afetam diretamente a vida de pessoas cumprindo pena, a segurança pública e o funcionamento do sistema carcerário, gerando impacto social e debates sobre justiça e ressocialização.",
+    "angulos": [
+      "Como funciona a progressão de regime no sistema penal brasileiro e seus requisitos.",
+      "O que é o Agravo de Execução Penal e sua importância para o cumprimento da pena.",
+      "Debate sobre a ressocialização de detentos e a segurança pública no Brasil."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo de Execução Penal",
+        "definicao": "Recurso utilizado na execução penal para contestar decisões tomadas pelo juiz da Vara de Execuções Criminais."
+      },
+      {
+        "termo": "Definitivo",
+        "definicao": "Indica o encerramento da tramitação do processo na instância ou fase atual, significando que as etapas principais foram concluídas."
+      }
+    ]
   }
 ]
