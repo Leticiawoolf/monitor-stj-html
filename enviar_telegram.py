@@ -19,7 +19,7 @@ def enviar(texto):
 
 if __name__ == "__main__":
     try:
-        with open("pautas.json", "r", encoding="utf-8") as f:
+        with open("pautas_traduzidas.json", "r", encoding="utf-8") as f:
             pautas = json.load(f)
     except FileNotFoundError:
         pautas = []
@@ -34,13 +34,13 @@ if __name__ == "__main__":
     bloco_atual = header
 
     for i, p in enumerate(pautas, 1):
+        angulos_txt = "\n".join(f"  • {a}" for a in p.get("angulos", []))
         bloco = (
-            f"<b>{i}. {p.get('classe', 'Processo')}</b>\n"
-            f"📁 {p.get('numeroProcesso', '')}\n"
-            f"👤 {p.get('orgaoJulgador', '')}\n"
-            f"📌 Assuntos: {', '.join(p.get('assuntos', []))}\n"
-            f"🔄 Último movimento: {p.get('ultimoMovimento', '')} "
-            f"({p.get('dataUltimoMovimento', '')})\n\n"
+            f"<b>{i}. {p.get('titulo', p.get('classe', 'Processo'))}</b>\n"
+            f"📁 {p.get('numeroProcesso', '')}\n\n"
+            f"{p.get('resumo_simples', '')}\n\n"
+            f"💡 <i>{p.get('por_que_importa', '')}</i>\n\n"
+            f"Ângulos de pauta:\n{angulos_txt}\n\n"
         )
 
         if len(bloco_atual) + len(bloco) > 4000:
