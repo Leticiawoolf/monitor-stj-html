@@ -4,7 +4,7 @@ import requests
 import time
 
 API_KEY = os.environ.get("DATAJUD_API_KEY", "")
-ENDPOINT = "https://api-publica.datajud.cnj.jus.br/api_publica_stj/_search"
+ENDPOINT = "https://api-publica.datajud.cnj.jus.br/api_publica_tjrj/_search"
 HEADERS = {"Authorization": f"APIKey {API_KEY}", "Content-Type": "application/json"}
 ARQUIVO_ESTADO = "estado_stj.json"
 
