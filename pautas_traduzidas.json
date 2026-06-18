@@ -1,1 +1,302 @@
-[]
+[
+  {
+    "titulo": "Recurso sobre dívida: decisão final no STJ",
+    "resumo_simples": "Este processo trata de um recurso apresentado ao Superior Tribunal de Justiça (STJ) para discutir uma dívida que foi confessada ou teve um acordo de pagamento. O Agravo em Recurso Especial foi usado para tentar reverter uma decisão anterior que impediu a análise do recurso principal, e agora o processo foi encerrado no STJ e devolvido à origem.",
+    "por_que_importa": "É importante para entender como o STJ decide casos envolvendo acordos de dívidas e as chances de reverter decisões em instâncias superiores, afetando a segurança jurídica de contratos.",
+    "angulos": [
+      "A importância da confissão de dívida e seus efeitos legais.",
+      "Como funciona o sistema de recursos no STJ para casos de dívida.",
+      "As implicações de uma 'baixa definitiva' para as partes envolvidas."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo em Recurso Especial",
+        "definicao": "Recurso direcionado ao STJ contra decisão que inadmitiu o Recurso Especial."
+      },
+      {
+        "termo": "Baixa Definitiva",
+        "definicao": "Ocorre quando o processo é encerrado em uma instância superior e enviado de volta à instância de origem para arquivamento final e cumprimento da decisão, não sendo mais possível recorrer no âmbito daquele tribunal superior."
+      }
+    ],
+    "numeroProcesso": "23081797320248260000",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DO MINISTRO RICARDO VILLAS BÃ”AS CUEVA",
+    "assuntos": [
+      "Confissão/Composição de Dívida"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.742000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-06-01T15:23:08.000Z"
+  },
+  {
+    "titulo": "Caso de Homicídio Qualificado chega ao fim no STJ",
+    "resumo_simples": "Este processo se refere a um Recurso Especial que tratou de um caso de homicídio com agravantes (qualificado), julgado pelo Superior Tribunal de Justiça (STJ). O recurso tinha o objetivo de questionar a aplicação da lei federal, e agora o processo foi encerrado no STJ e devolvido à instância de origem.",
+    "por_que_importa": "A forma como o STJ interpreta a lei em casos de homicídio qualificado é crucial para a justiça criminal e para a aplicação de penas, impactando a vida dos envolvidos e a segurança pública.",
+    "angulos": [
+      "O papel do STJ na revisão de condenações por crimes graves.",
+      "Entenda o que torna um homicídio 'qualificado' e suas implicações.",
+      "O significado da 'baixa definitiva' para o desfecho do processo criminal."
+    ],
+    "glossario": [
+      {
+        "termo": "Recurso Especial",
+        "definicao": "Recurso dirigido ao STJ, submetido antes a juízo de admissibilidade para verificar se reúne os requisitos necessários."
+      },
+      {
+        "termo": "Baixa Definitiva",
+        "definicao": "Ocorre quando o processo é encerrado em uma instância superior e enviado de volta à instância de origem para arquivamento final e cumprimento da decisão, não sendo mais possível recorrer no âmbito daquele tribunal superior."
+      }
+    ],
+    "numeroProcesso": "00252117720138180140",
+    "classe": "Recurso Especial",
+    "orgaoJulgador": "Superior Tribunal de JustiÃ§a",
+    "assuntos": [
+      "Homicídio Qualificado"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.742000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-05-05T18:03:05.000Z"
+  },
+  {
+    "titulo": "Caso de Previdência Privada no STJ recebe nova Petição",
+    "resumo_simples": "Este processo envolve um Agravo em Recurso Especial no Superior Tribunal de Justiça (STJ) que trata de questões de previdência privada. Recentemente, foi apresentada uma nova Petição, que é um documento formal com um pedido ou informação, indicando que o caso continua em andamento no tribunal.",
+    "por_que_importa": "As decisões do STJ em casos de previdência privada podem criar regras importantes para milhões de brasileiros, impactando os direitos de quem contribui e de quem já recebe benefícios.",
+    "angulos": [
+      "Os principais desafios legais em processos de previdência privada.",
+      "Como as Petições influenciam o andamento dos processos no STJ.",
+      "Quais os riscos e benefícios de levar um caso de previdência privada ao STJ."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo em Recurso Especial",
+        "definicao": "Recurso direcionado ao STJ contra decisão que inadmitiu o Recurso Especial."
+      },
+      {
+        "termo": "Petição",
+        "definicao": "Ato de apresentar um documento formal com um pedido ou informação ao juiz ou tribunal."
+      }
+    ],
+    "numeroProcesso": "50238525120258240000",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "Superior Tribunal de JustiÃ§a",
+    "assuntos": [
+      "Previdência privada"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.741000Z",
+    "ultimoMovimento": "Petição",
+    "dataUltimoMovimento": "2026-06-01T17:36:01.000Z"
+  },
+  {
+    "titulo": "STJ decide caso de dano moral contra banco; processo finalizado",
+    "resumo_simples": "Este processo no Superior Tribunal de Justiça (STJ) tratou de um recurso relacionado a questões bancárias e um pedido de indenização por Dano Moral, ou seja, um prejuízo emocional causado a uma pessoa. O Agravo em Recurso Especial foi usado para contestar a não admissão de um recurso, e o caso foi agora finalizado no STJ e enviado de volta à origem.",
+    "por_que_importa": "As decisões do STJ sobre danos morais em casos bancários servem como referência para consumidores lesados, definindo quando e como podem ser compensados por falhas ou abusos de instituições financeiras.",
+    "angulos": [
+      "Como o STJ avalia pedidos de Dano Moral contra bancos.",
+      "Os direitos dos consumidores em relação a serviços bancários.",
+      "O que significa a 'baixa definitiva' para as partes em um processo judicial."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo em Recurso Especial",
+        "definicao": "Recurso direcionado ao STJ contra decisão que inadmitiu o Recurso Especial."
+      },
+      {
+        "termo": "Dano Moral",
+        "definicao": "Prejuízo emocional causado a uma pessoa, violando sua honra e dignidade."
+      },
+      {
+        "termo": "Baixa Definitiva",
+        "definicao": "Ocorre quando o processo é encerrado em uma instância superior e enviado de volta à instância de origem para arquivamento final e cumprimento da decisão, não sendo mais possível recorrer no âmbito daquele tribunal superior."
+      }
+    ],
+    "numeroProcesso": "10297496320238260576",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DA MINISTRA NANCY ANDRIGHI",
+    "assuntos": [
+      "Bancários",
+      "Indenização por Dano Moral"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.740000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-03-06T14:03:07.000Z"
+  },
+  {
+    "titulo": "STJ finaliza recurso em caso de Tráfico de Drogas",
+    "resumo_simples": "Este processo no Superior Tribunal de Justiça (STJ) envolveu um Agravo em Recurso Especial em um caso de Tráfico de Drogas e condutas relacionadas. O recurso visava questionar a aplicação da lei federal em relação ao crime, e o processo foi agora encerrado no STJ e devolvido à instância judicial de onde veio.",
+    "por_que_importa": "As decisões do STJ sobre tráfico de drogas são cruciais para a jurisprudência criminal, influenciando a condenação e a pena de réus em todo o país e impactando a segurança pública.",
+    "angulos": [
+      "O impacto das decisões do STJ na luta contra o tráfico de drogas.",
+      "Como funciona o sistema de recursos para crimes no STJ.",
+      "O significado da 'baixa definitiva' para réus e promotores em casos criminais."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo em Recurso Especial",
+        "definicao": "Recurso direcionado ao STJ contra decisão que inadmitiu o Recurso Especial."
+      },
+      {
+        "termo": "Baixa Definitiva",
+        "definicao": "Ocorre quando o processo é encerrado em uma instância superior e enviado de volta à instância de origem para arquivamento final e cumprimento da decisão, não sendo mais possível recorrer no âmbito daquele tribunal superior."
+      }
+    ],
+    "numeroProcesso": "15007260420248260536",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DO MINISTRO MESSOD AZULAY NETO",
+    "assuntos": [
+      "Tráfico de Drogas e Condutas Afins"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.739000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-03-03T14:33:08.000Z"
+  },
+  {
+    "titulo": "Decisão final em Habeas Corpus sobre Tráfico de Drogas no STJ",
+    "resumo_simples": "Este processo é um Habeas Corpus, uma ação judicial para proteger a liberdade de uma pessoa, que foi movido no STJ em um caso de Tráfico de Drogas e condutas relacionadas. O último movimento indica que uma decisão final foi tomada em relação a este recurso específico, sem mais possibilidades de recurso naquele ponto.",
+    "por_que_importa": "As decisões em Habeas Corpus são fundamentais para garantir a liberdade individual e fiscalizar possíveis ilegalidades em prisões, especialmente em casos de tráfico, afetando diretamente a vida de quem está sob custódia.",
+    "angulos": [
+      "A importância do Habeas Corpus como garantia de liberdade.",
+      "Como o STJ atua em casos criminais graves, como o tráfico de drogas.",
+      "O que significa uma decisão 'definitiva' em um Habeas Corpus."
+    ],
+    "glossario": [
+      {
+        "termo": "Habeas Corpus",
+        "definicao": "Ação judicial que protege a liberdade de locomoção de uma pessoa, quando ameaçada ou violada por ato ilegal ou abuso de poder."
+      },
+      {
+        "termo": "Definitivo",
+        "definicao": "Indica que uma decisão ou ato processual atingiu sua fase final, não sendo mais possível a prática de recursos ou outras medidas em relação àquele ponto específico do processo."
+      }
+    ],
+    "numeroProcesso": "03824032220253000000",
+    "classe": "Habeas Corpus",
+    "orgaoJulgador": "GABINETE DO MINISTRO OG FERNANDES",
+    "assuntos": [
+      "Tráfico de Drogas e Condutas Afins"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.738000Z",
+    "ultimoMovimento": "Definitivo",
+    "dataUltimoMovimento": "2026-03-25T14:23:04.000Z"
+  },
+  {
+    "titulo": "STJ encerra recurso sobre Dívida Ativa e Execução Fiscal",
+    "resumo_simples": "Este processo no Superior Tribunal de Justiça (STJ) envolveu um Agravo em Recurso Especial que tratava de uma Dívida Ativa e sua execução fiscal, que é o processo judicial pelo qual o governo cobra seus devedores. O recurso buscava reverter uma decisão que impediu o Recurso Especial, e o caso foi agora finalizado no STJ e devolvido à instância de origem.",
+    "por_que_importa": "As decisões do STJ sobre dívidas ativas impactam tanto a forma como o poder público cobra seus impostos quanto os direitos dos cidadãos e empresas que são alvo de execuções fiscais.",
+    "angulos": [
+      "Como os cidadãos e empresas podem se defender de execuções fiscais.",
+      "O papel do STJ na uniformização de entendimentos sobre dívidas públicas.",
+      "As consequências da 'baixa definitiva' para o prosseguimento de uma execução fiscal."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo em Recurso Especial",
+        "definicao": "Recurso direcionado ao STJ contra decisão que inadmitiu o Recurso Especial."
+      },
+      {
+        "termo": "Baixa Definitiva",
+        "definicao": "Ocorre quando o processo é encerrado em uma instância superior e enviado de volta à instância de origem para arquivamento final e cumprimento da decisão, não sendo mais possível recorrer no âmbito daquele tribunal superior."
+      }
+    ],
+    "numeroProcesso": "00606108920248190000",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "PRESIDÃŠNCIA",
+    "assuntos": [
+      "Dívida Ativa (Execução Fiscal)"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.737000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-03-09T15:33:35.000Z"
+  },
+  {
+    "titulo": "Nova Publicação em recurso do STJ sobre ICMS",
+    "resumo_simples": "Este processo no Superior Tribunal de Justiça (STJ) é um Agravo em Recurso Especial que questiona decisões relacionadas ao ICMS, o Imposto sobre Circulação de Mercadorias. O último movimento registrado foi uma Publicação, que significa que alguma decisão ou ato do processo foi tornado público, informando as partes sobre o andamento do caso.",
+    "por_que_importa": "As decisões do STJ sobre o ICMS têm um impacto direto nos negócios, nos preços dos produtos e nos cofres públicos, afetando a economia e o dia a dia de todos os cidadãos.",
+    "angulos": [
+      "O que é o ICMS e como ele afeta o consumidor final.",
+      "A importância das decisões do STJ para a interpretação de impostos.",
+      "Como as 'publicações' judiciais informam o andamento dos processos."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo em Recurso Especial",
+        "definicao": "Recurso direcionado ao STJ contra decisão que inadmitiu o Recurso Especial."
+      },
+      {
+        "termo": "Publicação",
+        "definicao": "Ato de tornar pública uma decisão, despacho ou qualquer outro movimento processual, geralmente por meio de diários oficiais, para que as partes e advogados tenham ciência."
+      }
+    ],
+    "numeroProcesso": "50014834220108210010",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DO MINISTRO MARCO AURÃ‰LIO BELLIZZE",
+    "assuntos": [
+      "ICMS/ Imposto sobre Circulação de Mercadorias"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.737000Z",
+    "ultimoMovimento": "Publicação",
+    "dataUltimoMovimento": "2026-06-15T00:38:53.000Z"
+  },
+  {
+    "titulo": "Caso de ICMS no STJ avança com nova Petição",
+    "resumo_simples": "Este processo no Superior Tribunal de Justiça (STJ) é um Agravo em Recurso Especial que discute questões relacionadas ao ICMS, um imposto que incide sobre a circulação de mercadorias. Uma nova Petição, que é um documento formal com um pedido ou informação, foi apresentada, indicando o prosseguimento das discussões legais sobre o tributo.",
+    "por_que_importa": "As definições sobre o ICMS pelo STJ são cruciais para empresas e consumidores, pois afetam diretamente o custo de produtos e serviços, além da arrecadação de impostos pelos estados.",
+    "angulos": [
+      "A complexidade do ICMS e os desafios jurídicos para empresas.",
+      "Como as Petições podem influenciar o desfecho de um caso tributário.",
+      "O papel do STJ na uniformização de entendimentos sobre impostos estaduais."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo em Recurso Especial",
+        "definicao": "Recurso direcionado ao STJ contra decisão que inadmitiu o Recurso Especial."
+      },
+      {
+        "termo": "Petição",
+        "definicao": "Ato de apresentar um documento formal com um pedido ou informação ao juiz ou tribunal."
+      }
+    ],
+    "numeroProcesso": "02582278520228060001",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DO MINISTRO MARCO AURÃ‰LIO BELLIZZE",
+    "assuntos": [
+      "ICMS/ Imposto sobre Circulação de Mercadorias"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.736000Z",
+    "ultimoMovimento": "Petição",
+    "dataUltimoMovimento": "2026-05-05T17:51:00.000Z"
+  },
+  {
+    "titulo": "Recurso sobre Previdência Privada e Obrigação de Fazer é remetido no STJ",
+    "resumo_simples": "Este processo no Superior Tribunal de Justiça (STJ) é um Agravo em Recurso Especial que envolve questões de previdência privada e uma 'Obrigação de Fazer ou Não Fazer', que é uma determinação judicial para que alguém realize ou deixe de realizar uma ação. O processo foi recentemente enviado (remetido) para outro órgão ou instância, indicando continuidade do trâmite.",
+    "por_que_importa": "Casos que envolvem previdência privada e obrigações judiciais impactam diretamente o planejamento financeiro e os direitos de muitos cidadãos, e a decisão do STJ pode criar precedentes importantes para casos semelhantes.",
+    "angulos": [
+      "Quais são as 'Obrigações de Fazer ou Não Fazer' mais comuns em casos de previdência.",
+      "O processo de 'remessa' de um caso e o que ele significa para as partes.",
+      "Como o STJ uniformiza o entendimento sobre direitos em previdência privada."
+    ],
+    "glossario": [
+      {
+        "termo": "Agravo em Recurso Especial",
+        "definicao": "Recurso direcionado ao STJ contra decisão que inadmitiu o Recurso Especial."
+      },
+      {
+        "termo": "Obrigação de Fazer / Não Fazer",
+        "definicao": "Determinação judicial que impõe a uma das partes a realização de uma ação específica ou a abstenção de alguma conduta."
+      },
+      {
+        "termo": "Remessa",
+        "definicao": "Ato de enviar o processo de um órgão judiciário para outro, ou de uma instância para outra, para prosseguimento ou cumprimento de decisões."
+      }
+    ],
+    "numeroProcesso": "51576529820218210001",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "PRESIDÃŠNCIA",
+    "assuntos": [
+      "Previdência privada",
+      "Obrigação de Fazer / Não Fazer"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.736000Z",
+    "ultimoMovimento": "Remessa",
+    "dataUltimoMovimento": "2026-03-09T16:22:06.000Z"
+  }
+]

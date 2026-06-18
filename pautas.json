@@ -1,1 +1,124 @@
-[]
+[
+  {
+    "numeroProcesso": "23081797320248260000",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DO MINISTRO RICARDO VILLAS BÃAS CUEVA",
+    "assuntos": [
+      "Confissão/Composição de Dívida"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.742000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-06-01T15:23:08.000Z",
+    "titulo": "Agravo em Recurso Especial — Confissão/Composição de Dívida"
+  },
+  {
+    "numeroProcesso": "00252117720138180140",
+    "classe": "Recurso Especial",
+    "orgaoJulgador": "Superior Tribunal de JustiÃ§a",
+    "assuntos": [
+      "Homicídio Qualificado"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.742000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-05-05T18:03:05.000Z",
+    "titulo": "Recurso Especial — Homicídio Qualificado"
+  },
+  {
+    "numeroProcesso": "50238525120258240000",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "Superior Tribunal de JustiÃ§a",
+    "assuntos": [
+      "Previdência privada"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.741000Z",
+    "ultimoMovimento": "Petição",
+    "dataUltimoMovimento": "2026-06-01T17:36:01.000Z",
+    "titulo": "Agravo em Recurso Especial — Previdência privada"
+  },
+  {
+    "numeroProcesso": "10297496320238260576",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DA MINISTRA NANCY ANDRIGHI",
+    "assuntos": [
+      "Bancários",
+      "Indenização por Dano Moral"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.740000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-03-06T14:03:07.000Z",
+    "titulo": "Agravo em Recurso Especial — Bancários, Indenização por Dano Moral"
+  },
+  {
+    "numeroProcesso": "15007260420248260536",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DO MINISTRO MESSOD AZULAY NETO",
+    "assuntos": [
+      "Tráfico de Drogas e Condutas Afins"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.739000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-03-03T14:33:08.000Z",
+    "titulo": "Agravo em Recurso Especial — Tráfico de Drogas e Condutas Afins"
+  },
+  {
+    "numeroProcesso": "03824032220253000000",
+    "classe": "Habeas Corpus",
+    "orgaoJulgador": "GABINETE DO MINISTRO OG FERNANDES",
+    "assuntos": [
+      "Tráfico de Drogas e Condutas Afins"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.738000Z",
+    "ultimoMovimento": "Definitivo",
+    "dataUltimoMovimento": "2026-03-25T14:23:04.000Z",
+    "titulo": "Habeas Corpus — Tráfico de Drogas e Condutas Afins"
+  },
+  {
+    "numeroProcesso": "00606108920248190000",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "PRESIDÃNCIA",
+    "assuntos": [
+      "Dívida Ativa (Execução Fiscal)"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.737000Z",
+    "ultimoMovimento": "Baixa Definitiva",
+    "dataUltimoMovimento": "2026-03-09T15:33:35.000Z",
+    "titulo": "Agravo em Recurso Especial — Dívida Ativa (Execução Fiscal)"
+  },
+  {
+    "numeroProcesso": "50014834220108210010",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DO MINISTRO MARCO AURÃLIO BELLIZZE",
+    "assuntos": [
+      "ICMS/ Imposto sobre Circulação de Mercadorias"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.737000Z",
+    "ultimoMovimento": "Publicação",
+    "dataUltimoMovimento": "2026-06-15T00:38:53.000Z",
+    "titulo": "Agravo em Recurso Especial — ICMS/ Imposto sobre Circulação de Mercadorias"
+  },
+  {
+    "numeroProcesso": "02582278520228060001",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "GABINETE DO MINISTRO MARCO AURÃLIO BELLIZZE",
+    "assuntos": [
+      "ICMS/ Imposto sobre Circulação de Mercadorias"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.736000Z",
+    "ultimoMovimento": "Petição",
+    "dataUltimoMovimento": "2026-05-05T17:51:00.000Z",
+    "titulo": "Agravo em Recurso Especial — ICMS/ Imposto sobre Circulação de Mercadorias"
+  },
+  {
+    "numeroProcesso": "51576529820218210001",
+    "classe": "Agravo em Recurso Especial",
+    "orgaoJulgador": "PRESIDÃNCIA",
+    "assuntos": [
+      "Previdência privada",
+      "Obrigação de Fazer / Não Fazer"
+    ],
+    "ultimaAtualizacao": "2026-06-18T09:11:19.736000Z",
+    "ultimoMovimento": "Remessa",
+    "dataUltimoMovimento": "2026-03-09T16:22:06.000Z",
+    "titulo": "Agravo em Recurso Especial — Previdência privada, Obrigação de Fazer / Não Fazer"
+  }
+]
