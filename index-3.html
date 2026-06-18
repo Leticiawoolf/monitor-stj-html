@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monitor STJ — Sugestões de Pauta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #ffffff; --bg2: #f5f5f5; --border: #e0e0e0; --border2: #cccccc;
+      --text: #1a1a1a; --text2: #555555; --accent: #185FA5; --accent-bg: #E6F1FB;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); padding: 1.5rem 1rem; }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .header h1 { font-size: 20px; font-weight: 600; }
+    .header p { font-size: 13px; color: var(--text2); margin-top: 4px; }
+    .badge { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; background: #EAF3DE; color: #3B6D11; border-radius: 20px; padding: 3px 10px; font-weight: 500; }
+    .dot { width: 6px; height: 6px; border-radius: 50%; background: #639922; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1}50%{opacity:.3} }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-bottom: 1.5rem; }
+    .stat { background: var(--bg2); border-radius: 10px; padding: 12px 14px; }
+    .stat .num { font-size: 22px; font-weight: 600; }
+    .stat .lbl { font-size: 11px; color: var(--text2); margin-top: 2px; }
+    .cards { display: flex; flex-direction: column; gap: 10px; }
+    .card { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; cursor: pointer; transition: border-color .15s; }
+    .card:hover { border-color: var(--border2); }
+    .card.open { border-color: var(--border2); }
+    .card-header { display: flex; align-items: flex-start; gap: 10px; }
+    .card-title { font-size: 15px; font-weight: 500; flex: 1; line-height: 1.4; }
+    .card-meta { display: flex; gap: 12px; margin-top: 8px; flex-wrap: wrap; }
+    .card-meta span { font-size: 12px; color: var(--text2); }
+    .proc { font-size: 11px; font-family: monospace; background: var(--bg2); padding: 2px 7px; border-radius: 4px; color: var(--text2); }
+    .body { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); display: none; }
+    .card.open .body { display: block; }
+    .section { margin-bottom: 14px; }
+    .section h4 { font-size: 11px; font-weight: 600; color: var(--text2); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+    .section p { font-size: 13px; line-height: 1.6; }
+    .movimento { font-size: 13px; padding: 7px 10px; background: var(--bg2); border-radius: 8px; line-height: 1.5; }
+    .movimento::before { content: "→ "; color: #378ADD; font-weight: 600; }
+    .chevron { font-size: 14px; color: var(--text2); flex-shrink: 0; margin-top: 2px; transition: transform .2s; }
+    .card.open .chevron { transform: rotate(180deg); }
+    .footer { font-size: 11px; color: var(--text2); margin-top: 1.5rem; text-align: right; }
+    .vazio { text-align: center; padding: 3rem; color: var(--text2); font-size: 14px; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div>
+      <h1>Monitor STJ <span class="badge"><span class="dot"></span>Automático · a cada 3h</span></h1>
+      <p>Processos com movimentação recente · Fonte: DataJud/CNJ via GitHub Actions</p>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="num" id="totalProcessos">—</div><div class="lbl">Processos encontrados</div></div>
+    <div class="stat"><div class="num">STJ</div><div class="lbl">Tribunal monitorado</div></div>
+    <div class="stat"><div class="num">3h</div><div class="lbl">Frequência de captura</div></div>
+    <div class="stat"><div class="num" id="ultimaData">—</div><div class="lbl">Última movimentação</div></div>
+  </div>
+
+  <div class="cards" id="cards"></div>
+  <p class="footer">Fonte: <a href="https://datajud-wiki.cnj.jus.br" target="_blank">DataJud/CNJ</a> · dados oficiais do Conselho Nacional de Justiça</p>
+</div>
+
+<script>
+const PROCESSOS_DATA = [];
+
+let expandidos = new Set();
+
+function init() {
+  const processos = PROCESSOS_DATA;
+  const grid = document.getElementById("cards");
+
+  if (!processos.length) {
+    grid.innerHTML = '<div class="vazio">Nenhum processo com movimentação recente no momento.</div>';
+    document.getElementById("totalProcessos").textContent = "0";
+    return;
+  }
+
+  document.getElementById("totalProcessos").textContent = processos.length;
+
+  const datas = processos.map(p => p.dataUltimoMovimento).filter(Boolean).sort().reverse();
+  if (datas.length) {
+    const d = new Date(datas[0]);
+    document.getElementById("ultimaData").textContent =
+      d.toLocaleDateString("pt-BR", { day: "2-digit", month: "short", year: "numeric" });
+  }
+
+  grid.innerHTML = processos.map((p, i) => {
+    const assuntos = (p.assuntos || []).join(", ") || "—";
+    const data = p.dataUltimoMovimento
+      ? new Date(p.dataUltimoMovimento).toLocaleDateString("pt-BR", { day: "2-digit", month: "short", year: "numeric" })
+      : "—";
+    return `
+    <div class="card" onclick="toggle(${i})">
+      <div class="card-header">
+        <span class="card-title">${p.classe || "Processo"} · ${assuntos}</span>
+        <i class="fa-solid fa-chevron-down chevron"></i>
+      </div>
+      <div class="card-meta">
+        <span>📅 ${data}</span>
+        <span>👤 ${p.orgaoJulgador || "—"}</span>
+        <span class="proc">${p.numeroProcesso || "—"}</span>
+      </div>
+      <div class="body">
+        <div class="section">
+          <h4>Último movimento</h4>
+          <div class="movimento">${p.ultimoMovimento || "—"} <span style="color:var(--text2);font-size:11px">(${data})</span></div>
+        </div>
+        <div class="section">
+          <h4>Assuntos</h4>
+          <p>${assuntos}</p>
+        </div>
+        <div class="section">
+          <h4>Órgão julgador</h4>
+          <p>${p.orgaoJulgador || "—"}</p>
+        </div>
+        <div class="section">
+          <h4>Número do processo</h4>
+          <p class="proc">${p.numeroProcesso || "—"}</p>
+        </div>
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function toggle(id) {
+  const cards = document.querySelectorAll(".card");
+  const card = cards[id];
+  if (!card) return;
+  card.classList.toggle("open");
+}
+
+init();
+</script>
+</body>
+</html>
