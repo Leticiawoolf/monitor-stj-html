@@ -9,13 +9,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.746000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-28T00:05:00.000Z",
-    "titulo": "Contestação de Decisão Judicial sobre Dívidas Excessivas",
-    "resumo_simples": "Este processo é um recurso (Agravo de Instrumento) apresentado para contestar uma decisão provisória de um juiz. O caso trata do superendividamento, que é a situação em que uma pessoa não consegue pagar suas dívidas de consumo sem comprometer o mínimo para sua sobrevivência.",
-    "por_que_importa": "O caso é relevante pois pode definir como a Justiça lida com pessoas em situação de dívidas muito altas, buscando equilibrar o pagamento dos débitos com a garantia de uma vida digna, e quais medidas provisórias podem ser aplicadas nesses cenários.",
+    "titulo": "Revisão Judicial de Dívidas Excessivas",
+    "resumo_simples": "Uma pessoa endividada demais está questionando uma decisão intermediária do juiz sobre o caso, tentando organizar suas dívidas para conseguir pagá-las sem comprometer o mínimo para sua sobrevivência.",
+    "por_que_importa": "Essa ação pode ajudar quem está afogado em dívidas a renegociá-las de forma mais justa, protegendo seu sustento e dignidade financeira.",
     "angulos": [
-      "Como a Justiça está protegendo consumidores superendividados.",
-      "O papel dos recursos em casos de superendividamento: o que eles podem mudar.",
-      "Direitos e deveres do consumidor em situação de superendividamento."
+      "Como a Lei do Superendividamento pode salvar o orçamento familiar.",
+      "Passo a passo: o que fazer se você estiver superendividado.",
+      "Decisões judiciais que protegem o consumidor contra dívidas impagáveis."
     ],
     "glossario": [
       {
@@ -24,7 +24,7 @@
       },
       {
         "termo": "Superendividamento",
-        "definicao": "Situação em que uma pessoa física não consegue pagar suas dívidas de consumo (empréstimos, cartões de crédito, etc.) sem comprometer o mínimo para sua subsistência."
+        "definicao": "Situação em que uma pessoa, de boa-fé, assume dívidas que excedem sua capacidade de pagamento, comprometendo o mínimo necessário para sua subsistência. A legislação busca proteger o consumidor nessa situação, permitindo a renegociação."
       },
       {
         "termo": "Desembargador",
@@ -39,16 +39,8 @@
         "definicao": "Aquele com atribuição de aplicar a lei e julgar os casos na 1ª instância."
       },
       {
-        "termo": "Processo em andamento",
-        "definicao": "Conjunto de atos ordenados para resolver um conflito de interesses perante o Poder Judiciário."
-      },
-      {
-        "termo": "Magistrado",
-        "definicao": "Autoridade judicial responsável por julgar e decidir questões legais, podendo ser um Juiz ou Desembargador."
-      },
-      {
         "termo": "Publicação",
-        "definicao": "Ato oficial de divulgar informações sobre o processo, como decisões ou intimações, tornando-as de conhecimento público."
+        "definicao": "Ato de tornar público um ato ou decisão judicial, geralmente para fins de intimação ou conhecimento das partes."
       }
     ]
   },
@@ -63,38 +55,30 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.639000Z",
     "ultimoMovimento": "Baixa Definitiva",
     "dataUltimoMovimento": "2026-05-22T12:54:00.000Z",
-    "titulo": "Revisão de Sentença: Acidente de Trânsito e Devolução de Valores Pagos Erradamente",
-    "resumo_simples": "Uma das partes entrou com um recurso (Apelação Cível) para que uma decisão judicial seja revista. O processo envolve um acidente de trânsito e a discussão sobre a devolução de valores que teriam sido pagos indevidamente por alguém (Repetição do Indébito).",
-    "por_que_importa": "O resultado deste caso pode estabelecer precedentes sobre como indenizações são concedidas a vítimas de acidentes de trânsito e as regras para a devolução de valores pagos por engano, impactando tanto consumidores quanto empresas em situações semelhantes.",
+    "titulo": "Recurso sobre Acidente de Trânsito e Devolução de Valores Pagos Incorretamente",
+    "resumo_simples": "Uma das partes está apelando da decisão de primeira instância sobre um caso que envolveu um acidente de trânsito. O recurso também trata da possibilidade de uma das partes receber de volta valores que foram pagos a mais ou de forma indevida.",
+    "por_que_importa": "Esse caso pode definir responsabilidades em acidentes e garantir que as pessoas não paguem mais do que devem, impactando a forma como se lida com prejuízos e cobranças indevidas.",
     "angulos": [
-      "Direitos da vítima de acidente de trânsito: o que pode ser pedido na Justiça.",
-      "Como funciona a devolução de valores pagos por engano no sistema jurídico.",
-      "Prevenção de acidentes e responsabilidade civil: lições dos tribunais."
+      "Os direitos do consumidor em caso de cobrança indevida após um acidente.",
+      "Como a justiça decide sobre indenizações em acidentes de trânsito.",
+      "A importância de recorrer de decisões judiciais para garantir justiça."
     ],
     "glossario": [
       {
         "termo": "Apelação Cível",
-        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento em questões que tratam de direitos privados, não criminais."
-      },
-      {
-        "termo": "Apelação",
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Cível",
-        "definicao": "Refere-se a questões que tratam de direitos privados, não criminais, como disputas entre pessoas, empresas ou sobre bens."
-      },
-      {
         "termo": "Acidente de Trânsito",
-        "definicao": "Evento inesperado ocorrido no tráfego, envolvendo veículos e que resulta em danos materiais ou lesões corporais."
+        "definicao": "Um evento envolvendo veículos que causa danos, geralmente em via pública."
       },
       {
         "termo": "Repetição do Indébito",
-        "definicao": "Ação de exigir a devolução de um valor pago indevidamente, ou seja, que não era devido ou foi pago em excesso."
+        "definicao": "O direito de pedir a devolução de valores pagos de forma indevida ou em excesso."
       },
       {
         "termo": "Baixa Definitiva",
-        "definicao": "Ocorre quando o processo é enviado à unidade onde ele foi iniciado, indicando o encerramento da tramitação no tribunal superior."
+        "definicao": "O encerramento e envio do processo à instância de origem após a finalização de todas as etapas judiciais."
       }
     ]
   },
@@ -108,46 +92,30 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.616000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-14T00:05:00.000Z",
-    "titulo": "Recurso sobre Cobrança Judicial de Dívida com o Governo",
-    "resumo_simples": "Este é um recurso (Apelação Cível) que busca a revisão de uma decisão judicial sobre uma dívida com o governo. O caso se refere a uma Execução Fiscal, que é o processo pelo qual o Poder Público cobra valores devidos, como impostos não pagos ou multas.",
-    "por_que_importa": "O processo afeta diretamente quem tem débitos com o governo, como impostos ou multas, e pode definir os limites e as formas de cobrança dessas dívidas, com possíveis consequências como bloqueio de bens para o cidadão comum.",
+    "titulo": "Recurso sobre Cobrança de Dívidas Governamentais",
+    "resumo_simples": "Uma das partes recorreu da decisão de primeira instância em um processo que envolve a cobrança de débitos que uma pessoa ou empresa deve ao governo. O objetivo é contestar a exigência ou a forma dessa cobrança.",
+    "por_que_importa": "Este caso afeta quem tem dívidas com o governo (como impostos e multas) e busca formas de contestar ou renegociar esses valores, impactando a relação entre cidadãos e a administração pública.",
     "angulos": [
-      "Como evitar cair na dívida ativa e quais são as consequências.",
-      "Direitos do contribuinte em processos de execução fiscal.",
-      "As diferentes formas de cobrança de dívidas públicas e como contestá-las."
+      "Como se defender de uma execução fiscal.",
+      "Os direitos dos contribuintes na cobrança de dívida ativa.",
+      "Quando e como contestar multas e impostos governamentais."
     ],
     "glossario": [
       {
         "termo": "Apelação Cível",
-        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento em questões que tratam de direitos privados, não criminais."
-      },
-      {
-        "termo": "Apelação",
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Cível",
-        "definicao": "Refere-se a questões que tratam de direitos privados, não criminais, como disputas entre pessoas, empresas ou sobre bens."
-      },
-      {
         "termo": "Dívida Ativa",
-        "definicao": "Débito (dinheiro a ser pago) que uma pessoa física ou jurídica tem com o Poder Público (União, Estados, Municípios)."
+        "definicao": "Conjunto de débitos que uma pessoa ou empresa tem com o governo (União, Estados, Municípios), como impostos não pagos ou multas."
       },
       {
         "termo": "Execução Fiscal",
-        "definicao": "Ação judicial específica movida pelo Poder Público para cobrar dívidas ativas (débitos com o governo) de contribuintes, podendo levar à penhora de bens."
-      },
-      {
-        "termo": "Ação Judicial",
-        "definicao": "Meio processual para a defesa de um direito, levando o caso ao Poder Judiciário."
-      },
-      {
-        "termo": "Penhora",
-        "definicao": "Instrumento judicial para reter bens do devedor, garantindo seu uso posterior para pagamento da dívida."
+        "definicao": "Ação judicial que o governo utiliza para cobrar judicialmente suas dívidas ativas."
       },
       {
         "termo": "Publicação",
-        "definicao": "Ato oficial de divulgar informações sobre o processo, como decisões ou intimações, tornando-as de conhecimento público."
+        "definicao": "Ato de tornar público um ato ou decisão judicial, geralmente para fins de intimação ou conhecimento das partes."
       }
     ]
   },
@@ -161,34 +129,26 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.555000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-20T00:05:00.000Z",
-    "titulo": "Recurso sobre Devolução de Valores Pagos por Engano",
-    "resumo_simples": "Trata-se de um recurso (Apelação Cível) que pede a revisão de uma decisão judicial. O foco do processo é a 'Repetição do Indébito', ou seja, a devolução de valores que foram pagos por engano, em excesso ou de forma indevida.",
-    "por_que_importa": "O desfecho deste caso pode influenciar como empresas e consumidores devem proceder quando há pagamentos indevidos, garantindo o direito à restituição e estabelecendo precedentes para situações futuras que afetam o bolso do cidadão.",
+    "titulo": "Recurso sobre Devolução de Valores Pagos Incorretamente",
+    "resumo_simples": "Uma das partes está apelando da decisão de primeira instância em um processo que busca a devolução de valores que foram pagos a mais ou de forma indevida. O objetivo é reverter a decisão anterior e garantir o ressarcimento.",
+    "por_que_importa": "Esse caso pode garantir que o consumidor ou cidadão comum não seja lesado por cobranças indevidas, assegurando o direito de reaver dinheiro pago a mais.",
     "angulos": [
-      "Seus direitos na hora de pedir a devolução de um pagamento errado.",
-      "Casos comuns de 'repetição do indébito': de contas duplicadas a cobranças abusivas.",
-      "Como a Justiça decide sobre quem deve devolver e quem deve receber."
+      "Como exigir a devolução de pagamentos indevidos.",
+      "Os direitos do consumidor em caso de cobrança abusiva.",
+      "Quando um pagamento pode ser considerado 'indébito' pela justiça."
     ],
     "glossario": [
       {
         "termo": "Apelação Cível",
-        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento em questões que tratam de direitos privados, não criminais."
-      },
-      {
-        "termo": "Apelação",
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Cível",
-        "definicao": "Refere-se a questões que tratam de direitos privados, não criminais, como disputas entre pessoas, empresas ou sobre bens."
-      },
-      {
         "termo": "Repetição do Indébito",
-        "definicao": "Ação de exigir a devolução de um valor pago indevidamente, ou seja, que não era devido ou foi pago em excesso."
+        "definicao": "O direito de pedir a devolução de valores pagos de forma indevida ou em excesso."
       },
       {
         "termo": "Publicação",
-        "definicao": "Ato oficial de divulgar informações sobre o processo, como decisões ou intimações, tornando-as de conhecimento público."
+        "definicao": "Ato de tornar público um ato ou decisão judicial, geralmente para fins de intimação ou conhecimento das partes."
       }
     ]
   },
@@ -204,46 +164,34 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.546000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-20T00:05:00.000Z",
-    "titulo": "Revisão de Sentença: Atraso na Entrega de Imóvel, Desfazimento de Contrato e Devolução de Valores",
-    "resumo_simples": "Uma das partes busca, por meio de recurso (Apelação Cível), a revisão de uma decisão judicial. O processo envolve o atraso na entrega de um imóvel, o pedido de desfazimento do contrato de compra e venda e a devolução dos valores pagos, além de uma possível inclusão indevida do nome em cadastros de devedores.",
-    "por_que_importa": "O caso é crucial para compradores de imóveis na planta, estabelecendo direitos e compensações em caso de atrasos na entrega e definindo regras para a proteção do consumidor contra inclusões indevidas em cadastros de inadimplentes.",
+    "titulo": "Recurso sobre Problemas na Compra de Imóvel e Inclusão em Listas de Devedores",
+    "resumo_simples": "Uma das partes recorreu da decisão de primeira instância em um caso que trata de atraso na entrega de um imóvel, pedido de anulação do contrato com devolução do dinheiro, e a inclusão indevida do nome da pessoa em cadastros de devedores.",
+    "por_que_importa": "Este processo é importante para quem compra imóveis, pois discute os direitos do consumidor em caso de atrasos e a proteção contra ter o nome negativado injustamente, impactando a segurança nas transações imobiliárias e a reputação financeira.",
     "angulos": [
-      "Direitos do consumidor em casos de atraso na entrega de imóveis.",
-      "Quando é possível pedir a rescisão do contrato e a devolução do dinheiro na compra de imóveis.",
-      "Como proteger seu nome de inclusões indevidas em cadastros de inadimplentes."
+      "Seus direitos ao comprar um imóvel na planta: o que fazer em caso de atraso.",
+      "Como limpar o nome de cadastros de inadimplentes quando a dívida é indevida.",
+      "Ações judiciais comuns no mercado imobiliário e como se proteger."
     ],
     "glossario": [
       {
         "termo": "Apelação Cível",
-        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento em questões que tratam de direitos privados, não criminais."
-      },
-      {
-        "termo": "Apelação",
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Cível",
-        "definicao": "Refere-se a questões que tratam de direitos privados, não criminais, como disputas entre pessoas, empresas ou sobre bens."
-      },
-      {
         "termo": "Atraso na Entrega do Imóvel",
-        "definicao": "Descumprimento do prazo contratual para a entrega de um imóvel ao comprador."
+        "definicao": "O descumprimento do prazo estabelecido em contrato para a entrega de um imóvel ao comprador."
       },
       {
         "termo": "Rescisão do contrato e devolução do dinheiro",
-        "definicao": "Desfazimento de um acordo (contrato) devido a uma quebra de suas condições, resultando no retorno dos valores pagos às partes."
+        "definicao": "Anulação de um contrato e o pedido de restituição dos valores já pagos em decorrência dessa anulação."
       },
       {
         "termo": "Inclusão Indevida em Cadastro de Inadimplentes",
-        "definicao": "Registro injustificado do nome de uma pessoa em serviços de proteção ao crédito (como SPC ou Serasa), por uma dívida inexistente ou já paga."
-      },
-      {
-        "termo": "Inadimplência",
-        "definicao": "Não cumprimento de um contrato; não pagamento da dívida no vencimento."
+        "definicao": "O registro do nome de uma pessoa em órgãos de proteção ao crédito, como SPC ou Serasa, sem que haja uma dívida legítima ou por erro."
       },
       {
         "termo": "Publicação",
-        "definicao": "Ato oficial de divulgar informações sobre o processo, como decisões ou intimações, tornando-as de conhecimento público."
+        "definicao": "Ato de tornar público um ato ou decisão judicial, geralmente para fins de intimação ou conhecimento das partes."
       }
     ]
   },
@@ -257,13 +205,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.543000Z",
     "ultimoMovimento": "Definitivo",
     "dataUltimoMovimento": "2026-05-19T17:54:00.000Z",
-    "titulo": "Contestação de Decisão Judicial sobre Ameaça à Posse de Imóvel",
-    "resumo_simples": "Este é um recurso (Agravo de Instrumento) que questiona uma decisão provisória de um juiz. O caso trata de situações onde há impedimento, perturbação ou ameaça ao direito de posse de alguém sobre um bem, geralmente um imóvel (Esbulho, Turbação ou Ameaça).",
-    "por_que_importa": "A decisão pode definir como se garante o direito à posse de propriedades e quais medidas podem ser tomadas para proteger bens contra invasões, ocupações ou perturbações, impactando diretamente proprietários e ocupantes de imóveis.",
+    "titulo": "Revisão Judicial sobre Problemas de Posse de Imóvel",
+    "resumo_simples": "Uma das partes recorreu de uma decisão intermediária do juiz que discute situações onde houve a perda ilegal da posse de um bem, a perturbação do uso de uma propriedade, ou ameaças de que isso possa acontecer.",
+    "por_que_importa": "Esse caso é fundamental para a proteção da propriedade e da posse de bens, garantindo que ninguém seja privado ou perturbado em seu direito de usar e gozar do que é seu, impactando a segurança jurídica de proprietários e possuidores.",
     "angulos": [
-      "Como proteger seu imóvel de invasões ou ocupações indevidas.",
-      "O que a lei diz sobre posse e propriedade no Brasil.",
-      "A importância das decisões provisórias para garantir direitos em casos urgentes."
+      "Como se defender de invasões ou perturbações de propriedade.",
+      "Os direitos do proprietário e do possuidor no Brasil.",
+      "Medidas judiciais para proteger seu imóvel de ameaças."
     ],
     "glossario": [
       {
@@ -271,8 +219,16 @@
         "definicao": "Recurso apresentado ao Desembargador contra uma decisão interlocutória dada por um Juiz em um processo em andamento na 1ª instância."
       },
       {
-        "termo": "Esbulho / Turbação / Ameaça",
-        "definicao": "Atos que impedem, dificultam ou ameaçam o pleno exercício do direito de posse sobre um bem ou propriedade."
+        "termo": "Esbulho",
+        "definicao": "Ato de retirar ilegalmente a posse de um bem de alguém."
+      },
+      {
+        "termo": "Turbação",
+        "definicao": "Ato de perturbar ou atrapalhar o exercício da posse de um bem, sem que haja a perda total da posse."
+      },
+      {
+        "termo": "Ameaça",
+        "definicao": "Qualquer ato que configure risco iminente de esbulho ou turbação da posse."
       },
       {
         "termo": "Desembargador",
@@ -287,12 +243,8 @@
         "definicao": "Aquele com atribuição de aplicar a lei e julgar os casos na 1ª instância."
       },
       {
-        "termo": "Magistrado",
-        "definicao": "Autoridade judicial responsável por julgar e decidir questões legais, podendo ser um Juiz ou Desembargador."
-      },
-      {
         "termo": "Definitivo",
-        "definicao": "Indica que uma decisão ou movimentação processual é final e não está sujeita a novos recursos ou análises naquele estágio."
+        "definicao": "Indica que o processo chegou ao seu fim, com todas as decisões proferidas e recursos esgotados, sendo arquivado ou baixado."
       }
     ]
   },
@@ -309,54 +261,38 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.371000Z",
     "ultimoMovimento": "Conclusão",
     "dataUltimoMovimento": "2026-06-08T09:26:00.000Z",
-    "titulo": "Revisão de Sentença: Indenização por Acidente de Trânsito e Fornecimento de Itens Essenciais",
-    "resumo_simples": "Uma das partes recorreu (Apelação Cível) para tentar mudar o resultado de um julgamento. O processo trata de um acidente de trânsito, a necessidade de fornecimento de insumos essenciais, uma obrigação imposta judicialmente e uma possível inclusão indevida em cadastros de devedores.",
-    "por_que_importa": "O caso pode influenciar os direitos de quem sofre acidentes de trânsito, a garantia de acesso a produtos ou serviços essenciais e a proteção do consumidor contra práticas abusivas de cobrança e inclusão em cadastros negativos.",
+    "titulo": "Recurso sobre Acidente, Fornecimento e Nome Negativado",
+    "resumo_simples": "Uma das partes recorreu da decisão em primeira instância sobre um caso complexo que envolve um acidente de trânsito, a obrigação de fornecer materiais ou serviços, a necessidade de fazer ou não fazer algo, e ainda uma possível inclusão injusta em listas de devedores.",
+    "por_que_importa": "Este caso abrange diversas situações do dia a dia, desde acidentes e a responsabilidade sobre eles, até o cumprimento de acordos e a proteção do nome do cidadão em cadastros de crédito, sendo relevante para garantir direitos e deveres em várias esferas.",
     "angulos": [
-      "Como buscar indenização e o que pedir após um acidente de trânsito.",
-      "O direito ao fornecimento de insumos essenciais, como medicamentos.",
-      "A importância de decisões judiciais para impor obrigações e proteger o consumidor."
+      "Como a justiça lida com acidentes de trânsito e suas consequências.",
+      "Os limites da obrigação de fazer e não fazer em contratos.",
+      "Direitos do consumidor: quando seu nome é negativado indevidamente."
     ],
     "glossario": [
       {
         "termo": "Apelação Cível",
-        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento em questões que tratam de direitos privados, não criminais."
-      },
-      {
-        "termo": "Apelação",
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Cível",
-        "definicao": "Refere-se a questões que tratam de direitos privados, não criminais, como disputas entre pessoas, empresas ou sobre bens."
-      },
-      {
         "termo": "Acidente de Trânsito",
-        "definicao": "Evento inesperado ocorrido no tráfego, envolvendo veículos e que resulta em danos materiais ou lesões corporais."
+        "definicao": "Um evento envolvendo veículos que causa danos, geralmente em via pública."
       },
       {
         "termo": "Fornecimento de insumos",
-        "definicao": "Disponibilização de materiais, produtos ou serviços essenciais para uma determinada atividade ou necessidade, como matérias-primas ou medicamentos."
+        "definicao": "Disponibilização de materiais, produtos ou serviços necessários para a execução de uma atividade ou produção."
       },
       {
         "termo": "Obrigação de Fazer / Não Fazer",
-        "definicao": "Determinação judicial para que alguém realize uma ação específica (fazer) ou se abstenha de realizá-la (não fazer)."
+        "definicao": "Determinação judicial para que uma das partes realize ou se abstenha de realizar uma determinada ação."
       },
       {
         "termo": "Inclusão Indevida em Cadastro de Inadimplentes",
-        "definicao": "Registro injustificado do nome de uma pessoa em serviços de proteção ao crédito (como SPC ou Serasa), por uma dívida inexistente ou já paga."
-      },
-      {
-        "termo": "Inadimplência",
-        "definicao": "Não cumprimento de um contrato; não pagamento da dívida no vencimento."
+        "definicao": "O registro do nome de uma pessoa em órgãos de proteção ao crédito, como SPC ou Serasa, sem que haja uma dívida legítima ou por erro."
       },
       {
         "termo": "Conclusão",
         "definicao": "Ato de enviar o processo ao Magistrado para que ele avalie a questão e tome a decisão cabível."
-      },
-      {
-        "termo": "Magistrado",
-        "definicao": "Autoridade judicial responsável por julgar e decidir questões legais, podendo ser um Juiz ou Desembargador."
       }
     ]
   },
@@ -371,38 +307,30 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.361000Z",
     "ultimoMovimento": "Baixa Definitiva",
     "dataUltimoMovimento": "2026-05-28T15:03:00.000Z",
-    "titulo": "Recurso sobre Tratamento Médico Após Acidente de Trânsito",
-    "resumo_simples": "Este processo é um recurso (Apelação Cível) para rever uma decisão judicial, centrado nas questões de tratamento médico-hospitalar e suas implicações após um acidente de trânsito, buscando definir responsabilidades e direitos à assistência.",
-    "por_que_importa": "O resultado pode influenciar o direito de vítimas de acidentes de trânsito a receber o tratamento médico adequado, e quem é responsável pelos custos, afetando seguradoras, hospitais, planos de saúde e o acesso à saúde para o cidadão comum.",
+    "titulo": "Recurso sobre Atendimento Médico Pós-Acidente de Trânsito",
+    "resumo_simples": "Uma das partes recorreu da decisão em primeira instância sobre um caso que envolveu um acidente de trânsito e as responsabilidades ligadas ao tratamento médico-hospitalar decorrente desse evento.",
+    "por_que_importa": "Este caso é crucial para definir quem deve arcar com os custos de tratamentos médicos após acidentes de trânsito, impactando diretamente a vida de vítimas e a responsabilidade de seguros e causadores de acidentes.",
     "angulos": [
-      "Como conseguir o tratamento médico necessário após um acidente de trânsito.",
-      "Direitos e deveres dos planos de saúde e hospitais em casos de urgência.",
-      "A importância da prova no processo judicial para garantir o custeio de tratamentos."
+      "Direitos das vítimas de acidentes de trânsito: cobertura de tratamentos.",
+      "Planos de saúde e seguros: quem paga a conta após um sinistro?",
+      "A importância da prova em processos de indenização por acidente."
     ],
     "glossario": [
       {
         "termo": "Apelação Cível",
-        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento em questões que tratam de direitos privados, não criminais."
-      },
-      {
-        "termo": "Apelação",
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Cível",
-        "definicao": "Refere-se a questões que tratam de direitos privados, não criminais, como disputas entre pessoas, empresas ou sobre bens."
-      },
-      {
         "termo": "Tratamento médico-hospitalar",
-        "definicao": "Conjunto de procedimentos e cuidados médicos prestados em ambiente hospitalar ou ambulatorial para diagnóstico, cura ou alívio de doenças, incluindo cirurgias e internações."
+        "definicao": "Conjunto de procedimentos e cuidados de saúde prestados por profissionais e instituições médicas a um paciente."
       },
       {
         "termo": "Acidente de Trânsito",
-        "definicao": "Evento inesperado ocorrido no tráfego, envolvendo veículos e que resulta em danos materiais ou lesões corporais."
+        "definicao": "Um evento envolvendo veículos que causa danos, geralmente em via pública."
       },
       {
         "termo": "Baixa Definitiva",
-        "definicao": "Ocorre quando o processo é enviado à unidade onde ele foi iniciado, indicando o encerramento da tramitação no tribunal superior."
+        "definicao": "O encerramento e envio do processo à instância de origem após a finalização de todas as etapas judiciais."
       }
     ]
   },
@@ -417,37 +345,25 @@
     "ultimoMovimento": "Conclusão",
     "dataUltimoMovimento": "2026-06-08T14:04:00.000Z",
     "titulo": "Recurso sobre o Princípio da Não Cumulatividade de Impostos",
-    "resumo_simples": "Este é um recurso (Apelação Cível) que busca a revisão de uma decisão judicial. O caso trata do princípio da Não Cumulatividade, que é uma regra tributária que permite às empresas abater impostos já pagos em etapas anteriores da produção, evitando cobranças em duplicidade.",
-    "por_que_importa": "O desfecho pode ter um impacto significativo para empresas e consumidores, pois define como impostos como ICMS e IPI são calculados, influenciando diretamente o custo final de produtos e serviços no mercado brasileiro.",
+    "resumo_simples": "Uma das partes recorreu da decisão em primeira instância sobre um caso que discute o princípio tributário da não cumulatividade. Esse princípio permite que empresas compensem impostos pagos em etapas anteriores da produção, evitando a cobrança repetida do mesmo imposto.",
+    "por_que_importa": "Este processo é importante para empresas e consumidores, pois a correta aplicação do princípio da não cumulatividade pode reduzir a carga tributária, influenciando os preços de produtos e serviços no mercado.",
     "angulos": [
-      "Como a Não Cumulatividade de impostos afeta o preço do que você compra.",
-      "O que as empresas podem fazer para garantir seus direitos tributários.",
-      "Os impactos das decisões judiciais sobre impostos na economia."
+      "Como a não cumulatividade dos impostos impacta o preço final dos produtos.",
+      "Empresas: como a gestão tributária pode gerar economia.",
+      "Entenda a guerra fiscal e o princípio da não cumulatividade."
     ],
     "glossario": [
       {
         "termo": "Apelação Cível",
-        "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento em questões que tratam de direitos privados, não criminais."
-      },
-      {
-        "termo": "Apelação",
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Cível",
-        "definicao": "Refere-se a questões que tratam de direitos privados, não criminais, como disputas entre pessoas, empresas ou sobre bens."
-      },
-      {
-        "termo": "Não Cumulatividade",
-        "definicao": "Princípio tributário que permite compensar o valor de um imposto pago em etapas anteriores da cadeia de produção ou comercialização, evitando que o mesmo imposto seja cobrado várias vezes sobre o mesmo produto ou serviço."
+        "termo": "Nao Cumulatividade",
+        "definicao": "Princípio tributário que permite a compensação do imposto devido em cada etapa da cadeia de produção ou circulação com o imposto cobrado nas etapas anteriores, evitando a cobrança em cascata sobre o mesmo bem ou serviço."
       },
       {
         "termo": "Conclusão",
         "definicao": "Ato de enviar o processo ao Magistrado para que ele avalie a questão e tome a decisão cabível."
-      },
-      {
-        "termo": "Magistrado",
-        "definicao": "Autoridade judicial responsável por julgar e decidir questões legais, podendo ser um Juiz ou Desembargador."
       }
     ]
   },
@@ -461,38 +377,26 @@
     "ultimaAtualizacao": "2026-06-14T14:13:54.918000Z",
     "ultimoMovimento": "Definitivo",
     "dataUltimoMovimento": "2026-06-08T14:18:00.000Z",
-    "titulo": "Recurso sobre Pedido de Progressão para Regime Prisional Menos Rígido",
-    "resumo_simples": "Este é um recurso (Agravo de Execução Penal) utilizado para contestar uma decisão de um juiz sobre o cumprimento de uma pena. O tema central é a Progressão de Regime, que é o benefício que permite a um condenado passar para um regime prisional mais brando, como do fechado para o semiaberto.",
-    "por_que_importa": "O caso é importante para entender as regras de cumprimento de pena no Brasil, os critérios para a progressão de regime prisional e os direitos dos apenados, refletindo na segurança pública e na ressocialização de indivíduos condenados.",
+    "titulo": "Recurso sobre Mudança para Regime Prisional Menos Rígido",
+    "resumo_simples": "Este é um recurso específico da área criminal, onde a defesa de um condenado busca revisar uma decisão sobre sua possível mudança para um regime de cumprimento de pena menos rigoroso.",
+    "por_que_importa": "O caso afeta diretamente os direitos de quem está cumprindo pena, discutindo a possibilidade de uma transição para regimes prisionais menos severos, sob certas condições legais.",
     "angulos": [
-      "Como funciona a progressão de regime e quais os requisitos para obtê-la.",
-      "O debate sobre a ressocialização de detentos e os regimes prisionais.",
-      "A influência da Justiça na gestão do sistema carcerário."
+      "Como funciona a progressão de regime prisional no Brasil.",
+      "Os direitos dos condenados e a ressocialização.",
+      "O papel do Agravo de Execução Penal na justiça criminal."
     ],
     "glossario": [
       {
         "termo": "Agravo de Execução Penal",
-        "definicao": "Recurso específico utilizado na área criminal para contestar decisões de um Juiz que tratam do cumprimento da pena, como pedidos de progressão de regime ou livramento condicional."
-      },
-      {
-        "termo": "Agravo",
-        "definicao": "Tipo de recurso judicial usado para contestar decisões tomadas durante o andamento de um processo, antes da sentença final ou em situações específicas."
-      },
-      {
-        "termo": "Execução Penal",
-        "definicao": "Fase do processo criminal onde se busca o cumprimento da pena imposta ao condenado, incluindo a aplicação de benefícios como a progressão de regime."
+        "definicao": "Recurso específico da execução penal, utilizado para contestar decisões de juízes de primeira instância que tratam da situação do condenado, como progressão de regime ou livramento condicional."
       },
       {
         "termo": "Progressão de Regime",
-        "definicao": "Benefício na execução penal que permite ao condenado, cumpridos certos requisitos legais, passar de um regime prisional mais rigoroso para um menos rigoroso (ex: do fechado para o semiaberto ou aberto)."
-      },
-      {
-        "termo": "Juiz",
-        "definicao": "Aquele com atribuição de aplicar a lei e julgar os casos na 1ª instância."
+        "definicao": "Direito do condenado que cumpre pena em regime mais rigoroso de passar para um regime menos severo, desde que cumpridos os requisitos legais, como bom comportamento e tempo de pena."
       },
       {
         "termo": "Definitivo",
-        "definicao": "Indica que uma decisão ou movimentação processual é final e não está sujeita a novos recursos ou análises naquele estágio."
+        "definicao": "Indica que o processo chegou ao seu fim, com todas as decisões proferidas e recursos esgotados, sendo arquivado ou baixado."
       }
     ]
   }
