@@ -1,10 +1,13 @@
 import os
 import json
+import hashlib
 import requests
 
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 URL = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+
+ARQUIVO_HASH = "ultimo_envio_telegram.json"
 
 
 def enviar(texto):
@@ -17,6 +20,26 @@ def enviar(texto):
     return resp.json()
 
 
+def calcular_hash(pautas):
+    """Gera um hash com base nos números de processo, para detectar se o
+    conjunto de processos mudou desde o último envio ao Telegram."""
+    numeros = sorted([p.get("numeroProcesso", "") for p in pautas])
+    texto = "|".join(numeros)
+    return hashlib.sha256(texto.encode("utf-8")).hexdigest()
+
+
+def carregar_ultimo_hash():
+    if os.path.exists(ARQUIVO_HASH):
+        with open(ARQUIVO_HASH, "r") as f:
+            return json.load(f).get("hash")
+    return None
+
+
+def salvar_ultimo_hash(hash_atual):
+    with open(ARQUIVO_HASH, "w") as f:
+        json.dump({"hash": hash_atual}, f)
+
+
 if __name__ == "__main__":
     try:
         with open("pautas_traduzidas.json", "r", encoding="utf-8") as f:
@@ -25,11 +48,22 @@ if __name__ == "__main__":
         pautas = []
 
     if not pautas:
-        enviar("🔎 <b>Monitor TJ-RJ</b>\n\nNenhum processo novo encontrado desde a última atualização.")
-        print("Mensagem de 'sem novidades' enviada.")
+        enviar("🔎 <b>Monitor TJRJ</b>\n\nNenhum processo novo encontrado desde a última atualização.")
+        print("Mensagem de 'sem novidades' enviada (pautas.json vazio).")
         exit(0)
 
-    header = "📋 <b>Monitor STJ — Novas pautas</b>\n\n"
+    hash_atual = calcular_hash(pautas)
+    hash_anterior = carregar_ultimo_hash()
+
+    if hash_atual == hash_anterior:
+        enviar("🔎 <b>Monitor TJRJ</b>\n\nNenhum processo novo encontrado desde a última atualização.")
+        print("Mesmo conjunto de processos do último envio. Mensagem de 'sem novidades' enviada.")
+        # Dashboard e Streamlit continuam mostrando os mesmos dados normalmente,
+        # pois lêem pautas_traduzidas.json diretamente, sem depender deste hash.
+        exit(0)
+
+    # Conjunto de processos mudou: envia o conteúdo completo
+    header = "📋 <b>Monitor TJRJ — Novas pautas</b>\n\n"
     mensagens = []
     bloco_atual = header
 
@@ -56,5 +90,5 @@ if __name__ == "__main__":
             enviar(msg)
             print(f"Mensagem enviada ({len(msg)} caracteres)")
 
-    print(f"Total: {len(pautas)} pautas enviadas ao Telegram.")
-
+    salvar_ultimo_hash(hash_atual)
+    print(f"Total: {len(pautas)} pautas enviadas ao Telegram. Hash atualizado.")
