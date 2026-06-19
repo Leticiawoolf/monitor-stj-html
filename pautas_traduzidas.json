@@ -9,13 +9,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.746000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-28T00:05:00.000Z",
-    "titulo": "Revisão de Dívidas: Devedor Busca Amparo Judicial contra Acúmulo de Débitos",
-    "resumo_simples": "Este é um recurso judicial que questiona uma decisão provisória de um juiz em um processo que discute o superendividamento de uma pessoa. O objetivo é permitir que a pessoa endividada consiga pagar suas dívidas de forma organizada, garantindo seu mínimo para viver.",
-    "por_que_importa": "O superendividamento afeta muitos brasileiros, e este processo pode influenciar como a justiça aborda a proteção de consumidores que não conseguem mais pagar suas contas, permitindo um recomeço financeiro e evitando a exclusão social.",
+    "titulo": "Recurso sobre dívidas excessivas",
+    "resumo_simples": "Este processo é um recurso que pede a um tribunal superior para reavaliar uma decisão provisória tomada por um juiz durante o andamento de um caso. O assunto principal é o superendividamento, que trata da situação de uma pessoa que acumula tantas dívidas de consumo que não consegue mais pagá-las, comprometendo seu sustento.",
+    "por_que_importa": "Permite que pessoas com muitas dívidas busquem soluções legais para reorganizar suas finanças, evitando a perda de bens essenciais e garantindo uma existência digna através da intervenção judicial.",
     "angulos": [
-      "A proteção legal contra o superendividamento: o que mudou na lei?",
-      "Como o Judiciário está lidando com casos de pessoas que não conseguem pagar suas dívidas?",
-      "Superendividamento: quem pode pedir ajuda e quais são os passos?"
+      "Como a lei do superendividamento pode ajudar o consumidor",
+      "Estratégias para evitar o superendividamento",
+      "O papel dos tribunais na renegociação de dívidas"
     ],
     "glossario": [
       {
@@ -24,15 +24,15 @@
       },
       {
         "termo": "Superendividamento",
-        "definicao": "Situação em que um consumidor de boa-fé é incapaz de arcar com todas as suas dívidas de consumo sem comprometer seu mínimo existencial, buscando renegociação ou plano de pagamento com proteção legal."
-      },
-      {
-        "termo": "Desembargador",
-        "definicao": "Magistrado que atua na 2ª instância do Tribunal de Justiça."
+        "definicao": "Situação jurídica e econômica em que uma pessoa física, de boa-fé, assume tantas dívidas de consumo que não consegue mais quitá-las, comprometendo seu mínimo existencial."
       },
       {
         "termo": "Juiz",
         "definicao": "Aquele com atribuição de aplicar a lei e julgar os casos na 1ª instância."
+      },
+      {
+        "termo": "Desembargador",
+        "definicao": "Magistrado que atua na 2ª instância do Tribunal de Justiça."
       },
       {
         "termo": "Decisão Interlocutória",
@@ -51,13 +51,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.639000Z",
     "ultimoMovimento": "Baixa Definitiva",
     "dataUltimoMovimento": "2026-05-22T12:54:00.000Z",
-    "titulo": "Batalha Judicial por Indenização Pós-Acidente de Trânsito e Devolução de Valores",
-    "resumo_simples": "Este processo é um recurso que busca reverter uma decisão de primeira instância sobre um caso envolvendo um acidente de trânsito e o pedido de devolução de pagamentos feitos indevidamente. A parte que perdeu na primeira fase tenta mudar o resultado do julgamento.",
-    "por_que_importa": "Casos de acidente de trânsito são comuns e afetam a vida de muitos, e a discussão sobre a repetição de valores pagos indevidamente pode trazer clareza sobre os direitos do consumidor em situações semelhantes.",
+    "titulo": "Recurso sobre acidente de trânsito e devolução de valores cobrados indevidamente",
+    "resumo_simples": "Este processo é um recurso, chamado Apelação Cível, que tenta mudar o resultado de um julgamento anterior de primeira instância. O caso principal envolve questões relacionadas a um acidente de trânsito e busca a devolução de valores que teriam sido cobrados de forma errada ou em excesso (repetição do indébito).",
+    "por_que_importa": "Afeta como as vítimas de acidentes de trânsito podem ser indenizadas e protege os cidadãos contra cobranças abusivas, garantindo o direito à restituição de pagamentos indevidos.",
     "angulos": [
-      "Seus direitos em caso de acidente de trânsito: o que fazer?",
-      "Como pedir o dinheiro de volta após um pagamento indevido?",
-      "Recursos de Apelação: quando e como eles mudam o rumo de um processo?"
+      "Direitos do consumidor em casos de cobrança indevida",
+      "Como agir em caso de acidente de trânsito e buscar reparação",
+      "A importância da prova em processos de repetição de indébito"
     ],
     "glossario": [
       {
@@ -65,16 +65,8 @@
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Acidente de Trânsito",
-        "definicao": "Ocorrência envolvendo veículos em via pública, resultando em danos materiais e/ou pessoais, e que pode gerar discussões sobre responsabilidade e indenizações."
-      },
-      {
         "termo": "Repetição do Indébito",
-        "definicao": "Direito de exigir a devolução de um valor pago indevidamente, muitas vezes com acréscimo de correção e juros, podendo inclusive ser em dobro em certas situações de erro ou má-fé do cobrador."
-      },
-      {
-        "termo": "Recurso",
-        "definicao": "Meio processual que permite a uma das partes de um processo solicitar a revisão de uma decisão judicial por uma instância superior ou pelo mesmo órgão julgador."
+        "definicao": "Ato de exigir a devolução de um valor pago indevidamente ou em excesso."
       }
     ]
   },
@@ -88,13 +80,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.616000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-14T00:05:00.000Z",
-    "titulo": "Contestação de Dívida com o Governo: Recurso em Execução Fiscal",
-    "resumo_simples": "Este é um recurso judicial que questiona uma decisão anterior referente a uma dívida ativa com o governo, que está sendo cobrada por meio de um processo de execução fiscal. A parte tenta reverter a decisão que a obriga a pagar a dívida ao fisco.",
-    "por_que_importa": "Milhões de brasileiros têm dívidas com o poder público. Entender como funcionam as execuções fiscais e os recursos contra elas é crucial para cidadãos e empresas que precisam defender seus direitos frente a cobranças de impostos e taxas.",
+    "titulo": "Recurso em ação de cobrança de dívidas do governo",
+    "resumo_simples": "Este é um recurso (Apelação Cível) que tenta mudar o resultado de um julgamento anterior. O processo envolve a cobrança de uma dívida que a administração pública tem a receber, como impostos ou multas não pagas (Dívida Ativa), por meio de uma ação judicial específica para isso (Execução Fiscal).",
+    "por_que_importa": "Impacta a forma como o Estado cobra seus débitos, podendo levar à penhora de bens para quem possui dívidas fiscais, e afeta a arrecadação pública que financia serviços essenciais.",
     "angulos": [
-      "Dívida ativa: como saber se você deve ao governo e o que pode acontecer?",
-      "Execução Fiscal: quais são os direitos do contribuinte?",
-      "Como contestar uma cobrança de imposto indevida?"
+      "Como funcionam as cobranças de impostos atrasados pelo governo",
+      "Direitos e deveres do contribuinte em processos de execução fiscal",
+      "As consequências de ter uma dívida ativa inscrita"
     ],
     "glossario": [
       {
@@ -103,15 +95,15 @@
       },
       {
         "termo": "Dívida Ativa",
-        "definicao": "Conjunto de débitos de pessoas físicas ou jurídicas com o poder público (União, Estados, Municípios, Autarquias), formalmente reconhecidos e inscritos para cobrança judicial."
+        "definicao": "Conjunto de valores que o governo tem a receber de pessoas ou empresas, como impostos, taxas ou multas não pagas."
       },
       {
         "termo": "Execução Fiscal",
-        "definicao": "Ação judicial específica utilizada pelo poder público para cobrar dívidas ativas de seus credores."
+        "definicao": "Ação judicial específica utilizada pelo poder público para cobrar dívidas de seus credores, como tributos e multas."
       },
       {
-        "termo": "Recurso",
-        "definicao": "Meio processual que permite a uma das partes de um processo solicitar a revisão de uma decisão judicial por uma instância superior ou pelo mesmo órgão julgador."
+        "termo": "Penhora",
+        "definicao": "Instrumento judicial para reter bens do devedor, garantindo seu uso posterior para pagamento da dívida."
       }
     ]
   },
@@ -125,13 +117,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.555000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-20T00:05:00.000Z",
-    "titulo": "Recurso Busca Devolução de Valores Pagos Injustamente",
-    "resumo_simples": "Este é um recurso que contesta uma decisão judicial anterior, com o objetivo de conseguir a devolução de um valor que foi pago indevidamente. A parte que se sentiu lesada busca reverter a decisão e reaver o dinheiro.",
-    "por_que_importa": "O direito à devolução de valores pagos por engano ou cobrança abusiva é fundamental para proteger o consumidor. Este processo pode servir de exemplo para casos onde pagamentos indevidos ocorreram, reforçando a importância de verificar suas contas.",
+    "titulo": "Recurso sobre a devolução de valores cobrados indevidamente",
+    "resumo_simples": "Este processo é um recurso (Apelação Cível) para reavaliar uma decisão de um julgamento anterior. A discussão central é sobre a repetição do indébito, ou seja, o pedido de devolução de quantias que foram pagas de forma indevida ou em excesso.",
+    "por_que_importa": "Garante aos cidadãos o direito de reaver dinheiro pago indevidamente, protegendo o consumidor de cobranças abusivas e erros administrativos que podem afetar seu orçamento.",
     "angulos": [
-      "Consumidor lesado: como funciona a repetição de indébito?",
-      "Paguei duas vezes: quando e como pedir o dinheiro de volta?",
-      "Apelação Cível: a última chance para mudar o resultado de um processo?"
+      "Quais são os direitos do consumidor em caso de cobrança indevida",
+      "Como solicitar a repetição do indébito",
+      "Casos comuns de cobranças indevidas e como identificá-las"
     ],
     "glossario": [
       {
@@ -140,11 +132,7 @@
       },
       {
         "termo": "Repetição do Indébito",
-        "definicao": "Direito de exigir a devolução de um valor pago indevidamente, muitas vezes com acréscimo de correção e juros, podendo inclusive ser em dobro em certas situações de erro ou má-fé do cobrador."
-      },
-      {
-        "termo": "Recurso",
-        "definicao": "Meio processual que permite a uma das partes de um processo solicitar a revisão de uma decisão judicial por uma instância superior ou pelo mesmo órgão julgador."
+        "definicao": "Ato de exigir a devolução de um valor pago indevidamente ou em excesso."
       }
     ]
   },
@@ -160,13 +148,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.546000Z",
     "ultimoMovimento": "Publicação",
     "dataUltimoMovimento": "2026-05-20T00:05:00.000Z",
-    "titulo": "Construtora Acionada por Atraso na Entrega de Imóvel e Inclusão Indevida em Cadastros",
-    "resumo_simples": "Este recurso judicial busca a revisão de uma decisão relacionada ao atraso na entrega de um imóvel, ao pedido de rescisão do contrato com devolução do dinheiro e à inclusão indevida do nome do consumidor em listas de devedores. O objetivo é anular ou modificar a decisão anterior.",
-    "por_que_importa": "Casos de atraso na entrega de imóveis são uma grande preocupação para compradores. Este processo pode gerar precedentes importantes sobre os direitos do consumidor, as responsabilidades das construtoras e a reparação por danos em cadastros de inadimplentes.",
+    "titulo": "Recurso sobre atraso na entrega de imóvel, cancelamento de contrato e negativação indevida",
+    "resumo_simples": "Uma das partes entrou com um recurso (Apelação Cível) para que um tribunal superior reveja uma decisão de um julgamento anterior. O processo aborda o atraso na entrega de um imóvel, o pedido de cancelamento do contrato com a devolução dos valores pagos e uma possível inclusão errada do nome do consumidor em cadastros de devedores (inclusão indevida em cadastro de inadimplentes).",
+    "por_que_importa": "Impacta os direitos dos compradores de imóveis, protegendo-os contra atrasos e negativações indevidas, e estabelece precedentes sobre a responsabilidade das construtoras no mercado imobiliário.",
     "angulos": [
-      "Atraso na entrega de imóveis: o que o comprador pode fazer?",
-      "Meu nome foi para o SPC/Serasa indevidamente: como reverter?",
-      "Rescisão de contrato de compra de imóvel: quando é possível reaver o dinheiro?"
+      "Direitos do consumidor na compra de imóveis na planta",
+      "Como agir em caso de atraso na entrega de imóveis",
+      "As implicações da negativação indevida para o consumidor"
     ],
     "glossario": [
       {
@@ -175,23 +163,15 @@
       },
       {
         "termo": "Atraso na Entrega do Imóvel",
-        "definicao": "Situação em que a construtora ou incorporadora não cumpre o prazo estabelecido em contrato para a entrega de um imóvel ao comprador."
+        "definicao": "Descumprimento do prazo contratual para a entrega de um imóvel ao comprador."
       },
       {
-        "termo": "Rescisão do contrato",
-        "definicao": "Dissolução de um contrato por descumprimento de uma das partes, por mútuo acordo ou por decisão judicial, geralmente resultando na volta das partes ao estado anterior à contratação e devolução de valores."
+        "termo": "Rescisão do contrato e devolução do dinheiro",
+        "definicao": "Desfazimento de um acordo legal, com a consequente restituição dos valores pagos pelas partes."
       },
       {
         "termo": "Inclusão Indevida em Cadastro de Inadimplentes",
-        "definicao": "Registro do nome de uma pessoa em serviços de proteção ao crédito (SPC, Serasa) de forma errônea ou sem base legal, o que pode gerar direito à indenização."
-      },
-      {
-        "termo": "Inadimplência",
-        "definicao": "Não cumprimento de um contrato; não pagamento da dívida no vencimento."
-      },
-      {
-        "termo": "Recurso",
-        "definicao": "Meio processual que permite a uma das partes de um processo solicitar a revisão de uma decisão judicial por uma instância superior ou pelo mesmo órgão julgador."
+        "definicao": "Registro do nome de uma pessoa em serviços de proteção ao crédito (como SPC ou Serasa) sem que haja uma dívida real ou com base em uma dívida já paga."
       }
     ]
   },
@@ -205,13 +185,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.543000Z",
     "ultimoMovimento": "Definitivo",
     "dataUltimoMovimento": "2026-05-19T17:54:00.000Z",
-    "titulo": "Disputa por Posse de Imóvel: Recurso Contesta Decisão Provisória",
-    "resumo_simples": "Este é um recurso judicial que tenta modificar uma decisão provisória de um juiz em um caso que envolve a posse de um imóvel ou bem. O processo discute atos de `Esbulho` (tomada da posse), `Turbação` (perturbação da posse) ou `Ameaça` de perda da posse.",
-    "por_que_importa": "Disputas de posse são comuns e podem causar grandes transtornos. Entender os direitos relacionados à posse de bens é crucial para proprietários e ocupantes, e este caso pode influenciar a forma como a justiça lida com a proteção da propriedade.",
+    "titulo": "Recurso sobre ações de perturbação ou ameaça à posse de um bem",
+    "resumo_simples": "Este processo é um recurso (Agravo de Instrumento) que pede a um tribunal superior para reavaliar uma decisão provisória tomada por um juiz. A ação principal trata de disputas sobre a posse de um bem, seja pela tomada indevida (esbulho), pela perturbação do uso (turbação) ou por uma simples ameaça de que isso aconteça.",
+    "por_que_importa": "É crucial para garantir o direito à propriedade e posse, protegendo cidadãos e empresas contra invasões, perturbações ou ameaças sobre seus bens, mantendo a ordem jurídica e social.",
     "angulos": [
-      "Esbulho e turbação: entenda a diferença e como se proteger",
-      "Perdi a posse do meu imóvel, e agora? O que a lei permite?",
-      "Agravo de Instrumento: o recurso que pode mudar o rumo de um processo ainda no começo."
+      "Como proteger seu imóvel de invasões e perturbações",
+      "Os direitos do proprietário e do possuidor no Brasil",
+      "Tipos de ações possessórias e quando usá-las"
     ],
     "glossario": [
       {
@@ -220,7 +200,11 @@
       },
       {
         "termo": "Esbulho / Turbação / Ameaça",
-        "definicao": "Termos jurídicos que descrevem atos de interferência indevida na posse de um bem. `Esbulho` é a perda total da posse, `Turbação` é a perturbação ou estorvo à posse, e `Ameaça` é o receio de que tais atos ocorram, justificando ações para proteger a posse."
+        "definicao": "Atos que configuram a perda, a perturbação ou a iminência de perda da posse de um bem, respectivamente."
+      },
+      {
+        "termo": "Juiz",
+        "definicao": "Aquele com atribuição de aplicar a lei e julgar os casos na 1ª instância."
       },
       {
         "termo": "Desembargador",
@@ -229,10 +213,6 @@
       {
         "termo": "Decisão Interlocutória",
         "definicao": "Manifestação do Magistrado sobre uma questão incidental durante o processo, sem encerrá-lo."
-      },
-      {
-        "termo": "Juiz",
-        "definicao": "Aquele com atribuição de aplicar a lei e julgar os casos na 1ª instância."
       }
     ]
   },
@@ -249,13 +229,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.371000Z",
     "ultimoMovimento": "Conclusão",
     "dataUltimoMovimento": "2026-06-08T09:26:00.000Z",
-    "titulo": "Recurso Sobre Indenização por Acidente de Trânsito e Falta de Insumos",
-    "resumo_simples": "Este recurso judicial busca reverter uma decisão anterior em um caso que combina um acidente de trânsito, a discussão sobre o fornecimento de insumos e a inclusão indevida em cadastros de inadimplentes. A ação trata de obrigações de fazer ou não fazer algo.",
-    "por_que_importa": "Este processo é relevante para quem busca indenização por acidentes e para consumidores que dependem do fornecimento de insumos. Também pode impactar a forma como empresas são responsabilizadas por inclusões indevidas em cadastros de devedores.",
+    "titulo": "Recurso sobre acidente de trânsito, fornecimento de bens e dívidas indevidas",
+    "resumo_simples": "Uma das partes entrou com um recurso (Apelação Cível) para que um tribunal superior reveja a decisão de um julgamento anterior. Os temas centrais incluem um acidente de trânsito, a discussão sobre o fornecimento de materiais ou serviços (insumos), a imposição de uma obrigação de realizar ou não realizar algo e a possível inclusão errada do nome do consumidor em cadastros de devedores.",
+    "por_que_importa": "Abrange diversos direitos do consumidor e cidadão, desde a reparação por acidentes, a garantia de acesso a produtos essenciais, até a proteção contra negativação indevida, impactando diretamente o dia a dia.",
     "angulos": [
-      "Acidente de trânsito: como buscar seus direitos e indenizações?",
-      "O que fazer quando uma empresa não cumpre sua 'obrigação de fazer'?",
-      "Inclusão indevida em cadastros de inadimplentes: quais os seus direitos e como proteger seu nome?"
+      "Como a jurisprudência trata casos com múltiplos danos ao consumidor",
+      "As responsabilidades em acidentes de trânsito envolvendo fornecedores",
+      "Ações judiciais para garantir o fornecimento de bens essenciais"
     ],
     "glossario": [
       {
@@ -263,28 +243,16 @@
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Acidente de Trânsito",
-        "definicao": "Ocorrência envolvendo veículos em via pública, resultando em danos materiais e/ou pessoais, e que pode gerar discussões sobre responsabilidade e indenizações."
-      },
-      {
         "termo": "Fornecimento de insumos",
-        "definicao": "Ato de disponibilizar materiais, produtos ou serviços essenciais para a produção, funcionamento ou manutenção de algo."
+        "definicao": "Entrega ou disponibilização de bens ou materiais necessários para uma determinada atividade ou consumo."
       },
       {
         "termo": "Obrigação de Fazer / Não Fazer",
-        "definicao": "Dever legal imposto a uma parte de realizar uma ação específica (fazer) ou de se abster de realizar uma ação (não fazer), sob pena de sanções legais."
+        "definicao": "Dever jurídico de praticar (fazer) ou de se abster de praticar (não fazer) determinado ato."
       },
       {
         "termo": "Inclusão Indevida em Cadastro de Inadimplentes",
-        "definicao": "Registro do nome de uma pessoa em serviços de proteção ao crédito (SPC, Serasa) de forma errônea ou sem base legal, o que pode gerar direito à indenização."
-      },
-      {
-        "termo": "Inadimplência",
-        "definicao": "Não cumprimento de um contrato; não pagamento da dívida no vencimento."
-      },
-      {
-        "termo": "Recurso",
-        "definicao": "Meio processual que permite a uma das partes de um processo solicitar a revisão de uma decisão judicial por uma instância superior ou pelo mesmo órgão julgador."
+        "definicao": "Registro do nome de uma pessoa em serviços de proteção ao crédito (como SPC ou Serasa) sem que haja uma dívida real ou com base em uma dívida já paga."
       }
     ]
   },
@@ -299,13 +267,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.361000Z",
     "ultimoMovimento": "Baixa Definitiva",
     "dataUltimoMovimento": "2026-05-28T15:03:00.000Z",
-    "titulo": "Recurso em Caso de Acidente de Trânsito e Tratamento Médico",
-    "resumo_simples": "Este é um recurso judicial que busca mudar uma decisão anterior em um processo relacionado a um acidente de trânsito e às custas ou à necessidade de tratamento médico-hospitalar. A parte que recorre quer alterar o veredito da primeira instância.",
-    "por_que_importa": "Processos envolvendo acidentes de trânsito e a cobertura de tratamentos de saúde são muito comuns. Este caso pode influenciar a forma como a justiça decide sobre a responsabilidade pelos custos de saúde após um acidente.",
+    "titulo": "Recurso sobre tratamento médico-hospitalar após acidente de trânsito",
+    "resumo_simples": "Uma das partes entrou com um recurso (Apelação Cível) para que um tribunal superior reavalie a decisão de um julgamento anterior. O processo discute questões relacionadas ao tratamento médico e hospitalar necessário em decorrência de um acidente de trânsito, incluindo a responsabilidade pelo custeio e acesso aos cuidados de saúde.",
+    "por_que_importa": "Essencial para garantir o direito à saúde e à reparação de danos em casos de acidentes, definindo a responsabilidade pelo custeio de tratamentos médicos e o acesso a eles.",
     "angulos": [
-      "Acidentes de trânsito: como garantir seus direitos a tratamento e indenização?",
-      "Quem paga a conta do tratamento médico após um acidente?",
-      "O papel dos recursos na justiça: por que uma decisão pode ser revista?"
+      "Direitos das vítimas de acidentes de trânsito à saúde",
+      "Cobertura de planos de saúde e responsabilidade em acidentes",
+      "Desafios jurídicos para garantir tratamento médico após acidentes"
     ],
     "glossario": [
       {
@@ -314,15 +282,7 @@
       },
       {
         "termo": "Tratamento médico-hospitalar",
-        "definicao": "Conjunto de cuidados e procedimentos de saúde, incluindo consultas, exames, cirurgias e internações, necessários para o restabelecimento da saúde de uma pessoa."
-      },
-      {
-        "termo": "Acidente de Trânsito",
-        "definicao": "Ocorrência envolvendo veículos em via pública, resultando em danos materiais e/ou pessoais, e que pode gerar discussões sobre responsabilidade e indenizações."
-      },
-      {
-        "termo": "Recurso",
-        "definicao": "Meio processual que permite a uma das partes de um processo solicitar a revisão de uma decisão judicial por uma instância superior ou pelo mesmo órgão julgador."
+        "definicao": "Cuidados de saúde prestados por profissionais e instituições médicas, incluindo consultas, exames, cirurgias e internações."
       }
     ]
   },
@@ -336,13 +296,13 @@
     "ultimaAtualizacao": "2026-06-14T14:13:55.110000Z",
     "ultimoMovimento": "Conclusão",
     "dataUltimoMovimento": "2026-06-08T14:04:00.000Z",
-    "titulo": "Disputa Judicial sobre Não Cumulatividade de Impostos",
-    "resumo_simples": "Este recurso judicial busca a revisão de uma decisão em um caso que discute o princípio da `Não Cumulatividade` de impostos. O objetivo é definir se a empresa pode descontar impostos pagos em etapas anteriores da cadeia de produção, evitando a bitributação.",
-    "por_que_importa": "O princípio da não cumulatividade impacta diretamente a carga tributária de empresas e, consequentemente, o preço de produtos e serviços. A decisão deste caso pode ter implicações significativas para a economia e para o bolso do consumidor.",
+    "titulo": "Recurso sobre o princípio tributário da não cumulatividade",
+    "resumo_simples": "Uma das partes entrou com um recurso (Apelação Cível) para que um tribunal superior reavalie a decisão de um julgamento anterior. O processo discute o princípio tributário da não cumulatividade, que permite o abatimento do imposto já pago em etapas anteriores da produção ou circulação de bens e serviços, evitando a cobrança em cascata.",
+    "por_que_importa": "Impacta diretamente o preço final de produtos e serviços que o cidadão compra, influenciando o custo para o consumidor e a competitividade das empresas no mercado ao definir a carga tributária.",
     "angulos": [
-      "O que é não cumulatividade de impostos e como ela afeta o seu dia a dia?",
-      "Empresas podem pagar menos impostos? Entenda o debate judicial",
-      "Impacto tributário: como a decisão dos tribunais molda a economia?"
+      "Como a não cumulatividade afeta os preços no supermercado",
+      "Reforma tributária e o futuro da não cumulatividade",
+      "Impacto da decisão nos setores econômicos que pagam ICMS ou IPI"
     ],
     "glossario": [
       {
@@ -350,12 +310,8 @@
         "definicao": "Recurso apresentado para tentar mudar o resultado do julgamento."
       },
       {
-        "termo": "Nao Cumulatividade",
-        "definicao": "Princípio tributário que permite que o valor de um imposto pago em uma operação anterior seja abatido do valor do mesmo imposto devido em uma operação posterior, evitando que o tributo seja cobrado várias vezes sobre a mesma base econômica (ex: ICMS, IPI)."
-      },
-      {
-        "termo": "Recurso",
-        "definicao": "Meio processual que permite a uma das partes de um processo solicitar a revisão de uma decisão judicial por uma instância superior ou pelo mesmo órgão julgador."
+        "termo": "Não Cumulatividade",
+        "definicao": "Princípio tributário que permite que o imposto pago em etapas anteriores de uma cadeia econômica seja compensado nas etapas seguintes, para evitar a sua cobrança múltipla e o aumento do custo final para o consumidor."
       }
     ]
   },
@@ -369,26 +325,26 @@
     "ultimaAtualizacao": "2026-06-14T14:13:54.918000Z",
     "ultimoMovimento": "Definitivo",
     "dataUltimoMovimento": "2026-06-08T14:18:00.000Z",
-    "titulo": "Progressão de Regime: Recurso para Mudar Condições de Cumprimento de Pena",
-    "resumo_simples": "Este é um recurso judicial apresentado por uma pessoa que cumpre pena, buscando a `Progressão de Regime`, ou seja, a mudança para um regime prisional menos rigoroso. O objetivo é que a justiça reavalie a decisão que negou ou concedeu a progressão de regime.",
-    "por_que_importa": "A progressão de regime é um direito de presos que cumprem os requisitos legais, visando a ressocialização. Este processo mostra como a justiça lida com a execução das penas e pode influenciar decisões sobre a liberdade de pessoas presas.",
+    "titulo": "Recurso em execução de pena sobre mudança de regime prisional",
+    "resumo_simples": "Este processo é um recurso (Agravo de Execução Penal) utilizado na fase de cumprimento de uma pena, pedindo a revisão de uma decisão de um juiz. O principal assunto é a progressão de regime, que permite a um condenado passar de um regime de prisão mais rigoroso para um menos restritivo, conforme ele cumpre os requisitos legais de bom comportamento e tempo de pena.",
+    "por_que_importa": "Afeta o sistema prisional e a ressocialização de condenados, definindo as condições para que uma pessoa possa cumprir sua pena em regimes menos restritivos e, eventualmente, retornar à sociedade.",
     "angulos": [
-      "Progressão de regime: quais são os direitos do preso e quando ele pode avançar?",
-      "Agravo de Execução Penal: o que é e como funciona no sistema prisional?",
-      "A ressocialização de presos no Brasil: desafios e possibilidades."
+      "Os critérios para a progressão de regime no sistema prisional",
+      "A importância da ressocialização de detentos",
+      "Desafios e polêmicas sobre a progressão de regime"
     ],
     "glossario": [
       {
         "termo": "Agravo de Execução Penal",
-        "definicao": "Recurso judicial específico da área criminal, utilizado para contestar decisões proferidas por juízes da Vara de Execuções Penais, relativas ao cumprimento da pena (ex: progressão de regime, livramento condicional)."
+        "definicao": "Recurso específico da área criminal que busca a revisão de decisões tomadas por um juiz durante a fase de cumprimento de uma pena."
       },
       {
         "termo": "Progressão de Regime",
-        "definicao": "Benefício previsto em lei que permite ao condenado, que cumpre pena em regime mais rigoroso, passar para um regime menos rigoroso (ex: do fechado para o semiaberto, e deste para o aberto), desde que preenchidos os requisitos legais de tempo e bom comportamento."
+        "definicao": "Mudança do regime de cumprimento de pena para um menos rigoroso (por exemplo, do regime fechado para o semiaberto ou aberto), concedida ao condenado que preenche os requisitos legais, como bom comportamento e tempo de pena cumprido."
       },
       {
-        "termo": "Recurso",
-        "definicao": "Meio processual que permite a uma das partes de um processo solicitar a revisão de uma decisão judicial por uma instância superior ou pelo mesmo órgão julgador."
+        "termo": "Juiz",
+        "definicao": "Aquele com atribuição de aplicar a lei e julgar os casos na 1ª instância."
       }
     ]
   }
