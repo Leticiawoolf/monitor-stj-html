@@ -50,9 +50,13 @@ if __name__ == "__main__":
     resultado = buscar_ultimas_atualizacoes(tamanho=10)
 
     if resultado is None or not resultado.get("hits", {}).get("hits"):
-        print("API inacessível ou sem resultados.")
-        with open("pautas.json", "w", encoding="utf-8") as f:
-            json.dump([], f)
+        print("API inacessível ou sem resultados nesta execução.")
+        if os.path.exists("pautas.json"):
+            print("Mantendo pautas.json da execução anterior.")
+        else:
+            print("Nenhum pautas.json anterior encontrado. Criando vazio.")
+            with open("pautas.json", "w", encoding="utf-8") as f:
+                json.dump([], f)
         exit(0)
 
     processos = extrair_resumo(resultado)
