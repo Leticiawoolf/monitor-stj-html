@@ -63,3 +63,4 @@ jobs:
           git add pautas_traduzidas.json index.html
           git diff --staged --quiet || git commit -m "Atualiza traducao e dashboard [skip ci]"
           git push
+          git add pautas_traduzidas.json index.html ultimo_envio_telegram.json
