@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'pautas.json'
+      - 'ultima_captura.json'
   workflow_dispatch:
 
 jobs:
