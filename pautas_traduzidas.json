@@ -1,385 +1,387 @@
 [
   {
-    "numeroProcesso": "08083943320258190211",
+    "numeroProcesso": "00085138020228190001",
     "classe": "Cumprimento de sentença",
-    "orgaoJulgador": "PAVUNA REGIONAL XXV JUI ESP CIV",
+    "orgaoJulgador": "CAPITAL 9 VARA FAZ PUBLICA",
     "assuntos": [
-      "Seguro",
-      "Defeito, nulidade ou anulação",
-      "Indenização por Dano Material"
+      "Crédito Complementar"
     ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.911000Z",
-    "ultimoMovimento": "Decurso de Prazo",
-    "dataUltimoMovimento": "2026-06-05T03:22:28.000Z",
-    "titulo": "Ação para cobrar seguro e discutir a validade de um contrato",
-    "resumo_simples": "Este processo trata de garantir que uma decisão judicial sobre um contrato de seguro seja cumprida. A discussão envolve a validade ou anulação de alguma parte do contrato e um pedido de compensação por prejuízos financeiros.",
-    "por_que_importa": "É relevante para consumidores de seguros, pois aborda como garantir o cumprimento de decisões judiciais e como disputas sobre a validade de contratos e indenizações por prejuízos financeiros são resolvidas na justiça.",
+    "ultimaAtualizacao": "2026-06-25T18:06:32.410000Z",
+    "ultimoMovimento": "Definitivo",
+    "dataUltimoMovimento": "2026-05-05T11:43:52.000Z",
+    "titulo": "Cobrança de Valores Adicionais Contra o Estado",
+    "resumo_simples": "Este processo é uma etapa judicial para garantir o pagamento de um valor adicional que já foi determinado por uma decisão anterior. Ele tramita em uma vara judicial especializada em casos que envolvem o governo.",
+    "por_que_importa": "Importa para o cidadão pois afeta a forma como decisões judiciais são cumpridas contra o poder público, garantindo que valores devidos sejam efetivamente pagos, o que pode impactar a execução de orçamentos públicos ou a quitação de dívidas com servidores e fornecedores.",
     "angulos": [
-      "A efetividade das decisões judiciais no cumprimento de contratos.",
-      "A importância de entender os termos do contrato de seguro para evitar problemas futuros.",
-      "Como anular cláusulas ou contratos com defeito e buscar reparação."
+      "Como funciona a cobrança de dívidas do governo após a decisão judicial?",
+      "Quais os desafios de receber valores complementares de órgãos públicos?",
+      "Entenda o papel das Varas da Fazenda Pública em ações contra o Estado."
     ],
     "glossario": [
       {
         "termo": "Cumprimento de sentença",
-        "definicao": "Fase processual onde se executa ou se faz valer uma decisão judicial já proferida, obrigando a parte perdedora a cumprir o que foi determinado."
+        "definicao": "Fase de um processo judicial onde se exige o cumprimento de uma decisão já tomada, como o pagamento de uma dívida ou a realização de uma obrigação."
       },
       {
-        "termo": "Seguro",
-        "definicao": "Contrato pelo qual uma parte (seguradora) se obriga a indenizar a outra (segurado) por um prejuízo futuro e incerto, mediante o pagamento de um prêmio."
+        "termo": "Vara",
+        "definicao": "Repartição judiciária de 1ª instância onde o Juiz exerce suas atribuições."
       },
       {
-        "termo": "Defeito",
-        "definicao": "Falha ou vício que torna algo imperfeito ou inadequado do ponto de vista legal ou contratual."
+        "termo": "Faz Pública (Fazenda Pública)",
+        "definicao": "O conjunto de bens, direitos e obrigações do Estado (União, Estados, Municípios, autarquias e fundações públicas), ou a representação jurídica do ente público em juízo."
       },
       {
-        "termo": "Nulidade",
-        "definicao": "Invalidade de um ato jurídico que não produz efeitos legais por não atender a requisitos essenciais da lei."
-      },
-      {
-        "termo": "Anulação",
-        "definicao": "Ato de invalidar uma decisão anterior, tornando-a sem efeito."
-      },
-      {
-        "termo": "Indenização por Dano Material",
-        "definicao": "Prejuízo financeiro causado a uma pessoa, gerando diminuição de seu patrimônio."
-      },
-      {
-        "termo": "Decurso de Prazo",
-        "definicao": "Situação em que um prazo estabelecido pela lei ou pelo Magistrado para a prática de um ato processual se esgota, sem que o ato tenha sido realizado pela parte."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00206363120078190068",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "RIO DAS OSTRAS CENTRAL DE DIVIDA ATIVA",
-    "assuntos": [
-      "Dívida Ativa (Execução Fiscal)",
-      "Impostos"
-    ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.907000Z",
-    "ultimoMovimento": "Petição",
-    "dataUltimoMovimento": "2026-05-27T11:48:15.000Z",
-    "titulo": "Processo para cobrar dívida de impostos atrasados",
-    "resumo_simples": "Este é um processo judicial movido pelo poder público para cobrar dívidas de impostos que não foram pagas. Busca-se garantir que o valor devido, que faz parte da dívida ativa do município ou estado, seja quitado.",
-    "por_que_importa": "É crucial para contribuintes e para a administração pública, mostrando como o Estado cobra seus créditos e as consequências para quem não paga impostos em dia.",
-    "angulos": [
-      "Como funciona a cobrança de impostos atrasados pelo governo.",
-      "Direitos e deveres do contribuinte em um processo de execução fiscal.",
-      "O impacto da Dívida Ativa nos cofres públicos e nos serviços à população."
-    ],
-    "glossario": [
-      {
-        "termo": "Execução Fiscal",
-        "definicao": "Ação judicial proposta pelo poder público (União, Estados, Municípios) para cobrar dívidas tributárias ou não tributárias (dívida ativa) de pessoas físicas ou jurídicas."
-      },
-      {
-        "termo": "Dívida Ativa (Execução Fiscal)",
-        "definicao": "Conjunto de débitos fiscais (impostos, taxas, multas) de pessoas físicas ou jurídicas para com o poder público, que são cobrados por meio de processo de execução fiscal."
-      },
-      {
-        "termo": "Impostos",
-        "definicao": "Tributos obrigatórios cobrados pelo Estado para financiar as despesas públicas, sem uma contrapartida direta e específica para o contribuinte."
-      },
-      {
-        "termo": "Petição",
-        "definicao": "Documento formal escrito que uma parte apresenta ao Magistrado em um processo judicial para fazer um pedido, apresentar informações ou se manifestar."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "08060119020248190058",
-    "classe": "Procedimento Comum Cível",
-    "orgaoJulgador": "SAQUAREMA 1 VARA FAM INFJUV E DO IDOSO",
-    "assuntos": [
-      "Direito de Imagem"
-    ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.887000Z",
-    "ultimoMovimento": "Expedição de documento",
-    "dataUltimoMovimento": "2026-05-18T15:21:02.000Z",
-    "titulo": "Ação judicial para proteger o direito de imagem",
-    "resumo_simples": "Este é um processo civil comum que discute a proteção do direito de imagem de uma pessoa. A ação busca garantir que a imagem de alguém não seja usada sem permissão ou de forma indevida, ou então obter alguma reparação por seu uso inadequado.",
-    "por_que_importa": "É importante para qualquer cidadão que deseja proteger sua privacidade e controlar como sua imagem é usada publicamente, um tema cada vez mais relevante na era das redes sociais e da internet.",
-    "angulos": [
-      "O que a lei brasileira diz sobre o direito de imagem e como ele é aplicado.",
-      "Casos famosos de violação do direito de imagem e suas consequências legais.",
-      "Como se proteger legalmente contra o uso indevido da sua imagem na internet e fora dela."
-    ],
-    "glossario": [
-      {
-        "termo": "Procedimento Comum Cível",
-        "definicao": "Tipo de processo judicial civil mais usual e amplo, utilizado para resolver a maioria dos conflitos que não possuem um rito processual específico, seguindo as regras gerais estabelecidas no Código de Processo Civil."
-      },
-      {
-        "termo": "Direito de Imagem",
-        "definicao": "Direito fundamental que assegura à pessoa o controle sobre o uso de sua representação física, seja por fotografia, vídeo ou outra forma, e a protege contra a exploração indevida de sua imagem por terceiros."
-      },
-      {
-        "termo": "Expedição de documento",
-        "definicao": "Ato de emitir e enviar um documento oficial do processo (como mandados, ofícios, alvarás) para as partes ou para outros órgãos e instituições, conforme determinação judicial."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "30967847220268190001",
-    "classe": "Procedimento Comum Cível",
-    "orgaoJulgador": "CAPITAL 52 VARA CIVEL",
-    "assuntos": [
-      "Rescisão / Resolução"
-    ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.885000Z",
-    "ultimoMovimento": "Remessa",
-    "dataUltimoMovimento": "2026-05-28T20:18:01.000Z",
-    "titulo": "Ação para cancelar ou resolver um contrato",
-    "resumo_simples": "Este é um processo civil comum que busca o cancelamento ou a resolução de um contrato. A ação visa pôr fim a um acordo formal, geralmente devido ao não cumprimento de alguma de suas condições ou por outros motivos legais que justifiquem seu término.",
-    "por_que_importa": "É fundamental para qualquer pessoa ou empresa que lida com contratos, mostrando como é possível dissolvê-los legalmente quando as condições não são cumpridas ou quando há outros motivos para o término do vínculo.",
-    "angulos": [
-      "Quando é possível rescindir um contrato e quais as consequências para as partes.",
-      "Direitos e deveres das partes em caso de rescisão ou resolução contratual.",
-      "Dicas para evitar problemas contratuais que levem a disputas judiciais."
-    ],
-    "glossario": [
-      {
-        "termo": "Procedimento Comum Cível",
-        "definicao": "Tipo de processo judicial civil mais usual e amplo, utilizado para resolver a maioria dos conflitos que não possuem um rito processual específico, seguindo as regras gerais estabelecidas no Código de Processo Civil."
-      },
-      {
-        "termo": "Rescisão / Resolução",
-        "definicao": "Rescisão: Terminação de um contrato, geralmente por descumprimento de uma das partes. Resolução: Extinção de um contrato em razão de inadimplemento (não cumprimento) ou onerosidade excessiva (dificuldade de cumprir) superveniente."
-      },
-      {
-        "termo": "Remessa",
-        "definicao": "Ato de enviar o processo de um setor, órgão ou instância para outro, geralmente para que se prossiga com o andamento ou julgamento."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00007527520218190019",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "CORDEIRO-MACUCO NUCLEO DA DIVIDA ATIVA",
-    "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
-    ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.871000Z",
-    "ultimoMovimento": "Confirmada",
-    "dataUltimoMovimento": "2026-06-02T05:18:56.000Z",
-    "titulo": "Processo de cobrança de dívida pública",
-    "resumo_simples": "Este processo judicial é uma ação de cobrança iniciada por um órgão público para recuperar valores que fazem parte da Dívida Ativa. Trata-se de débitos não pagos, como impostos ou taxas, que o poder público busca reaver por meio da justiça.",
-    "por_que_importa": "É relevante para quem tem débitos com órgãos públicos, pois demonstra o mecanismo legal pelo qual essas dívidas são cobradas, podendo resultar na penhora de bens ou bloqueio de valores.",
-    "angulos": [
-      "Como evitar entrar na Dívida Ativa e quais as suas consequências.",
-      "Os direitos do devedor em um processo de execução fiscal.",
-      "Iniciativas de negociação de dívidas fiscais (Refis) para regularização."
-    ],
-    "glossario": [
-      {
-        "termo": "Execução Fiscal",
-        "definicao": "Ação judicial proposta pelo poder público (União, Estados, Municípios) para cobrar dívidas tributárias ou não tributárias (dívida ativa) de pessoas físicas ou jurídicas."
-      },
-      {
-        "termo": "Dívida Ativa (Execução Fiscal)",
-        "definicao": "Conjunto de débitos fiscais (impostos, taxas, multas) de pessoas físicas ou jurídicas para com o poder público, que são cobrados por meio de processo de execução fiscal."
-      },
-      {
-        "termo": "Confirmada",
-        "definicao": "Indica que uma ação ou informação foi validada ou ratificada dentro do processo, garantindo sua veracidade ou aceitação para os próximos passos processuais."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00185804520028190021",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "DUQUE DE CAXIAS CENTRAL DE DIVIDA ATIVA",
-    "assuntos": [
-      "Impostos",
-      "Dívida Ativa (Execução Fiscal)",
-      "ICMS/ Imposto sobre Circulação de Mercadorias"
-    ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.848000Z",
-    "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-05-07T15:16:08.000Z",
-    "titulo": "Cobrança judicial de ICMS atrasado",
-    "resumo_simples": "Este processo é uma ação de cobrança judicial movida pelo poder público para receber impostos devidos, especificamente o ICMS (Imposto sobre Circulação de Mercadorias e Serviços), que faz parte da Dívida Ativa. O objetivo é obrigar o devedor a quitar os valores em aberto.",
-    "por_que_importa": "Interessa a empresas e comerciantes que lidam com impostos sobre mercadorias, pois demonstra o rigor da cobrança fiscal por parte do Estado e as consequências do não pagamento do ICMS.",
-    "angulos": [
-      "A importância do ICMS para os estados e a arrecadação pública.",
-      "Como empresas podem negociar dívidas de ICMS com o fisco estadual.",
-      "Os riscos da inadimplência fiscal e seus impactos nos negócios."
-    ],
-    "glossario": [
-      {
-        "termo": "Execução Fiscal",
-        "definicao": "Ação judicial proposta pelo poder público (União, Estados, Municípios) para cobrar dívidas tributárias ou não tributárias (dívida ativa) de pessoas físicas ou jurídicas."
-      },
-      {
-        "termo": "Impostos",
-        "definicao": "Tributos obrigatórios cobrados pelo Estado para financiar as despesas públicas, sem uma contrapartida direta e específica para o contribuinte."
-      },
-      {
-        "termo": "Dívida Ativa (Execução Fiscal)",
-        "definicao": "Conjunto de débitos fiscais (impostos, taxas, multas) de pessoas físicas ou jurídicas para com o poder público, que são cobrados por meio de processo de execução fiscal."
-      },
-      {
-        "termo": "ICMS/ Imposto sobre Circulação de Mercadorias",
-        "definicao": "ICMS: Imposto Estadual sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação, sendo um dos principais impostos cobrados no Brasil."
+        "termo": "Crédito Complementar",
+        "definicao": "Valor adicional ou suplementar devido por um órgão público ou empresa, geralmente relacionado a pagamentos já existentes."
       },
       {
         "termo": "Definitivo",
-        "definicao": "Indica que uma decisão ou situação dentro do processo não pode mais ser alterada por recursos comuns, tornando-se final e imutável."
+        "definicao": "Indica que o processo chegou ao fim na instância atual e a decisão proferida é final."
       }
     ]
   },
   {
-    "numeroProcesso": "00044660420228190053",
+    "numeroProcesso": "00120155820228190023",
+    "classe": "Arrolamento Sumário",
+    "orgaoJulgador": "ITABORAI 2 VARA DE FAMILIA",
+    "assuntos": [
+      "Inventário e Partilha"
+    ],
+    "ultimaAtualizacao": "2026-06-25T18:06:31.688000Z",
+    "ultimoMovimento": "Publicação",
+    "dataUltimoMovimento": "2026-06-19T15:50:05.000Z",
+    "titulo": "Divisão Simplificada de Herança",
+    "resumo_simples": "Este processo é uma forma simplificada de levantar e dividir os bens de uma pessoa falecida entre os herdeiros. Ele está em andamento em uma vara especializada em questões de família, e recentemente houve uma publicação informando sobre o seu progresso.",
+    "por_que_importa": "Importa para cidadãos que precisam regularizar heranças de forma mais rápida e menos custosa, especialmente quando há acordo entre os herdeiros, permitindo a transferência de bens para os legítimos sucessores.",
+    "angulos": [
+      "Como funciona o Arrolamento Sumário para heranças de baixo valor?",
+      "Inventário e Partilha: o que fazer quando um parente falece?",
+      "Vantagens e desvantagens de um processo de herança simplificado."
+    ],
+    "glossario": [
+      {
+        "termo": "Arrolamento Sumário",
+        "definicao": "Um procedimento judicial simplificado para realizar o inventário (levantamento de bens) e a partilha (divisão) da herança, aplicável quando os herdeiros são maiores e capazes e há consenso sobre a divisão, ou quando o valor total dos bens é baixo."
+      },
+      {
+        "termo": "Vara",
+        "definicao": "Repartição judiciária de 1ª instância onde o Juiz exerce suas atribuições."
+      },
+      {
+        "termo": "Família",
+        "definicao": "Área do direito que trata de questões familiares, como divórcio, guarda de filhos, pensão alimentícia e herança."
+      },
+      {
+        "termo": "Inventário e Partilha",
+        "definicao": "Procedimento para levantar os bens, direitos e dívidas de uma pessoa falecida (inventário) e, posteriormente, dividir esses bens entre os herdeiros (partilha)."
+      },
+      {
+        "termo": "Publicação",
+        "definicao": "Ato de tornar pública uma decisão ou um ato processual, geralmente por meio do Diário Oficial, para que as partes e advogados tomem conhecimento."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "00072293320228190067",
     "classe": "Execução Fiscal",
-    "orgaoJulgador": "SAO JOAO DA BARRA NUCLEO DA DIVIDA ATIVA",
+    "orgaoJulgador": "QUEIMADOS NUCLEO DA DIVIDA ATIVA",
     "assuntos": [
       "Dívida Ativa (Execução Fiscal)"
     ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.827000Z",
-    "ultimoMovimento": "Confirmada",
-    "dataUltimoMovimento": "2026-05-22T07:36:42.000Z",
-    "titulo": "Ação de cobrança de dívida com o governo",
-    "resumo_simples": "Este processo judicial é uma ação de cobrança iniciada por um órgão público para recuperar valores que fazem parte da Dívida Ativa. Trata-se de débitos não pagos, como impostos ou taxas, que o poder público busca reaver por meio da justiça.",
-    "por_que_importa": "É de interesse público, pois demonstra como o Estado busca garantir suas receitas, sendo um alerta para cidadãos e empresas sobre a importância de manter as obrigações fiscais em dia.",
+    "ultimaAtualizacao": "2026-06-25T18:06:31.169000Z",
+    "ultimoMovimento": "Ato ordinatório",
+    "dataUltimoMovimento": "2026-05-18T18:07:15.000Z",
+    "titulo": "Cobrança Judicial de Dívida com o Governo",
+    "resumo_simples": "Este é um processo judicial que busca a cobrança de uma dívida que uma pessoa ou empresa possui com o governo. Ele está sendo tratado por uma unidade especializada na recuperação desses valores, e um ato administrativo simples foi realizado para dar andamento ao caso.",
+    "por_que_importa": "Importa para cidadãos e empresas pois mostra como o Estado cobra dívidas fiscais, o que pode levar à penhora de bens ou bloqueio de contas, impactando diretamente a vida financeira dos devedores e a arrecadação pública.",
     "angulos": [
-      "Os mecanismos de cobrança utilizados pelo Estado para recuperar créditos.",
-      "Orientações para quem está em Dívida Ativa e busca regularizar sua situação.",
-      "O impacto da inadimplência fiscal na capacidade de investimento dos municípios."
+      "Como evitar a inscrição na Dívida Ativa e o que fazer se for cobrado judicialmente.",
+      "O que o governo pode fazer para cobrar impostos e multas atrasadas?",
+      "Núcleos da Dívida Ativa: o papel dessas unidades na arrecadação pública."
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Ação judicial proposta pelo poder público (União, Estados, Municípios) para cobrar dívidas tributárias ou não tributárias (dívida ativa) de pessoas físicas ou jurídicas."
+        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
       },
       {
-        "termo": "Dívida Ativa (Execução Fiscal)",
-        "definicao": "Conjunto de débitos fiscais (impostos, taxas, multas) de pessoas físicas ou jurídicas para com o poder público, que são cobrados por meio de processo de execução fiscal."
+        "termo": "Núcleo da Dívida Ativa",
+        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
+      },
+      {
+        "termo": "Dívida Ativa",
+        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
+      },
+      {
+        "termo": "Ato Ordinatório",
+        "definicao": "Publicação sem conteúdo decisório que serve para movimentar o processo."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "00000566920228190030",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "MANGARATIBA NUCLEO DA DIVIDA ATIVA",
+    "assuntos": [
+      "Dívida Ativa (Execução Fiscal)"
+    ],
+    "ultimaAtualizacao": "2026-06-25T18:06:30.809000Z",
+    "ultimoMovimento": "Definitivo",
+    "dataUltimoMovimento": "2026-06-03T16:46:45.000Z",
+    "titulo": "Dívida Com o Governo Chega à Fase Final na Justiça",
+    "resumo_simples": "Este processo judicial trata da cobrança de uma dívida de um cidadão ou empresa com o governo, que está sendo gerenciada por uma unidade especializada em dívidas ativas. O processo alcançou uma fase onde a decisão atual é considerada final.",
+    "por_que_importa": "Este caso exemplifica como processos de dívida pública chegam a um ponto decisivo, o que pode resultar na conclusão da cobrança, impactando bens e finanças dos envolvidos, e reforçando a necessidade de regularização fiscal.",
+    "angulos": [
+      "Entenda o que significa um processo de dívida fiscal ser considerado 'definitivo'.",
+      "Quais as consequências de ter uma dívida ativa cobrada judicialmente?",
+      "Como negociar e regularizar dívidas com o Poder Público."
+    ],
+    "glossario": [
+      {
+        "termo": "Execução Fiscal",
+        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
+      },
+      {
+        "termo": "Núcleo da Dívida Ativa",
+        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
+      },
+      {
+        "termo": "Dívida Ativa",
+        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
+      },
+      {
+        "termo": "Definitivo",
+        "definicao": "Indica que o processo chegou ao fim na instância atual e a decisão proferida é final."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "00024889720228190018",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "CONCEICAO DE MACABU NUCLEO DA DIVIDA ATIVA",
+    "assuntos": [
+      "Dívida Ativa (Execução Fiscal)"
+    ],
+    "ultimaAtualizacao": "2026-06-25T18:06:29.823000Z",
+    "ultimoMovimento": "Confirmada",
+    "dataUltimoMovimento": "2026-05-19T05:21:59.000Z",
+    "titulo": "Processo de Cobrança de Dívida Pública Segue em Andamento",
+    "resumo_simples": "Este processo judicial visa cobrar uma dívida de um particular ou empresa com o governo, sob a responsabilidade de uma unidade especializada em dívidas ativas. Um movimento recente indica a validação de um ato ou decisão anterior, mantendo o processo em curso.",
+    "por_que_importa": "Este caso demonstra a continuidade das ações do governo para recuperar valores devidos, o que pode levar a medidas de cobrança contra o devedor e tem impacto direto nas finanças públicas e na conformidade fiscal.",
+    "angulos": [
+      "O que acontece quando uma decisão em um processo de execução fiscal é confirmada?",
+      "A importância da regularização fiscal para evitar processos judiciais.",
+      "Panorama da dívida ativa em cidades pequenas: como os municípios cobram seus devedores."
+    ],
+    "glossario": [
+      {
+        "termo": "Execução Fiscal",
+        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
+      },
+      {
+        "termo": "Núcleo da Dívida Ativa",
+        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
+      },
+      {
+        "termo": "Dívida Ativa",
+        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
       },
       {
         "termo": "Confirmada",
-        "definicao": "Indica que uma ação ou informação foi validada ou ratificada dentro do processo, garantindo sua veracidade ou aceitação para os próximos passos processuais."
+        "definicao": "Indica que um ato ou decisão processual anterior foi validado e registrado no processo."
       }
     ]
   },
   {
-    "numeroProcesso": "08759162820258190001",
-    "classe": "Procedimento Comum Cível",
-    "orgaoJulgador": "CAPITAL 52 VARA CIVEL",
+    "numeroProcesso": "00026474220108190024",
+    "classe": "Restauração de Autos Cível",
+    "orgaoJulgador": "ITAGUAI 1 VARA CIVEL",
     "assuntos": [
-      "Indenização por Dano Moral",
-      "Fornecimento de Água",
-      "Fornecimento de Água",
-      "Indenização por Dano Material",
-      "Obrigação de Fazer / Não Fazer",
-      "Antecipação de Tutela / Tutela Específica"
+      "Desapropriação por Utilidade Pública / DL 3.365/1941"
     ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.816000Z",
-    "ultimoMovimento": "Decurso de Prazo",
-    "dataUltimoMovimento": "2026-05-29T04:07:24.000Z",
-    "titulo": "Ação de consumidor por problemas no fornecimento de água e pedido de indenização",
-    "resumo_simples": "Este é um processo civil que busca resolver problemas relacionados ao fornecimento de água. A parte autora pede compensação por prejuízos financeiros (Dano Material) e emocionais (Dano Moral), além de uma ordem judicial para que a empresa responsável cumpra ou deixe de cumprir algo (Obrigação de Fazer / Não Fazer). Há também um pedido de decisão urgente (Tutela Antecipada) para resolver a situação rapidamente.",
-    "por_que_importa": "É fundamental para consumidores, pois trata dos seus direitos em relação a serviços essenciais como o fornecimento de água, abordando a possibilidade de buscar indenização por danos e exigir que as empresas cumpram suas obrigações.",
+    "ultimaAtualizacao": "2026-06-25T18:06:28.694000Z",
+    "ultimoMovimento": "Petição",
+    "dataUltimoMovimento": "2026-06-09T02:12:41.000Z",
+    "titulo": "Reconstrução de Processo Judicial sobre Desapropriação",
+    "resumo_simples": "Este processo busca recriar os documentos e registros de um caso judicial anterior que se perdeu. O processo original tratava da desapropriação de um imóvel particular pelo governo, e recentemente foi apresentada uma nova petição para dar andamento à sua restauração.",
+    "por_que_importa": "A restauração de autos é crucial para garantir a segurança jurídica, especialmente em casos de desapropriação que envolvem direitos de propriedade, assegurando que decisões e indenizações devidas sejam devidamente registradas e cumpridas, mesmo após a perda dos documentos originais.",
     "angulos": [
-      "Direitos do consumidor em casos de interrupção ou falha em serviços essenciais.",
-      "Como buscar indenização por danos morais e materiais em disputas com prestadoras de serviço.",
-      "A importância da tutela antecipada para garantir soluções urgentes em situações de risco."
+      "Como a perda de documentos pode impactar um processo judicial e a segurança jurídica.",
+      "Desapropriação por utilidade pública: seus direitos e deveres como proprietário.",
+      "O processo de restauração de autos: um guia para entender como documentos perdidos são recuperados na Justiça."
     ],
     "glossario": [
       {
-        "termo": "Procedimento Comum Cível",
-        "definicao": "Tipo de processo judicial civil mais usual e amplo, utilizado para resolver a maioria dos conflitos que não possuem um rito processual específico, seguindo as regras gerais estabelecidas no Código de Processo Civil."
+        "termo": "Restauração de Autos Cível",
+        "definicao": "Processo judicial para reconstruir os autos (documentos e peças) de um processo que foi extraviado ou destruído."
       },
       {
-        "termo": "Indenização por Dano Moral",
-        "definicao": "Prejuízo emocional causado a uma pessoa, violando sua honra e dignidade."
+        "termo": "Vara",
+        "definicao": "Repartição judiciária de 1ª instância onde o Juiz exerce suas atribuições."
       },
       {
-        "termo": "Fornecimento de Água",
-        "definicao": "Serviço público essencial que consiste na disponibilização de água potável para consumo e uso da população."
+        "termo": "Cível",
+        "definicao": "Área do direito que trata de questões entre particulares, como contratos, família, propriedade e responsabilidade civil, excluindo as de natureza penal, trabalhista ou fiscal."
       },
       {
-        "termo": "Indenização por Dano Material",
-        "definicao": "Prejuízo financeiro causado a uma pessoa, gerando diminuição de seu patrimônio."
+        "termo": "Desapropriação por Utilidade Pública",
+        "definicao": "Procedimento pelo qual o Poder Público (governo) retira a propriedade de um bem particular, por necessidade pública, utilidade pública ou interesse social, mediante justa e prévia indenização."
       },
       {
-        "termo": "Obrigação de Fazer / Não Fazer",
-        "definicao": "Determinação judicial que impõe a alguém a realização de uma ação específica (obrigação de fazer) ou a abstenção de uma determinada conduta (obrigação de não fazer)."
-      },
-      {
-        "termo": "Antecipação de Tutela / Tutela Específica",
-        "definicao": "Decisão judicial urgente e provisória, similar a uma liminar, que busca adiantar os efeitos da decisão final do processo ou garantir o cumprimento exato de uma obrigação, para evitar um prejuízo imediato ou assegurar um direito."
-      },
-      {
-        "termo": "Decurso de Prazo",
-        "definicao": "Situação em que um prazo estabelecido pela lei ou pelo Magistrado para a prática de um ato processual se esgota, sem que o ato tenha sido realizado pela parte."
+        "termo": "Petição",
+        "definicao": "Documento escrito apresentado por uma das partes ou seu advogado ao juiz, contendo pedidos, informações ou manifestações sobre o processo."
       }
     ]
   },
   {
-    "numeroProcesso": "00330288420198190002",
-    "classe": "Procedimento Comum Cível",
-    "orgaoJulgador": "NITEROI 5 VARA CIVEL",
+    "numeroProcesso": "01996591220058190001",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "CAPITAL 12 VARA FAZ PUBLICA",
     "assuntos": [
-      "Acidente de Trânsito"
+      "Dívida Ativa (Execução Fiscal)"
     ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.798000Z",
-    "ultimoMovimento": "Publicação",
-    "dataUltimoMovimento": "2026-05-05T13:49:13.000Z",
-    "titulo": "Ação judicial sobre acidente de trânsito",
-    "resumo_simples": "Este é um processo civil comum que trata de um acidente de trânsito. A ação busca apurar responsabilidades, determinar quem causou o acidente e, possivelmente, discutir a compensação por danos materiais ou morais resultantes do ocorrido.",
-    "por_que_importa": "É de grande interesse para motoristas, pedestres e passageiros, pois mostra como a justiça atua para resolver disputas e determinar responsabilidades e indenizações em casos de acidentes de trânsito.",
+    "ultimaAtualizacao": "2026-06-25T18:06:25.703000Z",
+    "ultimoMovimento": "Definitivo",
+    "dataUltimoMovimento": "2026-05-21T18:56:25.000Z",
+    "titulo": "Cobrança de Dívida Pública na Capital Chega ao Fim",
+    "resumo_simples": "Este processo judicial, que busca a cobrança de uma dívida de um cidadão ou empresa com o governo, tramitou em uma vara especializada em questões da Fazenda Pública na capital. O movimento mais recente indica que a decisão atual é final e o processo chegou ao seu encerramento nesta instância.",
+    "por_que_importa": "Este caso reflete como as dívidas com o setor público são resolvidas judicialmente, impactando diretamente os devedores com possíveis restrições financeiras e contribuindo para a arrecadação de fundos que podem ser revertidos em serviços públicos.",
     "angulos": [
-      "Como provar a culpa em um acidente de trânsito e quais as evidências necessárias.",
-      "Os direitos das vítimas de acidentes de trânsito à indenização e amparo legal.",
-      "O papel do seguro em acidentes automotivos e a cobertura para danos."
+      "Impacto do 'Definitivo' em processos de execução fiscal para o devedor.",
+      "Como a Vara da Fazenda Pública atua na recuperação de dívidas para o município.",
+      "A longa jornada da dívida ativa: entendendo processos fiscais antigos."
     ],
     "glossario": [
       {
-        "termo": "Procedimento Comum Cível",
-        "definicao": "Tipo de processo judicial civil mais usual e amplo, utilizado para resolver a maioria dos conflitos que não possuem um rito processual específico, seguindo as regras gerais estabelecidas no Código de Processo Civil."
+        "termo": "Execução Fiscal",
+        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
       },
       {
-        "termo": "Acidente de Trânsito",
-        "definicao": "Ocorrência envolvendo veículos em via pública, resultando em danos materiais, lesões corporais ou morte, e que pode gerar responsabilidades civis e criminais."
+        "termo": "Vara",
+        "definicao": "Repartição judiciária de 1ª instância onde o Juiz exerce suas atribuições."
       },
       {
-        "termo": "Publicação",
-        "definicao": "Ato de divulgar oficialmente informações ou decisões do processo para as partes e seus advogados, geralmente através do Diário da Justiça Eletrônico, para que tomem ciência e possam agir."
+        "termo": "Faz Pública (Fazenda Pública)",
+        "definicao": "O conjunto de bens, direitos e obrigações do Estado (União, Estados, Municípios, autarquias e fundações públicas), ou a representação jurídica do ente público em juízo."
+      },
+      {
+        "termo": "Dívida Ativa",
+        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
+      },
+      {
+        "termo": "Definitivo",
+        "definicao": "Indica que o processo chegou ao fim na instância atual e a decisão proferida é final."
       }
     ]
   },
   {
-    "numeroProcesso": "00647005220158190002",
+    "numeroProcesso": "00412055220108190002",
     "classe": "Execução Fiscal",
     "orgaoJulgador": "NITEROI CENTRAL DE DIVIDA ATIVA",
     "assuntos": [
       "Dívida Ativa (Execução Fiscal)"
     ],
-    "ultimaAtualizacao": "2026-06-22T15:22:59.792000Z",
-    "ultimoMovimento": "Mero expediente",
-    "dataUltimoMovimento": "2026-05-04T20:08:04.000Z",
-    "titulo": "Ação de cobrança de dívida pública",
-    "resumo_simples": "Este é um processo de Execução Fiscal, onde o poder público busca cobrar valores que fazem parte da Dívida Ativa. A ação tem como objetivo reaver débitos não pagos por cidadãos ou empresas, como impostos ou multas.",
-    "por_que_importa": "É de interesse para contribuintes e para a gestão pública, pois ilustra o funcionamento da cobrança de débitos com o governo e as implicações de estar em Dívida Ativa.",
+    "ultimaAtualizacao": "2026-06-25T18:06:25.652000Z",
+    "ultimoMovimento": "Definitivo",
+    "dataUltimoMovimento": "2026-05-19T02:47:45.000Z",
+    "titulo": "Processo Antigo de Dívida com o Governo é Concluído",
+    "resumo_simples": "Este é um processo judicial de longa data, iniciado em 2010, que trata da cobrança de uma dívida de um particular ou empresa com o governo. Ele está sendo tratado por uma unidade especializada e o último movimento indica que o processo chegou ao fim na instância atual, com uma decisão final.",
+    "por_que_importa": "Demonstra a persistência do Poder Público na cobrança de dívidas ao longo dos anos, ressaltando a importância de manter as obrigações fiscais em dia para evitar longos processos judiciais e suas consequências.",
     "angulos": [
-      "Como o governo rastreia e cobra dívidas fiscais de contribuintes.",
-      "Programas de parcelamento e renegociação de dívidas fiscais.",
-      "O impacto da Dívida Ativa no orçamento municipal/estadual e nos investimentos públicos."
+      "Dívida Fiscal: por que alguns processos levam mais de uma década para serem finalizados?",
+      "Como a 'Central de Dívida Ativa' agiliza a recuperação de valores para o município.",
+      "O impacto do tempo no processo de execução fiscal e as chances de recuperação da dívida."
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Ação judicial proposta pelo poder público (União, Estados, Municípios) para cobrar dívidas tributárias ou não tributárias (dívida ativa) de pessoas físicas ou jurídicas."
+        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
       },
       {
-        "termo": "Dívida Ativa (Execução Fiscal)",
-        "definicao": "Conjunto de débitos fiscais (impostos, taxas, multas) de pessoas físicas ou jurídicas para com o poder público, que são cobrados por meio de processo de execução fiscal."
+        "termo": "Central de Dívida Ativa",
+        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
       },
       {
-        "termo": "Mero expediente",
-        "definicao": "Movimentação processual de rotina, sem conteúdo decisório importante, que serve apenas para o andamento burocrático do processo."
+        "termo": "Dívida Ativa",
+        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
+      },
+      {
+        "termo": "Definitivo",
+        "definicao": "Indica que o processo chegou ao fim na instância atual e a decisão proferida é final."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "00052809620188190007",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "BARRA MANSA CENTRAL DE DIVIDA ATIVA",
+    "assuntos": [
+      "Taxa de Iluminação Pública"
+    ],
+    "ultimaAtualizacao": "2026-06-25T18:06:25.567000Z",
+    "ultimoMovimento": "Conclusão",
+    "dataUltimoMovimento": "2026-06-18T20:17:22.000Z",
+    "titulo": "Cobrança Judicial de Taxa de Iluminação Pública Atrasada",
+    "resumo_simples": "Este é um processo judicial de execução fiscal que busca a cobrança de valores referentes à Taxa de Iluminação Pública que não foram pagos. O processo foi enviado ao juiz para que ele analise a situação e tome uma decisão.",
+    "por_que_importa": "Mostra como municípios cobram taxas de serviços essenciais, como iluminação pública. O não pagamento pode levar a processos judiciais e impactar o orçamento público, que financia esses serviços, além de gerar custos adicionais para o devedor.",
+    "angulos": [
+      "Entenda a Taxa de Iluminação Pública: o que é e por que ela é cobrada.",
+      "Consequências de não pagar impostos e taxas municipais.",
+      "Como funciona a 'Conclusão' do processo e o que o juiz decide nesses casos."
+    ],
+    "glossario": [
+      {
+        "termo": "Execução Fiscal",
+        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
+      },
+      {
+        "termo": "Central de Dívida Ativa",
+        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
+      },
+      {
+        "termo": "Taxa de Iluminação Pública",
+        "definicao": "Tributo cobrado pelos municípios para custear os serviços de iluminação de vias e logradouros públicos."
+      },
+      {
+        "termo": "Conclusão",
+        "definicao": "Ato de enviar o processo ao Magistrado para que ele avalie a questão e tome a decisão cabível."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "00026854220128190070",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "SAO FRANCISCO DE ITABAPOANA NUCLEO DA DIVIDA ATIVA",
+    "assuntos": [
+      "Dívida Ativa (Execução Fiscal)"
+    ],
+    "ultimaAtualizacao": "2026-06-25T18:06:23.113000Z",
+    "ultimoMovimento": "Confirmada",
+    "dataUltimoMovimento": "2026-05-22T06:49:42.000Z",
+    "titulo": "Processo Antigo de Dívida Fiscal em Município do Interior",
+    "resumo_simples": "Este processo judicial, iniciado em 2012, trata da cobrança de uma dívida de um particular ou empresa com o governo municipal. Ele tramita em um núcleo especializado em dívida ativa e recentemente um ato processual foi validado, mostrando que o caso segue em andamento.",
+    "por_que_importa": "Evidencia a continuidade dos esforços dos municípios para reaver valores devidos, o que é fundamental para a saúde financeira dessas localidades e pode resultar em medidas de cobrança diretas sobre os devedores, como penhora de bens ou bloqueio de valores.",
+    "angulos": [
+      "Como os pequenos municípios lidam com a cobrança de dívidas fiscais.",
+      "O que fazer quando seu nome ou empresa é incluído na Dívida Ativa de um município.",
+      "A importância da regularidade fiscal para o desenvolvimento local e a prestação de serviços públicos."
+    ],
+    "glossario": [
+      {
+        "termo": "Execução Fiscal",
+        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
+      },
+      {
+        "termo": "Núcleo da Dívida Ativa",
+        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
+      },
+      {
+        "termo": "Dívida Ativa",
+        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
+      },
+      {
+        "termo": "Confirmada",
+        "definicao": "Indica que um ato ou decisão processual anterior foi validado e registrado no processo."
       }
     ]
   }
