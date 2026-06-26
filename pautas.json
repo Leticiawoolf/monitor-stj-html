@@ -1,122 +1,125 @@
 [
   {
-    "numeroProcesso": "00085138020228190001",
-    "classe": "Cumprimento de sentença",
-    "orgaoJulgador": "CAPITAL 9 VARA FAZ PUBLICA",
-    "assuntos": [
-      "Crédito Complementar"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:32.410000Z",
-    "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-05-05T11:43:52.000Z",
-    "titulo": "Cumprimento de sentença — Crédito Complementar"
-  },
-  {
-    "numeroProcesso": "00120155820228190023",
-    "classe": "Arrolamento Sumário",
-    "orgaoJulgador": "ITABORAI 2 VARA DE FAMILIA",
-    "assuntos": [
-      "Inventário e Partilha"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:31.688000Z",
-    "ultimoMovimento": "Publicação",
-    "dataUltimoMovimento": "2026-06-19T15:50:05.000Z",
-    "titulo": "Arrolamento Sumário — Inventário e Partilha"
-  },
-  {
-    "numeroProcesso": "00072293320228190067",
+    "numeroProcesso": "00250568820198190026",
     "classe": "Execução Fiscal",
-    "orgaoJulgador": "QUEIMADOS NUCLEO DA DIVIDA ATIVA",
+    "orgaoJulgador": "ITAPERUNA CENTRAL DE DIVIDA ATIVA",
     "assuntos": [
       "Dívida Ativa (Execução Fiscal)"
     ],
-    "ultimaAtualizacao": "2026-06-25T18:06:31.169000Z",
-    "ultimoMovimento": "Ato ordinatório",
-    "dataUltimoMovimento": "2026-05-18T18:07:15.000Z",
-    "titulo": "Execução Fiscal — Dívida Ativa (Execução Fiscal)"
-  },
-  {
-    "numeroProcesso": "00000566920228190030",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "MANGARATIBA NUCLEO DA DIVIDA ATIVA",
-    "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:30.809000Z",
-    "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-06-03T16:46:45.000Z",
-    "titulo": "Execução Fiscal — Dívida Ativa (Execução Fiscal)"
-  },
-  {
-    "numeroProcesso": "00024889720228190018",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "CONCEICAO DE MACABU NUCLEO DA DIVIDA ATIVA",
-    "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:29.823000Z",
+    "ultimaAtualizacao": "2026-06-26T14:35:02.876000Z",
     "ultimoMovimento": "Confirmada",
-    "dataUltimoMovimento": "2026-05-19T05:21:59.000Z",
+    "dataUltimoMovimento": "2026-05-19T08:21:23.000Z",
     "titulo": "Execução Fiscal — Dívida Ativa (Execução Fiscal)"
   },
   {
-    "numeroProcesso": "00026474220108190024",
-    "classe": "Restauração de Autos Cível",
-    "orgaoJulgador": "ITAGUAI 1 VARA CIVEL",
+    "numeroProcesso": "01708998620248190001",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "CAPITAL CARTORIO ELETRONICO DA 12 VARA FAZ PUBLICA",
     "assuntos": [
-      "Desapropriação por Utilidade Pública / DL 3.365/1941"
+      "Dívida Ativa (Execução Fiscal)",
+      "Impostos"
     ],
-    "ultimaAtualizacao": "2026-06-25T18:06:28.694000Z",
+    "ultimaAtualizacao": "2026-06-26T14:35:02.760000Z",
+    "ultimoMovimento": "Decisão de Saneamento e Organização",
+    "dataUltimoMovimento": "2026-05-05T21:05:34.000Z",
+    "titulo": "Execução Fiscal — Dívida Ativa (Execução Fiscal), Impostos"
+  },
+  {
+    "numeroProcesso": "00024256020268190203",
+    "classe": "Termo Circunstanciado",
+    "orgaoJulgador": "JACAREPAGUA REGIONAL XVI JUI ESP CRIM",
+    "assuntos": [
+      "Simples"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.730000Z",
     "ultimoMovimento": "Petição",
-    "dataUltimoMovimento": "2026-06-09T02:12:41.000Z",
-    "titulo": "Restauração de Autos Cível — Desapropriação por Utilidade Pública / DL 3.365/1941"
+    "dataUltimoMovimento": "2026-06-03T21:08:22.000Z",
+    "titulo": "Termo Circunstanciado — Simples"
   },
   {
-    "numeroProcesso": "01996591220058190001",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "CAPITAL 12 VARA FAZ PUBLICA",
+    "numeroProcesso": "00015001020258190006",
+    "classe": "Inquérito Policial",
+    "orgaoJulgador": "BARRA DO PIRAI J VIO E ESP ADJ CRIM",
     "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
+      "Ameaça ",
+      "Contravenções Penais"
     ],
-    "ultimaAtualizacao": "2026-06-25T18:06:25.703000Z",
+    "ultimaAtualizacao": "2026-06-26T14:35:02.729000Z",
+    "ultimoMovimento": "Retificação de Classe Processual",
+    "dataUltimoMovimento": "2026-05-11T17:39:15.000Z",
+    "titulo": "Inquérito Policial — Ameaça , Contravenções Penais"
+  },
+  {
+    "numeroProcesso": "00180172220108190037",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "NOVA FRIBURGO CENTRAL DE DIVIDA ATIVA",
+    "assuntos": [
+      "IPTU/ Imposto Predial e Territorial Urbano"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.721000Z",
     "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-05-21T18:56:25.000Z",
-    "titulo": "Execução Fiscal — Dívida Ativa (Execução Fiscal)"
+    "dataUltimoMovimento": "2026-05-20T14:59:36.000Z",
+    "titulo": "Execução Fiscal — IPTU/ Imposto Predial e Territorial Urbano"
   },
   {
-    "numeroProcesso": "00412055220108190002",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "NITEROI CENTRAL DE DIVIDA ATIVA",
+    "numeroProcesso": "00027875620268190205",
+    "classe": "Termo Circunstanciado",
+    "orgaoJulgador": "CAMPO GRANDE REGIONAL XVIII JUI ESP CRIM",
     "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
+      "Decorrente de Violência Doméstica"
     ],
-    "ultimaAtualizacao": "2026-06-25T18:06:25.652000Z",
-    "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-05-19T02:47:45.000Z",
-    "titulo": "Execução Fiscal — Dívida Ativa (Execução Fiscal)"
-  },
-  {
-    "numeroProcesso": "00052809620188190007",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "BARRA MANSA CENTRAL DE DIVIDA ATIVA",
-    "assuntos": [
-      "Taxa de Iluminação Pública"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:25.567000Z",
-    "ultimoMovimento": "Conclusão",
-    "dataUltimoMovimento": "2026-06-18T20:17:22.000Z",
-    "titulo": "Execução Fiscal — Taxa de Iluminação Pública"
-  },
-  {
-    "numeroProcesso": "00026854220128190070",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "SAO FRANCISCO DE ITABAPOANA NUCLEO DA DIVIDA ATIVA",
-    "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:23.113000Z",
+    "ultimaAtualizacao": "2026-06-26T14:35:02.712000Z",
     "ultimoMovimento": "Confirmada",
-    "dataUltimoMovimento": "2026-05-22T06:49:42.000Z",
+    "dataUltimoMovimento": "2026-05-16T03:10:12.000Z",
+    "titulo": "Termo Circunstanciado — Decorrente de Violência Doméstica"
+  },
+  {
+    "numeroProcesso": "00252723920118190023",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "ITABORAI CENTRAL DE DIVIDA ATIVA",
+    "assuntos": [
+      "Dívida Ativa (Execução Fiscal)"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.606000Z",
+    "ultimoMovimento": "Confirmada",
+    "dataUltimoMovimento": "2026-06-09T08:14:14.000Z",
     "titulo": "Execução Fiscal — Dívida Ativa (Execução Fiscal)"
+  },
+  {
+    "numeroProcesso": "30382937220268190001",
+    "classe": "Procedimento Comum Cível",
+    "orgaoJulgador": "CAPITAL 17 VARA DE FAZENDA PUBLICA",
+    "assuntos": [
+      "Retido na fonte"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.590000Z",
+    "ultimoMovimento": "Decurso de Prazo",
+    "dataUltimoMovimento": "2026-05-08T04:02:24.000Z",
+    "titulo": "Procedimento Comum Cível — Retido na fonte"
+  },
+  {
+    "numeroProcesso": "30005458520258190083",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "JAPERI CENTRAL DE DIVIDA ATIVA",
+    "assuntos": [
+      "ISS/ Imposto sobre Serviços"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.563000Z",
+    "ultimoMovimento": "Decurso de Prazo",
+    "dataUltimoMovimento": "2026-05-09T04:10:25.000Z",
+    "titulo": "Execução Fiscal — ISS/ Imposto sobre Serviços"
+  },
+  {
+    "numeroProcesso": "08762211220258190001",
+    "classe": "Procedimento Comum Cível",
+    "orgaoJulgador": "CAPITAL 46 VARA CIVEL",
+    "assuntos": [
+      "Repetição do Indébito",
+      "Repetição do Indébito"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.554000Z",
+    "ultimoMovimento": "Decurso de Prazo",
+    "dataUltimoMovimento": "2026-05-09T04:03:05.000Z",
+    "titulo": "Procedimento Comum Cível — Repetição do Indébito, Repetição do Indébito"
   }
 ]
