@@ -1,387 +1,342 @@
 [
   {
-    "numeroProcesso": "00085138020228190001",
-    "classe": "Cumprimento de sentença",
-    "orgaoJulgador": "CAPITAL 9 VARA FAZ PUBLICA",
-    "assuntos": [
-      "Crédito Complementar"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:32.410000Z",
-    "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-05-05T11:43:52.000Z",
-    "titulo": "Cobrança de Valores Adicionais Contra o Estado",
-    "resumo_simples": "Este processo é uma etapa judicial para garantir o pagamento de um valor adicional que já foi determinado por uma decisão anterior. Ele tramita em uma vara judicial especializada em casos que envolvem o governo.",
-    "por_que_importa": "Importa para o cidadão pois afeta a forma como decisões judiciais são cumpridas contra o poder público, garantindo que valores devidos sejam efetivamente pagos, o que pode impactar a execução de orçamentos públicos ou a quitação de dívidas com servidores e fornecedores.",
-    "angulos": [
-      "Como funciona a cobrança de dívidas do governo após a decisão judicial?",
-      "Quais os desafios de receber valores complementares de órgãos públicos?",
-      "Entenda o papel das Varas da Fazenda Pública em ações contra o Estado."
-    ],
-    "glossario": [
-      {
-        "termo": "Cumprimento de sentença",
-        "definicao": "Fase de um processo judicial onde se exige o cumprimento de uma decisão já tomada, como o pagamento de uma dívida ou a realização de uma obrigação."
-      },
-      {
-        "termo": "Vara",
-        "definicao": "Repartição judiciária de 1ª instância onde o Juiz exerce suas atribuições."
-      },
-      {
-        "termo": "Faz Pública (Fazenda Pública)",
-        "definicao": "O conjunto de bens, direitos e obrigações do Estado (União, Estados, Municípios, autarquias e fundações públicas), ou a representação jurídica do ente público em juízo."
-      },
-      {
-        "termo": "Crédito Complementar",
-        "definicao": "Valor adicional ou suplementar devido por um órgão público ou empresa, geralmente relacionado a pagamentos já existentes."
-      },
-      {
-        "termo": "Definitivo",
-        "definicao": "Indica que o processo chegou ao fim na instância atual e a decisão proferida é final."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00120155820228190023",
-    "classe": "Arrolamento Sumário",
-    "orgaoJulgador": "ITABORAI 2 VARA DE FAMILIA",
-    "assuntos": [
-      "Inventário e Partilha"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:31.688000Z",
-    "ultimoMovimento": "Publicação",
-    "dataUltimoMovimento": "2026-06-19T15:50:05.000Z",
-    "titulo": "Divisão Simplificada de Herança",
-    "resumo_simples": "Este processo é uma forma simplificada de levantar e dividir os bens de uma pessoa falecida entre os herdeiros. Ele está em andamento em uma vara especializada em questões de família, e recentemente houve uma publicação informando sobre o seu progresso.",
-    "por_que_importa": "Importa para cidadãos que precisam regularizar heranças de forma mais rápida e menos custosa, especialmente quando há acordo entre os herdeiros, permitindo a transferência de bens para os legítimos sucessores.",
-    "angulos": [
-      "Como funciona o Arrolamento Sumário para heranças de baixo valor?",
-      "Inventário e Partilha: o que fazer quando um parente falece?",
-      "Vantagens e desvantagens de um processo de herança simplificado."
-    ],
-    "glossario": [
-      {
-        "termo": "Arrolamento Sumário",
-        "definicao": "Um procedimento judicial simplificado para realizar o inventário (levantamento de bens) e a partilha (divisão) da herança, aplicável quando os herdeiros são maiores e capazes e há consenso sobre a divisão, ou quando o valor total dos bens é baixo."
-      },
-      {
-        "termo": "Vara",
-        "definicao": "Repartição judiciária de 1ª instância onde o Juiz exerce suas atribuições."
-      },
-      {
-        "termo": "Família",
-        "definicao": "Área do direito que trata de questões familiares, como divórcio, guarda de filhos, pensão alimentícia e herança."
-      },
-      {
-        "termo": "Inventário e Partilha",
-        "definicao": "Procedimento para levantar os bens, direitos e dívidas de uma pessoa falecida (inventário) e, posteriormente, dividir esses bens entre os herdeiros (partilha)."
-      },
-      {
-        "termo": "Publicação",
-        "definicao": "Ato de tornar pública uma decisão ou um ato processual, geralmente por meio do Diário Oficial, para que as partes e advogados tomem conhecimento."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00072293320228190067",
+    "numeroProcesso": "00250568820198190026",
     "classe": "Execução Fiscal",
-    "orgaoJulgador": "QUEIMADOS NUCLEO DA DIVIDA ATIVA",
+    "orgaoJulgador": "ITAPERUNA CENTRAL DE DIVIDA ATIVA",
     "assuntos": [
       "Dívida Ativa (Execução Fiscal)"
     ],
-    "ultimaAtualizacao": "2026-06-25T18:06:31.169000Z",
-    "ultimoMovimento": "Ato ordinatório",
-    "dataUltimoMovimento": "2026-05-18T18:07:15.000Z",
-    "titulo": "Cobrança Judicial de Dívida com o Governo",
-    "resumo_simples": "Este é um processo judicial que busca a cobrança de uma dívida que uma pessoa ou empresa possui com o governo. Ele está sendo tratado por uma unidade especializada na recuperação desses valores, e um ato administrativo simples foi realizado para dar andamento ao caso.",
-    "por_que_importa": "Importa para cidadãos e empresas pois mostra como o Estado cobra dívidas fiscais, o que pode levar à penhora de bens ou bloqueio de contas, impactando diretamente a vida financeira dos devedores e a arrecadação pública.",
-    "angulos": [
-      "Como evitar a inscrição na Dívida Ativa e o que fazer se for cobrado judicialmente.",
-      "O que o governo pode fazer para cobrar impostos e multas atrasadas?",
-      "Núcleos da Dívida Ativa: o papel dessas unidades na arrecadação pública."
-    ],
-    "glossario": [
-      {
-        "termo": "Execução Fiscal",
-        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
-      },
-      {
-        "termo": "Núcleo da Dívida Ativa",
-        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
-      },
-      {
-        "termo": "Dívida Ativa",
-        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
-      },
-      {
-        "termo": "Ato Ordinatório",
-        "definicao": "Publicação sem conteúdo decisório que serve para movimentar o processo."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00000566920228190030",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "MANGARATIBA NUCLEO DA DIVIDA ATIVA",
-    "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:30.809000Z",
-    "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-06-03T16:46:45.000Z",
-    "titulo": "Dívida Com o Governo Chega à Fase Final na Justiça",
-    "resumo_simples": "Este processo judicial trata da cobrança de uma dívida de um cidadão ou empresa com o governo, que está sendo gerenciada por uma unidade especializada em dívidas ativas. O processo alcançou uma fase onde a decisão atual é considerada final.",
-    "por_que_importa": "Este caso exemplifica como processos de dívida pública chegam a um ponto decisivo, o que pode resultar na conclusão da cobrança, impactando bens e finanças dos envolvidos, e reforçando a necessidade de regularização fiscal.",
-    "angulos": [
-      "Entenda o que significa um processo de dívida fiscal ser considerado 'definitivo'.",
-      "Quais as consequências de ter uma dívida ativa cobrada judicialmente?",
-      "Como negociar e regularizar dívidas com o Poder Público."
-    ],
-    "glossario": [
-      {
-        "termo": "Execução Fiscal",
-        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
-      },
-      {
-        "termo": "Núcleo da Dívida Ativa",
-        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
-      },
-      {
-        "termo": "Dívida Ativa",
-        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
-      },
-      {
-        "termo": "Definitivo",
-        "definicao": "Indica que o processo chegou ao fim na instância atual e a decisão proferida é final."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00024889720228190018",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "CONCEICAO DE MACABU NUCLEO DA DIVIDA ATIVA",
-    "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:29.823000Z",
+    "ultimaAtualizacao": "2026-06-26T14:35:02.876000Z",
     "ultimoMovimento": "Confirmada",
-    "dataUltimoMovimento": "2026-05-19T05:21:59.000Z",
-    "titulo": "Processo de Cobrança de Dívida Pública Segue em Andamento",
-    "resumo_simples": "Este processo judicial visa cobrar uma dívida de um particular ou empresa com o governo, sob a responsabilidade de uma unidade especializada em dívidas ativas. Um movimento recente indica a validação de um ato ou decisão anterior, mantendo o processo em curso.",
-    "por_que_importa": "Este caso demonstra a continuidade das ações do governo para recuperar valores devidos, o que pode levar a medidas de cobrança contra o devedor e tem impacto direto nas finanças públicas e na conformidade fiscal.",
+    "dataUltimoMovimento": "2026-05-19T08:21:23.000Z",
+    "titulo": "Cobrança de Dívida do Governo: Entenda o Processo",
+    "resumo_simples": "Este é um processo de Execução Fiscal, onde o governo está cobrando uma dívida (Dívida Ativa) de um cidadão ou empresa. O último movimento indica que alguma etapa do processo foi confirmada ou finalizada, talvez relacionada à regularização do débito ou uma fase do trâmite judicial.",
+    "por_que_importa": "Pessoas e empresas podem enfrentar processos de Execução Fiscal se não pagarem seus impostos ou multas, o que pode levar à penhora de bens. Compreender o andamento desses processos é crucial para evitar maiores complicações financeiras e jurídicas.",
     "angulos": [
-      "O que acontece quando uma decisão em um processo de execução fiscal é confirmada?",
-      "A importância da regularização fiscal para evitar processos judiciais.",
-      "Panorama da dívida ativa em cidades pequenas: como os municípios cobram seus devedores."
+      "Como evitar a Dívida Ativa: um guia para o cidadão",
+      "O que acontece quando o governo cobra uma dívida judicialmente?",
+      "Direitos e deveres de quem é alvo de uma Execução Fiscal."
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
-      },
-      {
-        "termo": "Núcleo da Dívida Ativa",
-        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
+        "definicao": "Ação judicial que o governo usa para cobrar dívidas (impostos, taxas, multas) de cidadãos ou empresas que não pagaram."
       },
       {
         "termo": "Dívida Ativa",
-        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
+        "definicao": "Dívida que uma pessoa ou empresa tem com o governo (municipal, estadual ou federal), geralmente por impostos não pagos, e que foi oficialmente registrada para ser cobrada judicialmente."
       },
       {
         "termo": "Confirmada",
-        "definicao": "Indica que um ato ou decisão processual anterior foi validado e registrado no processo."
+        "definicao": "Status que indica que uma etapa, informação ou o próprio débito no processo foi verificado e validado, ou que houve uma regularização da situação."
       }
     ]
   },
   {
-    "numeroProcesso": "00026474220108190024",
-    "classe": "Restauração de Autos Cível",
-    "orgaoJulgador": "ITAGUAI 1 VARA CIVEL",
+    "numeroProcesso": "01708998620248190001",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "CAPITAL CARTORIO ELETRONICO DA 12 VARA FAZ PUBLICA",
     "assuntos": [
-      "Desapropriação por Utilidade Pública / DL 3.365/1941"
+      "Dívida Ativa (Execução Fiscal)",
+      "Impostos"
     ],
-    "ultimaAtualizacao": "2026-06-25T18:06:28.694000Z",
-    "ultimoMovimento": "Petição",
-    "dataUltimoMovimento": "2026-06-09T02:12:41.000Z",
-    "titulo": "Reconstrução de Processo Judicial sobre Desapropriação",
-    "resumo_simples": "Este processo busca recriar os documentos e registros de um caso judicial anterior que se perdeu. O processo original tratava da desapropriação de um imóvel particular pelo governo, e recentemente foi apresentada uma nova petição para dar andamento à sua restauração.",
-    "por_que_importa": "A restauração de autos é crucial para garantir a segurança jurídica, especialmente em casos de desapropriação que envolvem direitos de propriedade, assegurando que decisões e indenizações devidas sejam devidamente registradas e cumpridas, mesmo após a perda dos documentos originais.",
+    "ultimaAtualizacao": "2026-06-26T14:35:02.760000Z",
+    "ultimoMovimento": "Decisão de Saneamento e Organização",
+    "dataUltimoMovimento": "2026-05-05T21:05:34.000Z",
+    "titulo": "Justiça Organiza Cobrança de Impostos Atrasados",
+    "resumo_simples": "Este processo é uma Execução Fiscal, onde o governo busca cobrar impostos que estão em Dívida Ativa. Recentemente, houve uma Decisão de Saneamento e Organização, o que significa que o juiz está definindo os próximos passos e as regras para o andamento do caso.",
+    "por_que_importa": "Esses casos impactam diretamente quem tem débitos fiscais, pois o juiz está preparando o terreno para as etapas decisivas do processo de cobrança. Para o contribuinte, é fundamental entender essa fase para acompanhar a defesa e possíveis desdobramentos.",
     "angulos": [
-      "Como a perda de documentos pode impactar um processo judicial e a segurança jurídica.",
-      "Desapropriação por utilidade pública: seus direitos e deveres como proprietário.",
-      "O processo de restauração de autos: um guia para entender como documentos perdidos são recuperados na Justiça."
+      "A importância do saneamento processual em ações de Execução Fiscal",
+      "Como o Poder Judiciário lida com a cobrança de impostos não pagos",
+      "Guia rápido: Entenda os termos de uma Execução Fiscal."
     ],
     "glossario": [
       {
-        "termo": "Restauração de Autos Cível",
-        "definicao": "Processo judicial para reconstruir os autos (documentos e peças) de um processo que foi extraviado ou destruído."
+        "termo": "Execução Fiscal",
+        "definicao": "Ação judicial que o governo usa para cobrar dívidas (impostos, taxas, multas) de cidadãos ou empresas que não pagaram."
       },
       {
-        "termo": "Vara",
-        "definicao": "Repartição judiciária de 1ª instância onde o Juiz exerce suas atribuições."
+        "termo": "Dívida Ativa",
+        "definicao": "Dívida que uma pessoa ou empresa tem com o governo (municipal, estadual ou federal), geralmente por impostos não pagos, e que foi oficialmente registrada para ser cobrada judicialmente."
       },
       {
-        "termo": "Cível",
-        "definicao": "Área do direito que trata de questões entre particulares, como contratos, família, propriedade e responsabilidade civil, excluindo as de natureza penal, trabalhista ou fiscal."
+        "termo": "Impostos",
+        "definicao": "Valores que o governo exige dos cidadãos e empresas para financiar os serviços públicos."
       },
       {
-        "termo": "Desapropriação por Utilidade Pública",
-        "definicao": "Procedimento pelo qual o Poder Público (governo) retira a propriedade de um bem particular, por necessidade pública, utilidade pública ou interesse social, mediante justa e prévia indenização."
+        "termo": "Decisão de Saneamento e Organização",
+        "definicao": "Uma decisão do juiz que arruma e organiza o processo judicial, definindo quais são os pontos de discórdia, as provas que serão colhidas e como as próximas etapas do processo vão acontecer."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "00024256020268190203",
+    "classe": "Termo Circunstanciado",
+    "orgaoJulgador": "JACAREPAGUA REGIONAL XVI JUI ESP CRIM",
+    "assuntos": [
+      "Simples"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.730000Z",
+    "ultimoMovimento": "Petição",
+    "dataUltimoMovimento": "2026-06-03T21:08:22.000Z",
+    "titulo": "Caso de Infração Leve: Justiça Analisa Novo Documento",
+    "resumo_simples": "Este processo é um Termo Circunstanciado, que lida com uma infração penal de menor potencial ofensivo. Recentemente, foi apresentada uma Petição, que é um documento formal onde uma das partes faz um pedido ou presta informações ao juiz.",
+    "por_que_importa": "Infrações leves podem levar a processos simplificados, mas ainda com consequências legais. Entender o andamento, como a apresentação de petições, ajuda a acompanhar as etapas e possíveis soluções sem a complexidade de um processo criminal comum.",
+    "angulos": [
+      "O que é um Termo Circunstanciado e para que serve?",
+      "Como infrações de menor potencial ofensivo são tratadas pela justiça?",
+      "A importância da 'Petição' em um processo judicial."
+    ],
+    "glossario": [
+      {
+        "termo": "Termo Circunstanciado",
+        "definicao": "Um registro policial simplificado para infrações penais de menor gravidade (crimes e contravenções que a lei considera de menor potencial ofensivo), que busca uma solução mais rápida, como uma audiência de conciliação."
+      },
+      {
+        "termo": "Simples",
+        "definicao": "No contexto de Termo Circunstanciado, refere-se a uma infração penal de menor potencial ofensivo, ou seja, um crime ou contravenção de baixa gravidade."
       },
       {
         "termo": "Petição",
-        "definicao": "Documento escrito apresentado por uma das partes ou seu advogado ao juiz, contendo pedidos, informações ou manifestações sobre o processo."
+        "definicao": "Um documento formal apresentado por uma das partes ou por seus advogados ao juiz, solicitando algo ou prestando informações durante o andamento do processo."
       }
     ]
   },
   {
-    "numeroProcesso": "01996591220058190001",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "CAPITAL 12 VARA FAZ PUBLICA",
+    "numeroProcesso": "00015001020258190006",
+    "classe": "Inquérito Policial",
+    "orgaoJulgador": "BARRA DO PIRAI J VIO E ESP ADJ CRIM",
     "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
+      "Ameaça ",
+      "Contravenções Penais"
     ],
-    "ultimaAtualizacao": "2026-06-25T18:06:25.703000Z",
-    "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-05-21T18:56:25.000Z",
-    "titulo": "Cobrança de Dívida Pública na Capital Chega ao Fim",
-    "resumo_simples": "Este processo judicial, que busca a cobrança de uma dívida de um cidadão ou empresa com o governo, tramitou em uma vara especializada em questões da Fazenda Pública na capital. O movimento mais recente indica que a decisão atual é final e o processo chegou ao seu encerramento nesta instância.",
-    "por_que_importa": "Este caso reflete como as dívidas com o setor público são resolvidas judicialmente, impactando diretamente os devedores com possíveis restrições financeiras e contribuindo para a arrecadação de fundos que podem ser revertidos em serviços públicos.",
+    "ultimaAtualizacao": "2026-06-26T14:35:02.729000Z",
+    "ultimoMovimento": "Retificação de Classe Processual",
+    "dataUltimoMovimento": "2026-05-11T17:39:15.000Z",
+    "titulo": "Investigação Policial de Ameaça e Contravenções Penais tem Classe Ajustada",
+    "resumo_simples": "Este processo é um Inquérito Policial, que é uma investigação feita pela polícia para apurar crimes como ameaça e Contravenções Penais. Houve uma Retificação de Classe Processual, o que significa que o tipo de processo foi corrigido ou atualizado no sistema judicial para refletir sua natureza exata.",
+    "por_que_importa": "Casos envolvendo ameaças e contravenções podem ter impacto na segurança e bem-estar das pessoas. A correta classificação do processo é importante para garantir que ele siga o rito legal adequado e que as investigações sejam conduzidas da maneira certa.",
     "angulos": [
-      "Impacto do 'Definitivo' em processos de execução fiscal para o devedor.",
-      "Como a Vara da Fazenda Pública atua na recuperação de dívidas para o município.",
-      "A longa jornada da dívida ativa: entendendo processos fiscais antigos."
+      "Como funciona um Inquérito Policial e quais são seus objetivos?",
+      "Diferenças entre crimes de ameaça e contravenções penais",
+      "A importância da correta classificação de um processo na Justiça."
+    ],
+    "glossario": [
+      {
+        "termo": "Inquérito Policial",
+        "definicao": "Procedimento administrativo da polícia para apurar a existência de infração penal e sua autoria, embasando possível ação penal."
+      },
+      {
+        "termo": "Ameaça",
+        "definicao": "Um crime que consiste em prometer causar mal injusto e grave a alguém, com o intuito de intimidar ou coagir."
+      },
+      {
+        "termo": "Contravenções Penais",
+        "definicao": "Infrações penais de menor gravidade do que os crimes, sujeitas a penas mais brandas, como prisão simples ou multa."
+      },
+      {
+        "termo": "Retificação de Classe Processual",
+        "definicao": "A correção ou alteração do tipo de processo registrado no sistema da justiça, para adequá-lo à natureza jurídica correta do caso."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "00180172220108190037",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "NOVA FRIBURGO CENTRAL DE DIVIDA ATIVA",
+    "assuntos": [
+      "IPTU/ Imposto Predial e Territorial Urbano"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.721000Z",
+    "ultimoMovimento": "Definitivo",
+    "dataUltimoMovimento": "2026-05-20T14:59:36.000Z",
+    "titulo": "Cobrança de IPTU Atrasado Chega à Fase Final",
+    "resumo_simples": "Este processo trata de uma Execução Fiscal para a cobrança de IPTU (Imposto Predial e Territorial Urbano) que não foi pago. O último movimento, 'Definitivo', indica que uma etapa importante ou o próprio processo de cobrança foi concluído e não pode mais ser alterado nesse estágio.",
+    "por_que_importa": "A inadimplência do IPTU pode levar à cobrança judicial e até à perda do imóvel. Entender o status 'Definitivo' em uma Execução Fiscal é crucial para os proprietários, pois sinaliza o encerramento do caso, seja por pagamento, acordo ou outra forma de resolução.",
+    "angulos": [
+      "O impacto da inadimplência do IPTU para o cidadão",
+      "O que significa um processo de Execução Fiscal 'Definitivo'?",
+      "Dicas para negociar dívidas de IPTU e evitar problemas na justiça."
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
+        "definicao": "Ação judicial que o governo usa para cobrar dívidas (impostos, taxas, multas) de cidadãos ou empresas que não pagaram."
       },
       {
-        "termo": "Vara",
-        "definicao": "Repartição judiciária de 1ª instância onde o Juiz exerce suas atribuições."
-      },
-      {
-        "termo": "Faz Pública (Fazenda Pública)",
-        "definicao": "O conjunto de bens, direitos e obrigações do Estado (União, Estados, Municípios, autarquias e fundações públicas), ou a representação jurídica do ente público em juízo."
-      },
-      {
-        "termo": "Dívida Ativa",
-        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
+        "termo": "IPTU/ Imposto Predial e Territorial Urbano",
+        "definicao": "Um imposto anual cobrado pelas prefeituras sobre propriedades imobiliárias (casas, apartamentos, terrenos) localizadas em áreas urbanas."
       },
       {
         "termo": "Definitivo",
-        "definicao": "Indica que o processo chegou ao fim na instância atual e a decisão proferida é final."
+        "definicao": "Um status no processo que indica que uma decisão ou uma etapa foi finalizada e não pode mais ser revertida naquele grau de jurisdição, ou que o próprio processo de cobrança foi encerrado."
       }
     ]
   },
   {
-    "numeroProcesso": "00412055220108190002",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "NITEROI CENTRAL DE DIVIDA ATIVA",
+    "numeroProcesso": "00027875620268190205",
+    "classe": "Termo Circunstanciado",
+    "orgaoJulgador": "CAMPO GRANDE REGIONAL XVIII JUI ESP CRIM",
     "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
+      "Decorrente de Violência Doméstica"
     ],
-    "ultimaAtualizacao": "2026-06-25T18:06:25.652000Z",
-    "ultimoMovimento": "Definitivo",
-    "dataUltimoMovimento": "2026-05-19T02:47:45.000Z",
-    "titulo": "Processo Antigo de Dívida com o Governo é Concluído",
-    "resumo_simples": "Este é um processo judicial de longa data, iniciado em 2010, que trata da cobrança de uma dívida de um particular ou empresa com o governo. Ele está sendo tratado por uma unidade especializada e o último movimento indica que o processo chegou ao fim na instância atual, com uma decisão final.",
-    "por_que_importa": "Demonstra a persistência do Poder Público na cobrança de dívidas ao longo dos anos, ressaltando a importância de manter as obrigações fiscais em dia para evitar longos processos judiciais e suas consequências.",
-    "angulos": [
-      "Dívida Fiscal: por que alguns processos levam mais de uma década para serem finalizados?",
-      "Como a 'Central de Dívida Ativa' agiliza a recuperação de valores para o município.",
-      "O impacto do tempo no processo de execução fiscal e as chances de recuperação da dívida."
-    ],
-    "glossario": [
-      {
-        "termo": "Execução Fiscal",
-        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
-      },
-      {
-        "termo": "Central de Dívida Ativa",
-        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
-      },
-      {
-        "termo": "Dívida Ativa",
-        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
-      },
-      {
-        "termo": "Definitivo",
-        "definicao": "Indica que o processo chegou ao fim na instância atual e a decisão proferida é final."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00052809620188190007",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "BARRA MANSA CENTRAL DE DIVIDA ATIVA",
-    "assuntos": [
-      "Taxa de Iluminação Pública"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:25.567000Z",
-    "ultimoMovimento": "Conclusão",
-    "dataUltimoMovimento": "2026-06-18T20:17:22.000Z",
-    "titulo": "Cobrança Judicial de Taxa de Iluminação Pública Atrasada",
-    "resumo_simples": "Este é um processo judicial de execução fiscal que busca a cobrança de valores referentes à Taxa de Iluminação Pública que não foram pagos. O processo foi enviado ao juiz para que ele analise a situação e tome uma decisão.",
-    "por_que_importa": "Mostra como municípios cobram taxas de serviços essenciais, como iluminação pública. O não pagamento pode levar a processos judiciais e impactar o orçamento público, que financia esses serviços, além de gerar custos adicionais para o devedor.",
-    "angulos": [
-      "Entenda a Taxa de Iluminação Pública: o que é e por que ela é cobrada.",
-      "Consequências de não pagar impostos e taxas municipais.",
-      "Como funciona a 'Conclusão' do processo e o que o juiz decide nesses casos."
-    ],
-    "glossario": [
-      {
-        "termo": "Execução Fiscal",
-        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
-      },
-      {
-        "termo": "Central de Dívida Ativa",
-        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
-      },
-      {
-        "termo": "Taxa de Iluminação Pública",
-        "definicao": "Tributo cobrado pelos municípios para custear os serviços de iluminação de vias e logradouros públicos."
-      },
-      {
-        "termo": "Conclusão",
-        "definicao": "Ato de enviar o processo ao Magistrado para que ele avalie a questão e tome a decisão cabível."
-      }
-    ]
-  },
-  {
-    "numeroProcesso": "00026854220128190070",
-    "classe": "Execução Fiscal",
-    "orgaoJulgador": "SAO FRANCISCO DE ITABAPOANA NUCLEO DA DIVIDA ATIVA",
-    "assuntos": [
-      "Dívida Ativa (Execução Fiscal)"
-    ],
-    "ultimaAtualizacao": "2026-06-25T18:06:23.113000Z",
+    "ultimaAtualizacao": "2026-06-26T14:35:02.712000Z",
     "ultimoMovimento": "Confirmada",
-    "dataUltimoMovimento": "2026-05-22T06:49:42.000Z",
-    "titulo": "Processo Antigo de Dívida Fiscal em Município do Interior",
-    "resumo_simples": "Este processo judicial, iniciado em 2012, trata da cobrança de uma dívida de um particular ou empresa com o governo municipal. Ele tramita em um núcleo especializado em dívida ativa e recentemente um ato processual foi validado, mostrando que o caso segue em andamento.",
-    "por_que_importa": "Evidencia a continuidade dos esforços dos municípios para reaver valores devidos, o que é fundamental para a saúde financeira dessas localidades e pode resultar em medidas de cobrança diretas sobre os devedores, como penhora de bens ou bloqueio de valores.",
+    "dataUltimoMovimento": "2026-05-16T03:10:12.000Z",
+    "titulo": "Caso de Violência Doméstica de Menor Potencial Ofensivo: Status Confirmado",
+    "resumo_simples": "Este é um processo de Termo Circunstanciado que apura uma infração penal de menor gravidade ocorrida no contexto de Violência Doméstica. O último movimento, 'Confirmada', indica que alguma etapa ou informação relevante do processo foi verificada e validada, seguindo o trâmite legal.",
+    "por_que_importa": "Mesmo infrações de menor potencial ofensivo em contexto de violência doméstica são sérias e demandam atenção. O andamento do processo reflete a atuação da justiça para proteger vítimas e responsabilizar agressores, mostrando que o sistema está em funcionamento para esses casos.",
     "angulos": [
-      "Como os pequenos municípios lidam com a cobrança de dívidas fiscais.",
-      "O que fazer quando seu nome ou empresa é incluído na Dívida Ativa de um município.",
-      "A importância da regularidade fiscal para o desenvolvimento local e a prestação de serviços públicos."
+      "Como a justiça lida com casos de violência doméstica de menor potencial ofensivo?",
+      "Os direitos das vítimas em processos de violência doméstica",
+      "O papel do Termo Circunstanciado em casos envolvendo contexto familiar."
     ],
     "glossario": [
       {
-        "termo": "Execução Fiscal",
-        "definicao": "Ação judicial movida pelo Poder Público (União, Estados, Municípios) para cobrar dívidas de contribuintes que não pagaram impostos, taxas ou multas no prazo."
+        "termo": "Termo Circunstanciado",
+        "definicao": "Um registro policial simplificado para infrações penais de menor gravidade (crimes e contravenções que a lei considera de menor potencial ofensivo), que busca uma solução mais rápida, como uma audiência de conciliação."
       },
       {
-        "termo": "Núcleo da Dívida Ativa",
-        "definicao": "Unidade judicial ou administrativa especializada na cobrança de dívidas de contribuintes em favor do Poder Público."
-      },
-      {
-        "termo": "Dívida Ativa",
-        "definicao": "É o conjunto de valores que uma pessoa física ou jurídica deve ao Poder Público (governo), como impostos, taxas, multas, que não foram pagos no prazo legal."
+        "termo": "Decorrente de Violência Doméstica",
+        "definicao": "Refere-se a fatos ou infrações que aconteceram no contexto de violência familiar ou doméstica, envolvendo relações afetivas ou de parentesco."
       },
       {
         "termo": "Confirmada",
-        "definicao": "Indica que um ato ou decisão processual anterior foi validado e registrado no processo."
+        "definicao": "Status que indica que uma etapa, informação ou o próprio débito no processo foi verificado e validado, ou que houve uma regularização da situação."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "00252723920118190023",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "ITABORAI CENTRAL DE DIVIDA ATIVA",
+    "assuntos": [
+      "Dívida Ativa (Execução Fiscal)"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.606000Z",
+    "ultimoMovimento": "Confirmada",
+    "dataUltimoMovimento": "2026-06-09T08:14:14.000Z",
+    "titulo": "Cobrança de Dívida do Governo: Processo Confirmado",
+    "resumo_simples": "Este é um processo de Execução Fiscal, onde o governo está cobrando uma dívida (Dívida Ativa) de um cidadão ou empresa. O último movimento indica que alguma etapa do processo foi confirmada ou finalizada, talvez relacionada à regularização do débito ou uma fase do trâmite judicial.",
+    "por_que_importa": "Pessoas e empresas podem enfrentar processos de Execução Fiscal se não pagarem seus impostos ou multas, o que pode levar à penhora de bens. Compreender o andamento desses processos é crucial para evitar maiores complicações financeiras e jurídicas.",
+    "angulos": [
+      "Como evitar a Dívida Ativa: um guia para o cidadão",
+      "O que acontece quando o governo cobra uma dívida judicialmente?",
+      "Direitos e deveres de quem é alvo de uma Execução Fiscal."
+    ],
+    "glossario": [
+      {
+        "termo": "Execução Fiscal",
+        "definicao": "Ação judicial que o governo usa para cobrar dívidas (impostos, taxas, multas) de cidadãos ou empresas que não pagaram."
+      },
+      {
+        "termo": "Dívida Ativa",
+        "definicao": "Dívida que uma pessoa ou empresa tem com o governo (municipal, estadual ou federal), geralmente por impostos não pagos, e que foi oficialmente registrada para ser cobrada judicialmente."
+      },
+      {
+        "termo": "Confirmada",
+        "definicao": "Status que indica que uma etapa, informação ou o próprio débito no processo foi verificado e validado, ou que houve uma regularização da situação."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "30382937220268190001",
+    "classe": "Procedimento Comum Cível",
+    "orgaoJulgador": "CAPITAL 17 VARA DE FAZENDA PUBLICA",
+    "assuntos": [
+      "Retido na fonte"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.590000Z",
+    "ultimoMovimento": "Decurso de Prazo",
+    "dataUltimoMovimento": "2026-05-08T04:02:24.000Z",
+    "titulo": "Ação Cível sobre Imposto Retido na Fonte: Prazo Expirado",
+    "resumo_simples": "Este é um Procedimento Comum Cível, uma ação judicial para resolver disputas não criminais, que neste caso envolve algo 'Retido na fonte', possivelmente relacionado a impostos descontados. O último movimento, 'Decurso de Prazo', indica que uma das partes perdeu a oportunidade de fazer algo no processo porque o prazo legal para isso terminou.",
+    "por_que_importa": "Questões sobre impostos retidos na fonte afetam diretamente o bolso do contribuinte. O 'Decurso de Prazo' é um ponto crucial, pois a perda de um prazo pode significar a perda de um direito, impactando o resultado final da ação para o cidadão.",
+    "angulos": [
+      "O que acontece quando um prazo judicial é perdido?",
+      "Como entender a retenção de impostos na fonte?",
+      "Ações cíveis: disputas comuns e como elas são resolvidas."
+    ],
+    "glossario": [
+      {
+        "termo": "Procedimento Comum Cível",
+        "definicao": "O tipo mais comum de processo judicial na área cível, usado para resolver disputas entre pessoas ou empresas que não envolvem crimes, como questões de contrato, dívidas ou indenizações."
+      },
+      {
+        "termo": "Retido na fonte",
+        "definicao": "Refere-se a um imposto ou contribuição que é descontado diretamente do valor a ser pago a alguém (salário, aluguel, etc.) antes que a pessoa receba o dinheiro."
+      },
+      {
+        "termo": "Decurso de Prazo",
+        "definicao": "Situação em que o tempo determinado pela lei ou pelo juiz para uma parte realizar um ato processual (como apresentar defesa, recurso ou documento) terminou sem que ela agisse. Isso pode gerar a perda do direito de praticar aquele ato."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "30005458520258190083",
+    "classe": "Execução Fiscal",
+    "orgaoJulgador": "JAPERI CENTRAL DE DIVIDA ATIVA",
+    "assuntos": [
+      "ISS/ Imposto sobre Serviços"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.563000Z",
+    "ultimoMovimento": "Decurso de Prazo",
+    "dataUltimoMovimento": "2026-05-09T04:10:25.000Z",
+    "titulo": "Justiça Cobra ISS Atrasado: Prazo para Defesa Expirado",
+    "resumo_simples": "Este é um processo de Execução Fiscal que busca cobrar o ISS (Imposto sobre Serviços) de um contribuinte. O último movimento, 'Decurso de Prazo', indica que um prazo legal para uma das partes agir no processo (como apresentar uma defesa ou documento) terminou sem que a ação fosse realizada.",
+    "por_que_importa": "Empresas e profissionais autônomos precisam estar atentos ao pagamento do ISS para evitar cobranças judiciais que podem levar à penhora de bens. A perda de um prazo processual é um evento significativo que pode complicar a situação do devedor na justiça.",
+    "angulos": [
+      "Consequências da inadimplência do ISS para empresas e autônomos",
+      "Como funciona a cobrança judicial de impostos municipais",
+      "A importância de respeitar os prazos no processo judicial."
+    ],
+    "glossario": [
+      {
+        "termo": "Execução Fiscal",
+        "definicao": "Ação judicial que o governo usa para cobrar dívidas (impostos, taxas, multas) de cidadãos ou empresas que não pagaram."
+      },
+      {
+        "termo": "ISS/ Imposto sobre Serviços",
+        "definicao": "Um imposto municipal cobrado sobre a prestação de serviços por empresas ou profissionais autônomos."
+      },
+      {
+        "termo": "Decurso de Prazo",
+        "definicao": "Situação em que o tempo determinado pela lei ou pelo juiz para uma parte realizar um ato processual (como apresentar defesa, recurso ou documento) terminou sem que ela agisse. Isso pode gerar a perda do direito de praticar aquele ato."
+      }
+    ]
+  },
+  {
+    "numeroProcesso": "08762211220258190001",
+    "classe": "Procedimento Comum Cível",
+    "orgaoJulgador": "CAPITAL 46 VARA CIVEL",
+    "assuntos": [
+      "Repetição do Indébito",
+      "Repetição do Indébito"
+    ],
+    "ultimaAtualizacao": "2026-06-26T14:35:02.554000Z",
+    "ultimoMovimento": "Decurso de Prazo",
+    "dataUltimoMovimento": "2026-05-09T04:03:05.000Z",
+    "titulo": "Ação para Reaver Dinheiro Pago Errado: Prazo Legal Venceu",
+    "resumo_simples": "Este é um Procedimento Comum Cível, uma ação judicial onde alguém busca a 'Repetição do Indébito', ou seja, quer de volta um valor que pagou indevidamente. O último movimento, 'Decurso de Prazo', indica que uma das partes perdeu um prazo importante para realizar alguma ação no processo.",
+    "por_que_importa": "Ações de Repetição do Indébito são importantes para que os cidadãos e empresas possam recuperar dinheiro pago de forma errada, seja a bancos, empresas ou ao próprio governo. A atenção aos prazos é fundamental, pois perdê-los pode comprometer a chance de reaver esses valores.",
+    "angulos": [
+      "Quando você pode pedir a 'Repetição do Indébito'?",
+      "Como a perda de prazos afeta um processo cível?",
+      "Direitos do consumidor: o que fazer em caso de cobrança indevida."
+    ],
+    "glossario": [
+      {
+        "termo": "Procedimento Comum Cível",
+        "definicao": "O tipo mais comum de processo judicial na área cível, usado para resolver disputas entre pessoas ou empresas que não envolvem crimes, como questões de contrato, dívidas ou indenizações."
+      },
+      {
+        "termo": "Repetição do Indébito",
+        "definicao": "É o direito de uma pessoa pedir de volta um valor que pagou indevidamente, ou seja, um dinheiro que não devia ou que foi cobrado a mais."
+      },
+      {
+        "termo": "Decurso de Prazo",
+        "definicao": "Situação em que o tempo determinado pela lei ou pelo juiz para uma parte realizar um ato processual (como apresentar defesa, recurso ou documento) terminou sem que ela agisse. Isso pode gerar a perda do direito de praticar aquele ato."
       }
     ]
   }
