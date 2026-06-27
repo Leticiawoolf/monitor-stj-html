@@ -31,33 +31,9 @@ def formatar_data(iso_str):
     except (ValueError, AttributeError):
         return iso_str
 
-
-# ── Teste de conexão com DataJud ──────────────────────────────────────────────
-with st.expander("🔧 Teste de conexão com DataJud (diagnóstico)", expanded=False):
-    st.caption("Use este painel para verificar se o Streamlit Cloud consegue acessar a API do DataJud/CNJ.")
-    if st.button("Testar conexão agora"):
-        with st.spinner("Conectando..."):
-            try:
-                resp = requests.post(
-                    ENDPOINT,
-                    json={"size": 1, "query": {"match_all": {}}, "sort": [{"dataHoraUltimaAtualizacao": {"order": "desc"}}]},
-                    headers={"Authorization": f"APIKey {DATAJUD_API_KEY}", "Content-Type": "application/json"},
-                    timeout=15
-                )
-                if resp.status_code == 200:
-                    data = resp.json()
-                    ultimo = data["hits"]["hits"][0]["_source"]["dataHoraUltimaAtualizacao"]
-                    st.success(f"✅ Conexão OK! Último registro indexado em: {ultimo}")
-                else:
-                    st.error(f"❌ Erro HTTP {resp.status_code}: {resp.text[:200]}")
-            except requests.exceptions.ConnectTimeout:
-                st.error("❌ Timeout — Streamlit Cloud não consegue acessar o DataJud (mesmo bloqueio do GitHub Actions)")
-            except Exception as e:
-                st.error(f"❌ Erro inesperado: {type(e).__name__}: {e}")
-
 # ── Dashboard principal ───────────────────────────────────────────────────────
 st.title("⚖️ Monitor TJRJ")
-st.caption("Pautas traduzidas com IA · Fonte: DataJud/CNJ via GitHub Actions · Atualização automática a cada 3h")
+st.caption("Pautas traduzidas com IA · Fonte: DataJud/CNJ via GitHub Actions")
 
 pautas = carregar_pautas()
 
