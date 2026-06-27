@@ -311,7 +311,7 @@ if "processos" in st.session_state and st.session_state.processos is not None:
 
         col_cb, col_card = st.columns([0.05, 0.95])
         with col_cb:
-            selecionado = st.checkbox("", key=f"cb_{num}", value=(num in st.session_state.selecionados))
+            selecionado = st.checkbox("", key=f"cb_{i}_{num}", value=(num in st.session_state.selecionados))
             if selecionado:
                 st.session_state.selecionados.add(num)
             else:
@@ -349,7 +349,7 @@ if "processos" in st.session_state and st.session_state.processos is not None:
                         for g in glossario:
                             st.markdown(f"**{g.get('termo', '')}**: {g.get('definicao', '')}")
                 else:
-                    if st.button(f"✨ Traduzir com IA", key=f"trad_{num}"):
+                    if st.button(f"✨ Traduzir com IA", key=f"trad_{i}_{num}"):
                         with st.spinner("Traduzindo com Gemini..."):
                             trad, erro = traduzir_processo(p)
                             if trad:
