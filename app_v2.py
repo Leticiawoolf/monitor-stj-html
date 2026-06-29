@@ -65,7 +65,7 @@ def extrair_processos(resultado_json):
             "numeroProcesso": f.get("numeroProcesso"),
             "classe": f.get("classe", {}).get("nome"),
             "orgaoJulgador": f.get("orgaoJulgador", {}).get("nome"),
-            "assuntos": [a.get("nome") for a in f.get("assuntos", [])],
+            "assuntos": [a.get("nome") for a in f.get("assuntos", []) if a.get("nome")],
             "ultimaAtualizacao": f.get("dataHoraUltimaAtualizacao"),
             "ultimoMovimento": movs[-1].get("nome") if movs else "N/A",
             "dataUltimoMovimento": movs[-1].get("dataHora") if movs else "N/A",
@@ -123,7 +123,7 @@ def montar_html_email(processos_selecionados, traducoes):
         if not p:
             continue
         trad = traducoes.get(num)
-        assuntos = ", ".join(p["assuntos"]) or "—"
+        assuntos = ", ".join([a for a in p["assuntos"] if a]) or "—"
 
         if trad:
             conteudo_trad = f"""
@@ -223,7 +223,7 @@ if (buscar or enviar_tg) and termo.strip():
                 else:
                     linhas = [f"🔍 <b>Busca: {termo}</b> — {len(processos)} resultado(s)\n"]
                     for i, p in enumerate(processos[:10], 1):
-                        assuntos = ", ".join(p["assuntos"][:2])
+                        assuntos = ", ".join([a for a in p["assuntos"][:2] if a])
                         linhas.append(
                             f"<b>{i}. {p['classe'] or 'Processo'}</b>\n"
                             f"📁 <code>{p['numeroProcesso']}</code>\n"
@@ -290,7 +290,7 @@ if "processos" in st.session_state and st.session_state.processos is not None:
                                     f"💡 <i>{trad.get('por_que_importa','')}</i>\n"
                                 )
                             else:
-                                assuntos = ", ".join(p["assuntos"][:2])
+                                assuntos = ", ".join([a for a in p["assuntos"][:2] if a])
                                 linhas.append(
                                     f"<b>{p['classe']}</b>\n"
                                     f"📁 <code>{num}</code>\n"
@@ -306,7 +306,7 @@ if "processos" in st.session_state and st.session_state.processos is not None:
     # Lista de processos com checkboxes
     for i, p in enumerate(processos):
         num = p["numeroProcesso"]
-        assuntos = ", ".join(p["assuntos"]) or "—"
+        assuntos = ", ".join([a for a in p["assuntos"] if a]) or "—"
         titulo_card = f"{p['classe'] or 'Processo'} · {assuntos}"
 
         col_cb, col_card = st.columns([0.05, 0.95])
