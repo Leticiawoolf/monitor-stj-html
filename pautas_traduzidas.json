@@ -9,22 +9,22 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.876000Z",
     "ultimoMovimento": "Confirmada",
     "dataUltimoMovimento": "2026-05-19T08:21:23.000Z",
-    "titulo": "Cobrança Judicial de Dívida com o Governo",
-    "resumo_simples": "Este processo é uma 'Execução Fiscal', o que significa que o governo está cobrando judicialmente uma 'Dívida Ativa'. Essa dívida corresponde a valores que uma pessoa ou empresa deve ao poder público, como impostos não pagos, e o objetivo é que ela seja quitada.",
-    "por_que_importa": "Afeta diretamente cidadãos e empresas que possuem débitos com o governo, podendo resultar em medidas judiciais para o pagamento da dívida, como o bloqueio de bens ou contas bancárias.",
+    "titulo": "Governo cobra dívida: Entenda o processo de Execução Fiscal",
+    "resumo_simples": "Este processo trata da cobrança de uma dívida que uma pessoa ou empresa tem com o governo, como impostos ou multas não pagas. O objetivo é que o devedor regularize sua situação fiscal, que já foi confirmada pelas autoridades.",
+    "por_que_importa": "Afeta diretamente cidadãos e empresas que possuem débitos com o poder público, podendo levar à penhora de bens para quitação da dívida.",
     "angulos": [
-      "Como funciona a cobrança de dívidas com o governo?",
-      "O que acontece se eu tiver uma Dívida Ativa?",
-      "Direitos e deveres do contribuinte em processos de execução fiscal."
+      "Como evitar ser inscrito na Dívida Ativa?",
+      "Quais são as consequências de uma Execução Fiscal?",
+      "Programas de parcelamento de dívidas governamentais."
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Processo judicial para cobrar dívidas de impostos ou outras obrigações financeiras que uma pessoa ou empresa tem com o governo."
+        "definicao": "Um tipo de ação judicial movida pelo governo para cobrar dívidas (como impostos não pagos ou multas) de cidadãos ou empresas."
       },
       {
         "termo": "Dívida Ativa",
-        "definicao": "Dívida não paga de impostos, taxas ou outras obrigações financeiras que uma pessoa ou empresa tem com o governo, e que está sendo cobrada judicialmente."
+        "definicao": "São os débitos (como impostos, taxas e multas) que uma pessoa ou empresa deve ao governo e que não foram pagos no prazo, tornando-se passíveis de cobrança judicial."
       }
     ]
   },
@@ -39,30 +39,30 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.760000Z",
     "ultimoMovimento": "Decisão de Saneamento e Organização",
     "dataUltimoMovimento": "2026-05-05T21:05:34.000Z",
-    "titulo": "Justiça Cobra Impostos Atrasados: Próximos Passos Definidos",
-    "resumo_simples": "Este processo judicial é uma 'Execução Fiscal' que busca cobrar impostos não pagos que se tornaram uma 'Dívida Ativa' com o governo. Recentemente, houve uma 'Decisão de Saneamento e Organização', que é quando o Magistrado organiza o processo e define os pontos a serem esclarecidos para o julgamento.",
-    "por_que_importa": "Mostra como o Estado age para reaver valores de impostos não pagos, o que pode impactar o patrimônio de devedores e é crucial para a arrecadação pública que financia serviços essenciais.",
+    "titulo": "Cobrança de Impostos Atrasados: O que é uma Execução Fiscal?",
+    "resumo_simples": "Este caso envolve a cobrança de impostos não pagos por uma pessoa ou empresa ao governo. O processo está em fase de organização, onde o juiz define os próximos passos para resolver a questão da dívida.",
+    "por_que_importa": "Ilustra como o governo busca reaver valores devidos em impostos, impactando tanto o contribuinte devedor quanto o orçamento público, que se mantém com essa arrecadação.",
     "angulos": [
-      "Como o governo cobra dívidas de impostos e quais são as etapas?",
-      "O que é uma 'Decisão de Saneamento e Organização' em um processo judicial?",
-      "A importância do pagamento de impostos para a manutenção dos serviços públicos."
+      "Quais impostos podem gerar uma Execução Fiscal?",
+      "Como se defender de uma cobrança de imposto judicial?",
+      "A importância da arrecadação de impostos para serviços públicos."
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Processo judicial para cobrar dívidas de impostos ou outras obrigações financeiras que uma pessoa ou empresa tem com o governo."
+        "definicao": "Um tipo de ação judicial movida pelo governo para cobrar dívidas (como impostos não pagos ou multas) de cidadãos ou empresas."
       },
       {
         "termo": "Dívida Ativa",
-        "definicao": "Dívida não paga de impostos, taxas ou outras obrigações financeiras que uma pessoa ou empresa tem com o governo, e que está sendo cobrada judicialmente."
+        "definicao": "São os débitos (como impostos, taxas e multas) que uma pessoa ou empresa deve ao governo e que não foram pagos no prazo, tornando-se passíveis de cobrança judicial."
       },
       {
         "termo": "Impostos",
-        "definicao": "Valores cobrados pelo governo de pessoas e empresas para financiar os serviços públicos."
+        "definicao": "Valores que o governo cobra compulsoriamente de pessoas e empresas para custear serviços públicos e despesas administrativas."
       },
       {
         "termo": "Decisão de Saneamento e Organização",
-        "definicao": "Decisão do Magistrado que organiza o processo, esclarece os pontos em disputa e define as provas que serão produzidas para o julgamento final."
+        "definicao": "Uma decisão judicial que ocorre durante o processo, onde o juiz verifica se tudo está correto, organiza os próximos passos e define os pontos que precisam ser provados pelas partes, preparando o processo para o julgamento."
       }
     ]
   },
@@ -76,22 +76,22 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.730000Z",
     "ultimoMovimento": "Petição",
     "dataUltimoMovimento": "2026-06-03T21:08:22.000Z",
-    "titulo": "Registro de Ocorrência Policial de Infração Leve",
-    "resumo_simples": "Este processo é um 'Termo Circunstanciado', que é um registro simplificado de uma infração penal de menor gravidade, dispensando a investigação policial comum e encaminhando o caso diretamente ao Juizado Especial Criminal. Uma 'Petição' foi apresentada, indicando uma solicitação ou manifestação formal de uma das partes.",
-    "por_que_importa": "Lida com infrações leves do cotidiano, como brigas ou pequenas discussões, buscando resoluções rápidas e menos burocráticas para evitar a sobrecarga do sistema judicial.",
+    "titulo": "O que é um Termo Circunstanciado: caso de infração menor",
+    "resumo_simples": "Este processo trata de um registro de ocorrência policial de menor gravidade, que foi encaminhado diretamente ao Juizado Especial Criminal para resolução. Uma das partes apresentou uma petição, um documento solicitando ou informando algo ao juiz.",
+    "por_que_importa": "Mostra como o sistema de justiça lida com crimes de menor potencial ofensivo de forma mais rápida e simplificada, evitando a burocracia de processos criminais complexos para infrações leves.",
     "angulos": [
-      "O que é um 'Termo Circunstanciado' e quando ele é utilizado?",
-      "Como o Juizado Especial Criminal lida com infrações leves?",
-      "A diferença entre um inquérito policial e um 'Termo Circunstanciado'."
+      "Quais crimes são considerados de menor potencial ofensivo?",
+      "Como funciona o Juizado Especial Criminal?",
+      "Alternativas à prisão para infrações leves."
     ],
     "glossario": [
       {
         "termo": "Termo Circunstanciado",
-        "definicao": "Registro de uma infração penal de menor potencial ofensivo (crimes com pena máxima de até 2 anos ou contravenções penais), que não exige Inquérito Policial e é encaminhado diretamente ao Juizado Especial Criminal."
+        "definicao": "Um registro policial de ocorrências consideradas infrações de menor potencial ofensivo (crimes com pena máxima de até 2 anos ou contravenções penais), que dispensa a instauração de inquérito policial e é encaminhado diretamente ao Juizado Especial Criminal."
       },
       {
         "termo": "Petição",
-        "definicao": "Documento escrito apresentado ao Magistrado ou ao Tribunal por uma das partes no processo, contendo um pedido, uma informação ou uma manifestação."
+        "definicao": "É qualquer documento escrito apresentado por uma das partes ou pelo Ministério Público ao juiz, solicitando algo ou informando sobre algum fato no processo."
       }
     ]
   },
@@ -106,13 +106,13 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.729000Z",
     "ultimoMovimento": "Retificação de Classe Processual",
     "dataUltimoMovimento": "2026-05-11T17:39:15.000Z",
-    "titulo": "Investigação Policial sobre Ameaça e Contravenção Penal",
-    "resumo_simples": "Este é um 'Inquérito Policial', que é o procedimento inicial da polícia para investigar a ocorrência de um crime e identificar seus autores. Neste caso, a investigação foca em um crime de 'Ameaça' e 'Contravenções Penais' (infrações leves). Recentemente, houve uma correção na classificação do tipo de processo.",
-    "por_que_importa": "Aborda a investigação inicial de condutas que podem prejudicar a segurança das pessoas, como ameaças, e infrações leves que impactam a ordem pública, mostrando como o sistema de justiça começa a agir.",
+    "titulo": "Investigação policial sobre ameaça e contravenções penais",
+    "resumo_simples": "Este é um procedimento policial (Inquérito Policial) para investigar a ocorrência de crimes de ameaça e contravenções penais, que são infrações de menor gravidade. A polícia busca reunir provas e identificar os responsáveis para subsidiar uma possível ação penal.",
+    "por_que_importa": "Demonstra como a polícia atua na apuração de crimes, mesmo os de menor potencial ofensivo, para garantir a segurança e a ordem pública, protegendo os cidadãos de atos ilícitos.",
     "angulos": [
-      "Como um 'Inquérito Policial' investiga crimes de ameaça?",
-      "O que são 'Contravenções Penais' e como elas são tratadas pela Justiça?",
-      "A importância da fase de investigação para a justiça criminal."
+      "A diferença entre crime e contravenção penal.",
+      "Quando e como denunciar uma ameaça?",
+      "O papel do Inquérito Policial na justiça criminal."
     ],
     "glossario": [
       {
@@ -121,15 +121,15 @@
       },
       {
         "termo": "Ameaça",
-        "definicao": "Ato de intimidar alguém, prometendo causar-lhe mal injusto e grave, conduta considerada crime pela lei penal."
+        "definicao": "Crime que consiste em prometer causar mal injusto e grave a alguém, com o intuito de intimidar ou coagir."
       },
       {
         "termo": "Contravenções Penais",
-        "definicao": "Infrações leves previstas em lei, que não são consideradas crimes e possuem penas menores, como perturbação do sossego ou jogos de azar."
+        "definicao": "Infrações penais de menor gravidade do que os crimes, com penas mais leves (geralmente multa ou prisão simples)."
       },
       {
         "termo": "Retificação de Classe Processual",
-        "definicao": "Alteração ou correção do tipo de processo em que o caso foi inicialmente classificado."
+        "definicao": "Ato de corrigir ou alterar a classificação do tipo de processo dentro do sistema judicial, para que ele se enquadre corretamente na categoria legal adequada."
       }
     ]
   },
@@ -143,22 +143,22 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.721000Z",
     "ultimoMovimento": "Definitivo",
     "dataUltimoMovimento": "2026-05-20T14:59:36.000Z",
-    "titulo": "Justiça Cobra Judicialmente IPTU Atrasado",
-    "resumo_simples": "Este processo trata de uma 'Execução Fiscal', ou seja, a cobrança judicial de uma dívida. Neste caso específico, a dívida refere-se ao 'IPTU' (Imposto Predial e Territorial Urbano) que não foi pago por um proprietário de imóvel na área urbana.",
-    "por_que_importa": "Afeta diretamente proprietários de imóveis urbanos que, ao não pagarem o imposto devido, podem ter seus bens penhorados para quitar a dívida com o município.",
+    "titulo": "Cobrança Judicial de IPTU: O que fazer com imposto atrasado?",
+    "resumo_simples": "Este processo é uma ação judicial (Execução Fiscal) movida pelo município para cobrar o Imposto Predial e Territorial Urbano (IPTU) que não foi pago. O objetivo é receber os valores devidos do proprietário do imóvel.",
+    "por_que_importa": "É relevante para proprietários de imóveis urbanos, mostrando as consequências do não pagamento do IPTU, que pode levar à cobrança judicial e até à perda do bem em casos extremos.",
     "angulos": [
-      "O que é IPTU e por que ele é cobrado?",
-      "Consequências de não pagar o IPTU em dia e como regularizar a situação.",
-      "Como os municípios utilizam os recursos arrecadados com o IPTU."
+      "Como consultar e pagar seu IPTU.",
+      "Riscos de não pagar o IPTU: dívida ativa e execução fiscal.",
+      "Isenções e descontos no IPTU: quem tem direito?"
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Processo judicial para cobrar dívidas de impostos ou outras obrigações financeiras que uma pessoa ou empresa tem com o governo."
+        "definicao": "Um tipo de ação judicial movida pelo governo para cobrar dívidas (como impostos não pagos ou multas) de cidadãos ou empresas."
       },
       {
         "termo": "IPTU/ Imposto Predial e Territorial Urbano",
-        "definicao": "Imposto municipal anual cobrado de proprietários de imóveis localizados em áreas urbanas."
+        "definicao": "Um imposto municipal cobrado anualmente sobre a propriedade de imóveis (casas, apartamentos, terrenos) localizados em áreas urbanas."
       }
     ]
   },
@@ -172,22 +172,22 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.712000Z",
     "ultimoMovimento": "Confirmada",
     "dataUltimoMovimento": "2026-05-16T03:10:12.000Z",
-    "titulo": "Registro Policial de Infrações Leves por Violência Doméstica",
-    "resumo_simples": "Este processo é um 'Termo Circunstanciado', que é um registro simplificado de uma infração penal de menor gravidade. Neste caso, a infração está relacionada a um episódio de 'Violência Doméstica'.",
-    "por_que_importa": "Evidencia a atuação da justiça em casos de violência doméstica, mesmo em infrações de menor potencial ofensivo, buscando a proteção das vítimas e a responsabilização dos agressores.",
+    "titulo": "Violência Doméstica: Termo Circunstanciado investiga caso",
+    "resumo_simples": "Este processo registra uma infração de menor potencial ofensivo relacionada a um caso de violência doméstica. O objetivo é que as autoridades investiguem os fatos e apliquem as medidas legais cabíveis para proteger a vítima, já que a ocorrência foi confirmada.",
+    "por_que_importa": "Destaca a atuação da justiça em casos de violência doméstica, mostrando que mesmo infrações de menor gravidade são tratadas com a devida atenção, visando proteger a vítima e coibir a prática desses atos.",
     "angulos": [
-      "Como a lei lida com casos de violência doméstica de menor potencial ofensivo?",
-      "A importância do registro de qualquer forma de violência doméstica para a proteção da vítima.",
-      "Os recursos e proteções disponíveis para vítimas de violência doméstica."
+      "Como a Lei Maria da Penha protege vítimas de violência doméstica.",
+      "Canais de denúncia para casos de violência doméstica.",
+      "A importância do Termo Circunstanciado em casos de violência doméstica de menor potencial ofensivo."
     ],
     "glossario": [
       {
         "termo": "Termo Circunstanciado",
-        "definicao": "Registro de uma infração penal de menor potencial ofensivo (crimes com pena máxima de até 2 anos ou contravenções penais), que não exige Inquérito Policial e é encaminhado diretamente ao Juizado Especial Criminal."
+        "definicao": "Um registro policial de ocorrências consideradas infrações de menor potencial ofensivo (crimes com pena máxima de até 2 anos ou contravenções penais), que dispensa a instauração de inquérito policial e é encaminhado diretamente ao Juizado Especial Criminal."
       },
       {
         "termo": "Violência Doméstica",
-        "definicao": "Qualquer ação ou omissão que cause morte, lesão, sofrimento físico, sexual, psicológico, dano moral ou patrimonial contra a mulher, no âmbito doméstico ou familiar, conforme a Lei Maria da Penha."
+        "definicao": "Qualquer ação ou omissão que cause dano físico, psicológico, sexual, patrimonial ou moral a uma pessoa, no âmbito das relações domésticas e familiares."
       }
     ]
   },
@@ -201,22 +201,22 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.606000Z",
     "ultimoMovimento": "Confirmada",
     "dataUltimoMovimento": "2026-06-09T08:14:14.000Z",
-    "titulo": "Justiça Cobra Dívida de Impostos e Taxas do Governo",
-    "resumo_simples": "Este é um processo de 'Execução Fiscal' que visa cobrar judicialmente uma 'Dívida Ativa'. Isso significa que o poder público está buscando o pagamento de impostos, taxas ou outras obrigações financeiras que uma pessoa ou empresa não quitou.",
-    "por_que_importa": "É um mecanismo legal usado para garantir que as dívidas com o Estado sejam pagas, impactando diretamente o orçamento público e o patrimônio dos devedores.",
+    "titulo": "Cobrança de Dívida com o Governo: O que é Execução Fiscal?",
+    "resumo_simples": "Este processo se refere à cobrança de uma dívida que uma pessoa ou empresa tem com o governo, formalmente inscrita na Dívida Ativa. O objetivo da ação é que o poder público consiga reaver os valores devidos.",
+    "por_que_importa": "É fundamental para entender como o governo busca recuperar verbas necessárias para o funcionamento dos serviços públicos e como cidadãos e empresas devem lidar com débitos fiscais.",
     "angulos": [
-      "Como identificar se você possui uma Dívida Ativa com o governo?",
-      "As etapas e os direitos dos devedores em um processo de 'Execução Fiscal'.",
-      "Programas de parcelamento e negociação de dívidas com o governo."
+      "Como negociar dívidas com a Fazenda Pública.",
+      "Direitos e deveres do devedor em uma Execução Fiscal.",
+      "Consequências de não pagar dívidas inscritas na Dívida Ativa."
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Processo judicial para cobrar dívidas de impostos ou outras obrigações financeiras que uma pessoa ou empresa tem com o governo."
+        "definicao": "Um tipo de ação judicial movida pelo governo para cobrar dívidas (como impostos não pagos ou multas) de cidadãos ou empresas."
       },
       {
         "termo": "Dívida Ativa",
-        "definicao": "Dívida não paga de impostos, taxas ou outras obrigações financeiras que uma pessoa ou empresa tem com o governo, e que está sendo cobrada judicialmente."
+        "definicao": "São os débitos (como impostos, taxas e multas) que uma pessoa ou empresa deve ao governo e que não foram pagos no prazo, tornando-se passíveis de cobrança judicial."
       }
     ]
   },
@@ -230,26 +230,26 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.590000Z",
     "ultimoMovimento": "Decurso de Prazo",
     "dataUltimoMovimento": "2026-05-08T04:02:24.000Z",
-    "titulo": "Disputa Cível sobre Imposto Retido na Fonte",
-    "resumo_simples": "Este é um 'Procedimento Comum Cível', um tipo de processo judicial usado para resolver disputas gerais na área cível. A questão em pauta possivelmente envolve valores que foram 'Retido na fonte' (geralmente impostos descontados na origem do pagamento). O prazo para uma das partes agir no processo já se esgotou ('Decurso de Prazo').",
-    "por_que_importa": "Afeta cidadãos e empresas que têm valores descontados diretamente de seus rendimentos ou pagamentos, podendo gerar discussões sobre a legalidade ou o montante dessas retenções e a necessidade de recuperação.",
+    "titulo": "Imposto Retido na Fonte: Processo discute valores",
+    "resumo_simples": "Este é um processo civil comum que discute questões relacionadas a valores que foram retidos na fonte, ou seja, descontados diretamente de um pagamento antes de chegar ao beneficiário. Uma das partes perdeu o prazo para realizar algum ato no processo.",
+    "por_que_importa": "Afeta qualquer cidadão ou empresa que tenha impostos ou outras deduções retidas na fonte, pois pode envolver discussões sobre restituição de valores ou cobranças indevidas.",
     "angulos": [
-      "O que significa 'Retido na fonte' e como isso afeta seus impostos?",
-      "Como contestar valores indevidamente retidos na fonte?",
-      "As consequências de 'Decurso de Prazo' em um processo judicial."
+      "Como funciona a retenção de imposto na fonte.",
+      "Quando é possível pedir a restituição de valores retidos.",
+      "Os prazos processuais e a importância de respeitá-los."
     ],
     "glossario": [
       {
         "termo": "Procedimento Comum Cível",
-        "definicao": "Tipo de processo judicial padrão na área cível, utilizado para resolver a maioria dos conflitos que não possuem um rito (procedimento) específico definido em lei."
+        "definicao": "É o tipo mais abrangente e utilizado de processo judicial na área cível, onde se discute a maior parte dos conflitos entre pessoas físicas ou jurídicas, seguindo as regras gerais do Código de Processo Civil."
       },
       {
         "termo": "Retido na fonte",
-        "definicao": "Termo que se refere ao desconto de valores (geralmente impostos) diretamente na origem do pagamento ou rendimento, antes que o valor líquido seja repassado ao beneficiário."
+        "definicao": "Termo financeiro-tributário que se refere a um valor (geralmente imposto) que é descontado diretamente do rendimento ou pagamento no momento em que ele é efetuado, antes que o dinheiro chegue ao beneficiário final."
       },
       {
         "termo": "Decurso de Prazo",
-        "definicao": "Ocorre quando o período estabelecido por lei ou pelo Magistrado para que uma parte realize um ato processual chega ao fim."
+        "definicao": "Ocorre quando o prazo estabelecido pela lei ou pelo juiz para a prática de um ato processual termina, e a parte perde a oportunidade de realizar aquele ato."
       }
     ]
   },
@@ -263,26 +263,26 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.563000Z",
     "ultimoMovimento": "Decurso de Prazo",
     "dataUltimoMovimento": "2026-05-09T04:10:25.000Z",
-    "titulo": "Justiça Cobra ISS Atrasado de Prestadores de Serviço",
-    "resumo_simples": "Este processo é uma 'Execução Fiscal' para cobrar o 'ISS' (Imposto sobre Serviços), um imposto municipal que incide sobre a prestação de serviços por empresas e profissionais autônomos. Houve um 'Decurso de Prazo', o que significa que o período para uma das partes praticar algum ato no processo se encerrou.",
-    "por_que_importa": "A cobrança do ISS impacta diretamente prestadores de serviços e municípios, sendo vital para a arrecadação local e para a conformidade fiscal das empresas e profissionais autônomos.",
+    "titulo": "Dívida de ISS: Processo de Execução Fiscal avança",
+    "resumo_simples": "Este é um processo de cobrança judicial (Execução Fiscal) referente a débitos de Imposto sobre Serviços (ISS) não pagos. Uma das partes não cumpriu um prazo processual, o que pode ter implicações para o andamento do caso.",
+    "por_que_importa": "Essencial para empresas e prestadores de serviços, pois ilustra as consequências do não pagamento do ISS, um imposto municipal crucial para a receita das cidades.",
     "angulos": [
-      "O que é o ISS e quem precisa pagá-lo?",
-      "As consequências para empresas e autônomos que não pagam o ISS em dia.",
-      "Como a inadimplência de impostos afeta os cofres municipais e os serviços públicos."
+      "Quem precisa pagar o ISS e como ele é calculado.",
+      "Impacto da inadimplência de ISS para empresas e municípios.",
+      "Como regularizar débitos de ISS e evitar execuções fiscais."
     ],
     "glossario": [
       {
         "termo": "Execução Fiscal",
-        "definicao": "Processo judicial para cobrar dívidas de impostos ou outras obrigações financeiras que uma pessoa ou empresa tem com o governo."
+        "definicao": "Um tipo de ação judicial movida pelo governo para cobrar dívidas (como impostos não pagos ou multas) de cidadãos ou empresas."
       },
       {
         "termo": "ISS/ Imposto sobre Serviços",
-        "definicao": "Imposto municipal que incide sobre a prestação de serviços por empresas e profissionais autônomos."
+        "definicao": "Um imposto municipal cobrado sobre a prestação de serviços por empresas e profissionais autônomos."
       },
       {
         "termo": "Decurso de Prazo",
-        "definicao": "Ocorre quando o período estabelecido por lei ou pelo Magistrado para que uma parte realize um ato processual chega ao fim."
+        "definicao": "Ocorre quando o prazo estabelecido pela lei ou pelo juiz para a prática de um ato processual termina, e a parte perde a oportunidade de realizar aquele ato."
       }
     ]
   },
@@ -297,26 +297,26 @@
     "ultimaAtualizacao": "2026-06-26T14:35:02.554000Z",
     "ultimoMovimento": "Decurso de Prazo",
     "dataUltimoMovimento": "2026-05-09T04:03:05.000Z",
-    "titulo": "Ação para Reaver Dinheiro Pago por Engano",
-    "resumo_simples": "Este processo é um 'Procedimento Comum Cível', um tipo padrão de ação judicial, que busca a 'Repetição do Indébito'. Isso significa que a parte autora está pedindo a devolução de valores que foram pagos de forma indevida ou em excesso. O prazo para uma das partes se manifestar no processo já terminou ('Decurso de Prazo').",
-    "por_que_importa": "Permite que cidadãos e empresas recuperem dinheiro pago por engano, seja em impostos, contas de consumo ou outras transações, garantindo a justiça financeira e o direito de não pagar o que não é devido.",
+    "titulo": "Pedindo o dinheiro de volta: Ação de Repetição do Indébito",
+    "resumo_simples": "Este é um processo civil que busca a devolução de um valor pago indevidamente por uma das partes. Houve um decurso de prazo, o que significa que uma das partes deixou de cumprir um prazo processual, podendo influenciar o resultado do pedido.",
+    "por_que_importa": "É relevante para qualquer pessoa ou empresa que tenha pago valores a mais ou de forma equivocada, mostrando como buscar a restituição desses pagamentos através da justiça.",
     "angulos": [
-      "Quando você pode pedir a 'Repetição do Indébito' e como funciona?",
-      "Exemplos comuns de pagamentos indevidos que podem ser recuperados na Justiça.",
-      "Seus direitos ao pagar algo por engano e como se proteger."
+      "Quando e como solicitar a devolução de pagamentos indevidos.",
+      "Direitos do consumidor em casos de cobrança errada.",
+      "A importância de estar atento aos prazos em um processo judicial."
     ],
     "glossario": [
       {
         "termo": "Procedimento Comum Cível",
-        "definicao": "Tipo de processo judicial padrão na área cível, utilizado para resolver a maioria dos conflitos que não possuem um rito (procedimento) específico definido em lei."
+        "definicao": "É o tipo mais abrangente e utilizado de processo judicial na área cível, onde se discute a maior parte dos conflitos entre pessoas físicas ou jurídicas, seguindo as regras gerais do Código de Processo Civil."
       },
       {
         "termo": "Repetição do Indébito",
-        "definicao": "Ação judicial ou pedido para que seja devolvido um valor que foi pago de forma indevida ou em excesso."
+        "definicao": "É a ação judicial para pedir de volta um valor que foi pago indevidamente, ou seja, que não era devido ou foi pago em excesso."
       },
       {
         "termo": "Decurso de Prazo",
-        "definicao": "Ocorre quando o período estabelecido por lei ou pelo Magistrado para que uma parte realize um ato processual chega ao fim."
+        "definicao": "Ocorre quando o prazo estabelecido pela lei ou pelo juiz para a prática de um ato processual termina, e a parte perde a oportunidade de realizar aquele ato."
       }
     ]
   }
